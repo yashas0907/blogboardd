@@ -1,0 +1,17 @@
+[
+  {
+    "id": "blogs/cv/foundation-vision-models-promptable-vision-transformers-and-their-app.md",
+    "category": "cv",
+    "topic": "Foundation Vision Models: Promptable Vision Transformers and Their Applications",
+    "subtopics": "Prompt engineering for vision models, Scaling Vision Transformers with frozen pretrained backbones, Zero‑shot image classification and segmentation, Real‑world deployment challenges and best practices",
+    "title": "Foundation Vision Models: Promptable Vision Transformers and Their App",
+    "description": "A blog post about Foundation Vision Models: Promptable Vision Transformers and Their App",
+    "date": "2026-09-02",
+    "tags": [
+      "cv"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/cv/foundation-vision-models-promptable-vision-transformers-and-their-app.md",
+    "coverImage": ""
+  }
+]

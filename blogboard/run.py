@@ -2,6 +2,15 @@ import argparse
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+# Windows consoles default to cp1252 and crash on Unicode output (e.g. LLM
+# feedback containing em-dashes or curly quotes). Force UTF-8 with replacement.
+if sys.stdout.encoding and sys.stdout.encoding.lower() not in ("utf-8", "utf8"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except (AttributeError, OSError):
+        pass
 BACKEND_DIR = Path(__file__).parent
 ROOT_DIR = BACKEND_DIR.parent
 if str(ROOT_DIR) not in sys.path:
@@ -67,6 +76,11 @@ Examples
         "--ainews", action="store_true",
         help="Run the AI News gathering and generation graph",
     )
+    parser.add_argument(
+        "--domain", type=str, default=None,
+        choices=["ml", "dl", "statistics", "nlp", "cv", "genai", "ainews"],
+        help="Force a specific tutorial domain instead of auto-scheduling",
+    )
     args = parser.parse_args()
 
     date_str = args.date or today_ist()
@@ -88,6 +102,8 @@ Examples
     
     if run_ainews:
         initial_state["domain"] = "ainews"
+    elif args.domain:
+        initial_state["domain"] = args.domain
 
     config = {"configurable": {"thread_id": "blogboard-1"}}
     # The single compiled graph is smart enough to route to NewsAgent if domain=='ainews'
@@ -99,12 +115,12 @@ Examples
         print(f"  [DRY RUN] Pipeline completed — no files were written.")
         domain = final_state.get("domain", "?")
         topic  = final_state.get("topic", "?")
-        slug   = final_state.get("slug", "?")
+        slug   = final_state.get("slug", "dry-run-generated")
         print(f"  Chosen Domain : {domain}")
         print(f"  Chosen Topic  : {topic}")
         print(f"  Would have generated:")
-        print(f"    -> frontend/blogs/{domain}/{slug}.md")
-        print(f"    -> frontend/blogs/{domain}/articles.json")
+        print(f"    -> blogs/{domain}/{slug}.md")
+        print(f"    -> blogs/{domain}/articles.json (registry updated)")
     else:
         domain    = final_state.get("domain", "?")
         title     = final_state.get("title", "?")

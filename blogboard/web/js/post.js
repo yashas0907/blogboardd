@@ -105,31 +105,129 @@ async function loadPost() {
     const tagsEl = document.getElementById('postTags');
     if (tagsEl && blog.tags?.length) {
         tagsEl.innerHTML = blog.tags.map(t =>
-            `<span class="post-tag">#${t}</span>`
+            `<span class="post-tag">#${escapeHtml(t)}</span>`
         ).join('');
     }
 
-    // Fetch and render markdown from R2
-    try {
-        const response = await fetch(`${R2_PUBLIC_URL}/${blog.file}`);
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    // Cover image (from Unsplash, if the pipeline stored one)
+    const coverEl = document.getElementById('postCover');
+    if (coverEl && blog.coverImage) {
+        coverEl.innerHTML = `<img src="${blog.coverImage}" alt="" loading="lazy">`;
+        coverEl.style.display = 'block';
+    }
 
-        const mdText = await response.text();
+    // Fetch and render markdown (embedded data first, then network)
+    try {
+        const mdText = await loadArticleContent(blog.id, blog.file);
         renderMarkdown(mdText, contentEl);
         buildTOC();
+        await loadRelatedPosts(blog);
+        initComments(blog);
     } catch (err) {
         showError(
             `Could not load the article file.<br>
-       <small>Expected URL: <code>${R2_PUBLIC_URL}/${blog.file}</code></small><br>
-       <small>Ensure your R2 bucket is public and the URL in blogs-data.js is correct.</small>`,
+       <small>Article: <code>${escapeHtml(blog.file || blog.id)}</code></small>`,
             contentEl
         );
         console.error('Failed to load blog post:', err);
     }
 }
 
+/* ── Related Posts ── */
+async function loadRelatedPosts(currentBlog, n = 3) {
+    const wrap = document.getElementById('relatedPosts');
+    if (!wrap) return;
+
+    const currentTags = currentBlog.tags || [];
+    const pool = [];
+
+    // Same category first, then shared-tag articles from other categories
+    const catArticles = await loadCategoryArticles(currentBlog.category);
+    for (const a of catArticles) {
+        if (a.id !== currentBlog.id) pool.push({ article: a, score: 2 });
+    }
+    for (const cat of Object.keys(CATEGORY_META)) {
+        if (cat === currentBlog.category) continue;
+        const arts = await loadCategoryArticles(cat);
+        for (const a of arts) {
+            const shared = (a.tags || []).filter(t => currentTags.includes(t)).length;
+            if (shared > 0) pool.push({ article: a, score: shared });
+        }
+    }
+
+    pool.sort((x, y) => y.score - x.score || new Date(y.article.date) - new Date(x.article.date));
+
+    // Deduplicate by id, keep top N
+    const seen = new Set();
+    const related = [];
+    for (const { article } of pool) {
+        if (seen.has(article.id)) continue;
+        seen.add(article.id);
+        related.push(article);
+        if (related.length >= n) break;
+    }
+
+    if (related.length === 0) {
+        wrap.closest('.related-section')?.classList.add('hidden');
+        return;
+    }
+
+    wrap.innerHTML = related.map(a => {
+        const meta = CATEGORY_META[a.category] || { shortLabel: a.category, bgColor: 'transparent', color: 'inherit' };
+        return `
+    <a href="post.html#id=${encodeURIComponent(a.id)}" class="recent-card related-card">
+      <div class="recent-card-meta">
+        <span class="recent-cat-badge" style="background:${meta.bgColor};color:${meta.color}">${meta.shortLabel}</span>
+        <span class="recent-date">${formatDate(a.date)}</span>
+      </div>
+      <h3 class="recent-title">${escapeHtml(a.title)}</h3>
+      <p class="recent-desc">${escapeHtml(a.description)}</p>
+    </a>`;
+    }).join('');
+}
+
+/* ── Giscus Comments ── */
+function initComments(blog) {
+    const container = document.getElementById('commentsSection');
+    if (!container || !window.giscusConfig) return;
+    if (!window.giscusConfig.repo) {
+        container.closest('.comments-section')?.classList.add('hidden');
+        return;
+    }
+    const s = document.createElement('script');
+    s.src = 'https://giscus.app/client.js';
+    s.async = true;
+    s.crossOrigin = 'anonymous';
+    s.setAttribute('data-repo', window.giscusConfig.repo);
+    s.setAttribute('data-repo-id', window.giscusConfig.repoId || '');
+    s.setAttribute('data-category', window.giscusConfig.category || 'Announcements');
+    s.setAttribute('data-category-id', window.giscusConfig.categoryId || '');
+    s.setAttribute('data-mapping', 'specific');
+    s.setAttribute('data-term', blog.id);
+    s.setAttribute('data-strict', '0');
+    s.setAttribute('data-reactions-enabled', '1');
+    s.setAttribute('data-emit-metadata', '0');
+    s.setAttribute('data-input-position', 'top');
+    s.setAttribute('data-theme', document.body.classList.contains('theme-light') ? 'light' : 'noborder-gray');
+    s.setAttribute('data-lang', 'en');
+    container.appendChild(s);
+}
+
 /* ── Render Markdown ── */
 function renderMarkdown(mdText, container) {
+    // Guard: marked.js comes from a CDN — if unavailable (offline/file://),
+    // fall back to a safe minimal renderer so the article still displays.
+    if (typeof marked === 'undefined') {
+        console.warn('marked.js unavailable — using plain-text fallback');
+        const safe = mdText
+            .replace(/```[\s\S]*?```/g, m => m.replace(/```(\w*)\n?/g, ''))
+            .replace(/^#{1,6}\s+/gm, '')
+            .replace(/\*\*([^*]+)\*\*/g, '$1')
+            .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1');
+        container.innerHTML = `<div style="white-space:pre-wrap">${escapeHtml(safe)}</div>`;
+        return;
+    }
+
     marked.setOptions({
         gfm: true,
         breaks: true,

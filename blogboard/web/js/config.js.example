@@ -1,4 +1,6 @@
-// Rename or copy this file to config.js and add your Cloudflare R2 Public URL here
-const CONFIG = {
-    R2_PUBLIC_URL: "https://your-r2-public-bucket-url.r2.dev"
+// This file provides frontend configuration variables.
+// Copy this file to js/config.js and fill in your own R2 public URL.
+// js/config.js is gitignored — never commit real config values.
+window.CONFIG = {
+    R2_PUBLIC_URL: "https://YOUR-BUCKET-ACCOUNT.r2.dev"
 };

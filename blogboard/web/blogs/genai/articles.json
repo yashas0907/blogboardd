@@ -1,0 +1,17 @@
+[
+  {
+    "id": "blogs/genai/multimodal-prompt-engineering-for-real-time-robotics-control.md",
+    "category": "genai",
+    "topic": "Multimodal Prompt Engineering for Real-Time Robotics Control",
+    "subtopics": "Combining text, vision, and sensor inputs in prompts, Designing low-latency prompt pipelines, Safety and alignment considerations for autonomous actions, Case studies: warehouse robots and assistive devices",
+    "title": "Multimodal Prompt Engineering for Real-Time Robotics Control",
+    "description": "A blog post about Multimodal Prompt Engineering for Real-Time Robotics Control",
+    "date": "2026-09-02",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/genai/multimodal-prompt-engineering-for-real-time-robotics-control.md",
+    "coverImage": ""
+  }
+]

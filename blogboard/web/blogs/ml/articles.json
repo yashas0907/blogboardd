@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-transfer-learning.md",
+    "category": "ml",
+    "topic": "Foundation Models and the Future of Transfer Learning",
+    "subtopics": "Evolution of large-scale pretraining, Prompt engineering techniques, Ethical considerations and bias mitigation, Real-world deployment strategies",
+    "title": "Foundation Models & Transfer Learning: Trends, Prompting, & Deployment",
+    "description": "Explore how foundation models reshape transfer learning, prompt engineering, ethics, and real‑world deployment strategies.",
+    "date": "2026-09-01",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ml/foundation-models-transfer-learning.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/machine-learning-explained.md",
     "category": "ml",
     "title": "Machine Learning Explained",

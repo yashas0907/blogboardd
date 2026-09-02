@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,6 +14,7 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/home.css" />
+  <link rel="alternate" type="application/rss+xml" title="BlogBoard RSS" href="rss.xml" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-WBM01EXMS8"></script>
@@ -52,7 +53,9 @@
         <li><a href="category.html#cat=cv" class="nav-link">CV</a></li>
         <li><a href="category.html#cat=genai" class="nav-link">Gen AI</a></li>
         <li><a href="category.html#cat=ainews" class="nav-link">AI News</a></li>
+        <li><a href="search.html" class="nav-link" aria-label="Search">🔎</a></li>
       </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☾</button>
       <button class="hamburger" id="hamburger" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
@@ -252,6 +255,8 @@
         <a href="category.html#cat=genai">Gen AI</a>
         <a href="category.html#cat=ainews">AI News</a>
         <a href="category.html#cat=statistics">Stats</a>
+        <a href="search.html">Search</a>
+        <a href="rss.xml">RSS</a>
       </div>
       <div class="footer-social">
         <a href="https://linkedin.com/in/hemakalyan" target="_blank" rel="noopener" aria-label="LinkedIn"
@@ -279,7 +284,9 @@
   </footer>
 
   <script src="js/config.js"></script>
+  <script src="js/site-data.js"></script>
   <script src="js/blogs-data.js"></script>
+  <script src="js/main.js"></script>
   <script src="js/home.js"></script>
 </body>
 

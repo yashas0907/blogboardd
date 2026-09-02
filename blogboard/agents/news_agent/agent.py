@@ -33,6 +33,11 @@ def news_node(state: BlogState) -> BlogState:
     # --- Step 1: Research (Only run if we haven't already fetched news on this iteration) ---
     news_summary = state.get("news_data", "")
     if not news_summary:
+        if not app_settings.is_llm_configured():
+            raise RuntimeError(
+                "LLM_API_KEY / GROQ_API_KEY is missing. Add it to .env "
+                "(see .env.example) or run with --dry-run."
+            )
         print("  [AGENT] Researching the web for live news...")
         llm_service = LLMAgentService()
         system_prompt = (

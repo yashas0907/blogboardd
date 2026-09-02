@@ -355,6 +355,16 @@
     gap: 20px;
 }
 
+/* Cover image inside cards */
+.recent-cover {
+    height: 150px;
+    border-radius: var(--radius-md);
+    background-size: cover;
+    background-position: center;
+    background-color: var(--bg-elevated);
+    margin: -8px 0 4px;
+}
+
 .recent-card {
     background: var(--bg-card);
     border: 1px solid var(--border-card);

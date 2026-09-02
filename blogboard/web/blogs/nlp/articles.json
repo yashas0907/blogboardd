@@ -1,0 +1,17 @@
+[
+  {
+    "id": "blogs/nlp/prompt-engineering-llm-best-practices.md",
+    "category": "nlp",
+    "topic": "Prompt Engineering for Large Language Models: Best Practices and Emerging Techniques",
+    "subtopics": "Designing Effective Prompts, Few-Shot and Chain-of-Thought Prompting, Prompt Tuning and Soft Prompts, Evaluating Prompt Robustness",
+    "title": "Prompt Engineering for LLMs: Best Practices & Emerging Techniques",
+    "description": "Learn proven prompt design, few‑shot, chain‑of‑thought, soft‑prompt tuning, and robustness testing for large language models.",
+    "date": "2026-09-02",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/nlp/prompt-engineering-llm-best-practices.md",
+    "coverImage": ""
+  }
+]

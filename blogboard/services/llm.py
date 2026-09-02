@@ -61,10 +61,11 @@ class LLMAgentService:
         ]
         
         # Step 2: Bind the tools and LLM using LangGraph's prebuilt ReAct orchestrator
+        # (langgraph 1.x renamed state_modifier -> prompt)
         agent = create_react_agent(
             model=self.llm,
             tools=news_tools,
-            state_modifier=system_prompt
+            prompt=system_prompt
         )
         return agent
         
@@ -82,6 +83,6 @@ class LLMAgentService:
         agent = create_react_agent(
             model=self.llm,
             tools=tools,
-            state_modifier=system_prompt
+            prompt=system_prompt
         )
         return agent

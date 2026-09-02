@@ -49,8 +49,8 @@ class TavilySearchTool(BaseTool):
         try:
             response = requests.post(
                 "https://api.tavily.com/search",
+                headers={"Authorization": f"Bearer {api_key}"},
                 json={
-                    "api_key": api_key,
                     "query": query,
                     "topic": "news",
                     "days": days,

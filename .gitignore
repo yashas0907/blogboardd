@@ -170,5 +170,6 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# BlogBoard Frontend Config
-frontend/js/config.js
+# BlogBoard Frontend Config (contains per-deployment URLs)
+blogboard/web/js/config.js
+*.r2.dev

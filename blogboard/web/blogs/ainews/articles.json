@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/october-2024-ai-news-roundup.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "Oct 2024 AI News: GPT‑4 Turbo 2.0, Gemini 1.5, EU AI Act & More",
+    "description": "Catch up on October 2024 AI breakthroughs: GPT‑4 Turbo 2.0, Gemini 1.5 Pro, Claude 3.5, EU AI Act, NVIDIA GH200‑P, generative video, and more.",
+    "date": "2026-09-02",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ainews/october-2024-ai-news-roundup.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/the-week-in-ai-1.md",
     "category": "ainews",
     "title": "The Week in AI #1",

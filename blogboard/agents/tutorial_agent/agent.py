@@ -3,7 +3,7 @@ import re
 import math
 from blogboard.graph.state import BlogState
 from blogboard.services.llm import LLMAgentService
-from blogboard.services.storage import R2StorageService
+from blogboard.services.storage import get_storage
 from blogboard.config.settings import app_settings
 from blogboard.services.prompt_manager import prompt_manager
 from .prompts import TUTORIAL_TOPIC_PROMPT, TUTORIAL_GENERATION_PROMPT
@@ -14,27 +14,49 @@ def _read_time(text: str) -> str:
 
 def tutorial_node(state: BlogState) -> BlogState:
     print("  => [TutorialAgent] Running...")
-    
-    storage = R2StorageService()
-    
+
+    # --- Step 0: Dry run must not touch R2 or the LLM at all ---
+    if state.get("dry_run"):
+        tags_config = app_settings.tags.model_dump()
+        target_domain = state.get("domain") or next(
+            (k for k in tags_config if k != "ainews"), "ml"
+        )
+        cat_label = tags_config.get(target_domain, {}).get("label", target_domain)
+        topic = state.get("topic") or f"Dry Run {cat_label} Topic"
+        print(f"  [DRY RUN] Skipping R2 access and LLM Generation.")
+        return {
+            **state,
+            "domain": target_domain,
+            "topic": topic,
+            "subtopics": state.get("subtopics", ""),
+            "content": f"# {topic}\n\nDry run tutorial text.",
+            "read_time": "1 min"
+        }
+
+    storage = get_storage()
+
     # --- Step 1: Topic Selection (if not already strictly defined by State) ---
     topic = state.get("topic")
     subtopics = state.get("subtopics", "")
-    
+
     if not topic:
-        # Pick domain
-        domain_dates = storage.get_all_domains_last_updated()
-        # Filter out ainews so tutorial agent doesn't pick it
-        valid_domains = {k: v for k, v in domain_dates.items() if k != "ainews"}
-        
-        sorted_domains = sorted(valid_domains.items(), key=lambda item: item[1])
-        target_domain = sorted_domains[0][0]
-        
+        # Pick domain — a domain preset via CLI/API state ALWAYS wins over
+        # the auto-scheduler. Only auto-schedule when none was requested.
+        if state.get("domain"):
+            target_domain = state["domain"]
+            print(f"  [AGENT] Using requested domain: {target_domain}")
+        else:
+            domain_dates = storage.get_all_domains_last_updated()
+            # Filter out ainews so tutorial agent doesn't pick it
+            valid_domains = {k: v for k, v in domain_dates.items() if k != "ainews"}
+
+            sorted_domains = sorted(valid_domains.items(), key=lambda item: item[1])
+            target_domain = sorted_domains[0][0]
+            print(f"  [AGENT] Autonomously selected domain: {target_domain}")
+
         tags_config = app_settings.tags.model_dump()
         cat_label = tags_config.get(target_domain, {}).get("label", target_domain)
-        
-        print(f"  [AGENT] Autonomously selected domain: {target_domain}")
-        
+
         recent_history = storage.get_recent_history(target_domain, limit=3)
         history_str = "No recent history found."
         if recent_history:
@@ -68,7 +90,7 @@ def tutorial_node(state: BlogState) -> BlogState:
 
     # --- Step 2: Content Generation ---
     if state.get("dry_run"):
-        print("  [DRY RUN] Skipping LLM Generation.")
+        print("  [DRY RUN] Skipping R2 access and LLM Generation.")
         return {
             **state,
             "domain": target_domain,
@@ -77,6 +99,12 @@ def tutorial_node(state: BlogState) -> BlogState:
             "content": f"# {topic}\n\nDry run tutorial text.",
             "read_time": "1 min"
         }
+
+    if not app_settings.is_llm_configured():
+        raise RuntimeError(
+            "LLM_API_KEY / GROQ_API_KEY is missing. Add it to .env "
+            "(see .env.example) or run with --dry-run."
+        )
 
     validator_feedback = ""
     if state.get("validator_feedback"):

@@ -28,7 +28,11 @@ function initNav() {
 async function loadStats() {
     const total = await getTotalCount();
     animateCounter('totalBlogs', total);
-    animateCounter('totalCategories', 6);
+    const cats = ALL_CATEGORIES.length;
+    animateCounter('totalCategories', cats);
+    const catNum = document.querySelector('#totalCategories .stat-num') ||
+                   document.getElementById('totalCategories');
+    if (catNum) catNum.textContent = cats;
 }
 
 function animateCounter(id, target) {
@@ -59,9 +63,13 @@ async function loadRecentPosts() {
     }
 
     container.innerHTML = recents.map(blog => {
-        const meta = CATEGORY_META[blog.category];
+        const meta = CATEGORY_META[blog.category] || { shortLabel: blog.category, bgColor: 'transparent', color: 'inherit' };
+        const cover = blog.coverImage
+            ? `<div class="recent-cover" style="background-image:url('${blog.coverImage}')"></div>`
+            : '';
         return `
     <a href="post.html#id=${encodeURIComponent(blog.id)}" class="recent-card">
+      ${cover}
       <div class="recent-card-meta">
         <span class="recent-cat-badge" style="background:${meta.bgColor};color:${meta.color}">
           ${meta.shortLabel}

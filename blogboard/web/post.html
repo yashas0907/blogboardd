@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,6 +13,7 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/post.css" />
+    <link rel="alternate" type="application/rss+xml" title="BlogBoard RSS" href="rss.xml" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 </head>
 
@@ -43,7 +44,9 @@
                 <li><a href="category.html#cat=cv" class="nav-link">CV</a></li>
                 <li><a href="category.html#cat=genai" class="nav-link">Gen AI</a></li>
                 <li><a href="category.html#cat=ainews" class="nav-link">AI News</a></li>
+                <li><a href="search.html" class="nav-link" aria-label="Search">🔎</a></li>
             </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☾</button>
             <button class="hamburger" id="hamburger" aria-label="Menu">
                 <span></span><span></span><span></span>
             </button>
@@ -76,6 +79,9 @@
                 <div class="post-divider"></div>
             </header>
 
+            <!-- Cover Image -->
+            <div class="post-cover" id="postCover" style="display:none"></div>
+
             <!-- Markdown Content -->
             <div class="post-content markdown-body" id="postContent">
                 <div class="loading-spinner">
@@ -92,6 +98,18 @@
                     <a href="index.html" class="btn-ghost-sm">Home ↑</a>
                 </div>
             </div>
+
+            <!-- Related Posts -->
+            <section class="related-section">
+                <h2 class="related-title">Related Articles</h2>
+                <div class="recent-grid" id="relatedPosts"></div>
+            </section>
+
+            <!-- Comments (giscus — configure repo in js/giscus-config.js) -->
+            <section class="comments-section">
+                <h2 class="related-title">Comments</h2>
+                <div id="commentsSection"></div>
+            </section>
         </article>
 
         <!-- Sidebar: TOC -->
@@ -133,7 +151,10 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script src="js/config.js"></script>
+    <script src="js/giscus-config.js"></script>
+    <script src="js/site-data.js"></script>
     <script src="js/blogs-data.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/post.js"></script>
 </body>
 

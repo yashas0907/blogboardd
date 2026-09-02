@@ -1,0 +1,17 @@
+[
+  {
+    "id": "blogs/statistics/causal-inference-with-deep-learning-bridging-statistics-and-ai.md",
+    "category": "statistics",
+    "topic": "Causal Inference with Deep Learning: Bridging Statistics and AI",
+    "subtopics": "Do-Calculus and Neural Networks, Counterfactual Prediction using Generative Models, Instrumental Variable Techniques for Deep Models, Evaluation Metrics for Causal Effect Estimation",
+    "title": "Causal Inference with Deep Learning: Bridging Statistics and AI",
+    "description": "A blog post about Causal Inference with Deep Learning: Bridging Statistics and AI",
+    "date": "2026-09-02",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/statistics/causal-inference-with-deep-learning-bridging-statistics-and-ai.md",
+    "coverImage": ""
+  }
+]

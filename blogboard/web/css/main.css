@@ -491,6 +491,66 @@ img {
   transform: translateY(-2px);
 }
 
+/* ── Light Theme ── */
+body.theme-light {
+  --bg-deep: #f4f5fb;
+  --bg-surface: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f6f7ff;
+  --bg-elevated: #eef0fa;
+  --text-primary: #1a1d2e;
+  --text-secondary: #4a5170;
+  --text-muted: #8a90a8;
+  --text-accent: #5b48d6;
+  --border: rgba(90, 80, 220, 0.14);
+  --border-hover: rgba(90, 80, 220, 0.4);
+  --border-card: rgba(20, 20, 60, 0.08);
+  --shadow-card: 0 4px 24px rgba(40, 40, 90, 0.08), 0 1px 4px rgba(40, 40, 90, 0.05);
+  --shadow-nav: 0 1px 0 rgba(255, 255, 255, 0.6), 0 4px 24px rgba(40, 40, 90, 0.08);
+}
+
+body.theme-light .navbar,
+body.theme-light .navbar.scrolled {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+body.theme-light .orb-1 { background: radial-gradient(circle, #c7bff5 0%, transparent 70%); }
+body.theme-light .orb-2 { background: radial-gradient(circle, #bfe8e2 0%, transparent 70%); }
+body.theme-light .orb-3 { background: radial-gradient(circle, #e4c4f7 0%, transparent 70%); }
+body.theme-light .orb { opacity: 0.25; }
+body.theme-light .grid-overlay {
+  background-image:
+    linear-gradient(rgba(90, 80, 220, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(90, 80, 220, 0.05) 1px, transparent 1px);
+}
+
+body.theme-light .footer {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+/* ── Theme Toggle Button ── */
+.theme-toggle {
+  flex-shrink: 0;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(124, 106, 247, 0.08);
+  border: 1px solid var(--border-card);
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: color var(--trans-fast), background var(--trans-fast), border-color var(--trans-fast);
+}
+
+.theme-toggle:hover {
+  color: var(--accent-primary);
+  background: rgba(124, 106, 247, 0.15);
+  border-color: var(--border-hover);
+}
+
 /* ── Category Color Accents ── */
 .accent-ml {
   --cat-color: var(--cat-ml);

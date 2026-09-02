@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/diffusion-models-the-new-frontier-in-generative-ai.md",
+    "category": "dl",
+    "topic": "Diffusion Models: The New Frontier in Generative AI",
+    "subtopics": "Fundamentals of diffusion processes, Training diffusion models, Applications in image and audio generation, Comparison with GANs and VAEs",
+    "title": "Diffusion Models: The New Frontier in Generative AI",
+    "description": "A blog post about Diffusion Models: The New Frontier in Generative AI",
+    "date": "2026-09-02",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/dl/diffusion-models-the-new-frontier-in-generative-ai.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/deep-learning-intro.md",
     "category": "dl",
     "title": "Deep Learning Intro",
