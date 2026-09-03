@@ -1,6 +1,6 @@
 import argparse
 import sys
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 # Windows consoles default to cp1252 and crash on Unicode output (e.g. LLM
@@ -19,13 +19,16 @@ if str(ROOT_DIR) not in sys.path:
 # ── Load .env (GROQ_API_KEY etc.) ────────────────────────────────────────────
 try:
     from dotenv import load_dotenv
+
     env_path = BACKEND_DIR.parent / ".env"
     load_dotenv(dotenv_path=env_path)
 except ImportError:
     pass  # python-dotenv is optional; export env vars manually if needed
 
 import os
+
 import sentry_sdk
+
 sentry_dsn = os.getenv("SENTRY_DSN")
 if sentry_dsn:
     sentry_sdk.init(
@@ -39,8 +42,8 @@ if sentry_dsn:
 # ── Import compiled graph ─────────────────────────────────────────────────────
 from blogboard.graph.graph import graph
 
-
 # ─────────────────────────────────────────────────────────────────────────────
+
 
 def today_ist() -> str:
     ist = timezone(timedelta(hours=5, minutes=30))
@@ -65,41 +68,47 @@ Examples
         """,
     )
     parser.add_argument(
-        "--date", type=str, default=None,
+        "--date",
+        type=str,
+        default=None,
         help="Target date in YYYY-MM-DD format (default: today in IST)",
     )
     parser.add_argument(
-        "--dry-run", action="store_true",
+        "--dry-run",
+        action="store_true",
         help="Preview mode: skip Groq calls and file writes",
     )
     parser.add_argument(
-        "--ainews", action="store_true",
+        "--ainews",
+        action="store_true",
         help="Run the AI News gathering and generation graph",
     )
     parser.add_argument(
-        "--domain", type=str, default=None,
+        "--domain",
+        type=str,
+        default=None,
         choices=["ml", "dl", "statistics", "nlp", "cv", "genai", "ainews"],
         help="Force a specific tutorial domain instead of auto-scheduling",
     )
     args = parser.parse_args()
 
     date_str = args.date or today_ist()
-    dry_run  = args.dry_run
+    dry_run = args.dry_run
     run_ainews = args.ainews
 
     # ── Banner ────────────────────────────────────────────────────────────────
-    print(f"\n{'='*55}")
-    print(f"  BlogBoard — LangGraph Article Generator")
+    print(f"\n{'=' * 55}")
+    print("  BlogBoard — LangGraph Article Generator")
     print(f"  Date    : {date_str}")
     print(f"  Dry run : {dry_run}")
-    print(f"{'='*55}")
+    print(f"{'=' * 55}")
 
     # ── Build initial state and invoke the graph ──────────────────────────────
     initial_state = {
-        "date":    date_str,
+        "date": date_str,
         "dry_run": dry_run,
     }
-    
+
     if run_ainews:
         initial_state["domain"] = "ainews"
     elif args.domain:
@@ -110,28 +119,28 @@ Examples
     final_state = graph.invoke(initial_state, config=config)
 
     # ── Summary ───────────────────────────────────────────────────────────────
-    print(f"\n{'='*55}")
+    print(f"\n{'=' * 55}")
     if dry_run:
-        print(f"  [DRY RUN] Pipeline completed — no files were written.")
+        print("  [DRY RUN] Pipeline completed — no files were written.")
         domain = final_state.get("domain", "?")
-        topic  = final_state.get("topic", "?")
-        slug   = final_state.get("slug", "dry-run-generated")
+        topic = final_state.get("topic", "?")
+        slug = final_state.get("slug", "dry-run-generated")
         print(f"  Chosen Domain : {domain}")
         print(f"  Chosen Topic  : {topic}")
-        print(f"  Would have generated:")
+        print("  Would have generated:")
         print(f"    -> blogs/{domain}/{slug}.md")
         print(f"    -> blogs/{domain}/articles.json (registry updated)")
     else:
-        domain    = final_state.get("domain", "?")
-        title     = final_state.get("title", "?")
-        md_path   = final_state.get("md_path", "?")
+        domain = final_state.get("domain", "?")
+        title = final_state.get("title", "?")
+        md_path = final_state.get("md_path", "?")
         read_time = final_state.get("read_time", "?")
-        print(f"  🎉 Done!  Article generated successfully.")
+        print("  🎉 Done!  Article generated successfully.")
         print(f"  Title     : {title}")
         print(f"  Domain    : {domain}")
         print(f"  Read time : {read_time}")
         print(f"  File      : {md_path}")
-    print(f"{'='*55}\n")
+    print(f"{'=' * 55}\n")
 
 
 if __name__ == "__main__":

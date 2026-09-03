@@ -1,4 +1,5 @@
 """Tests for the admin API endpoints."""
+
 from fastapi.testclient import TestClient
 
 from blogboard.api.app import app

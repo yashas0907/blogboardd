@@ -8,10 +8,9 @@ frontend works with zero fetches: file://, offline, any static host.
 Run standalone:  uv run python scripts/build_site.py
 Called automatically by the validator after every publish.
 """
+
 import json
-import re
-import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -45,14 +44,18 @@ def _derive_meta(md_path: Path, cat: str) -> dict:
         stripped = line.strip()
         if not title and stripped.startswith("# "):
             title = stripped[2:].strip()
-        elif not first_para and stripped and not stripped.startswith(("#", "```", "-", "*", "|", ">", "[!", "---")):
+        elif (
+            not first_para
+            and stripped
+            and not stripped.startswith(("#", "```", "-", "*", "|", ">", "[!", "---"))
+        ):
             first_para = stripped
         if title and first_para:
             break
     title = title or md_path.stem.replace("-", " ").title()
     first_para = first_para or f"An article about {title}."
     rel = md_path.relative_to(WEB).as_posix()
-    mtime = datetime.fromtimestamp(md_path.stat().st_mtime, tz=timezone.utc)
+    mtime = datetime.fromtimestamp(md_path.stat().st_mtime, tz=UTC)
     return {
         "id": rel,
         "category": cat,
@@ -109,9 +112,7 @@ def self_heal_registries() -> list:
                 healed.append(rel)
 
         articles.sort(key=lambda x: x.get("date", ""), reverse=True)
-        reg_path.write_text(
-            json.dumps(articles, indent=2, ensure_ascii=False), encoding="utf-8"
-        )
+        reg_path.write_text(json.dumps(articles, indent=2, ensure_ascii=False), encoding="utf-8")
     return healed
 
 
@@ -136,7 +137,7 @@ def build_site_data() -> Path:
                     pass
 
     payload = {
-        "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "generated": datetime.now(UTC).isoformat(timespec="seconds"),
         "categories": categories,
     }
 
@@ -154,8 +155,10 @@ def build_site_data() -> Path:
     out = WEB / "js" / "site-data.js"
     out.write_text(js, encoding="utf-8")
     total = sum(len(v) for v in categories.values())
-    print(f"  [BUILD] site-data.js: {total} articles, {len(contents)} contents "
-          f"({out.stat().st_size // 1024} KB)")
+    print(
+        f"  [BUILD] site-data.js: {total} articles, {len(contents)} contents "
+        f"({out.stat().st_size // 1024} KB)"
+    )
     return out
 
 

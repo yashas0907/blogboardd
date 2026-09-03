@@ -1,25 +1,27 @@
-from typing import Type, Optional
-
 import requests
-from pydantic import BaseModel, Field
 from langchain_core.tools import BaseTool
+from pydantic import BaseModel, Field
 
 from blogboard.config.settings import app_settings
 
 
 class UnsplashCoverInput(BaseModel):
     """Input schema for the UnsplashCoverTool."""
-    query: str = Field(description="Search phrase for a cover image (e.g. 'neural network abstract').")
+
+    query: str = Field(
+        description="Search phrase for a cover image (e.g. 'neural network abstract')."
+    )
 
 
 class UnsplashCoverTool(BaseTool):
     """Fetches a high-quality, license-free cover image URL from Unsplash."""
+
     name: str = "unsplash_cover_image"
     description: str = (
         "Fetch a fitting cover image URL from Unsplash for a given topic. "
         "Returns the image URL and photographer credit."
     )
-    args_schema: Type[BaseModel] = UnsplashCoverInput
+    args_schema: type[BaseModel] = UnsplashCoverInput
     model_config = {"extra": "ignore"}
 
     def _run(self, query: str) -> str:
@@ -50,12 +52,12 @@ class UnsplashCoverTool(BaseTool):
                 f"Unsplash page: {photo.get('links', {}).get('html', '')}"
             )
         except requests.exceptions.RequestException as e:
-            return f"Unsplash API request failed: {str(e)}"
+            return f"Unsplash API request failed: {e!s}"
         except Exception as e:
-            return f"Unexpected error during Unsplash search: {str(e)}"
+            return f"Unexpected error during Unsplash search: {e!s}"
 
 
-def fetch_cover_image(topic: str, domain: str) -> Optional[str]:
+def fetch_cover_image(topic: str, domain: str) -> str | None:
     """
     Best-effort synchronous helper used by the validator when saving articles.
     Returns a raw Unsplash 'regular' image URL or None on any failure.

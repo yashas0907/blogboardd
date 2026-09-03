@@ -77,8 +77,8 @@ A **conditional VAE** (CVAE) can be structured as follows:
 
 ```python
 # Pseudo‑code
-u = encoder(x_obs, y_obs, z)                # abduction
-y_cf = decoder(x_counter, z, u)            # action + prediction
+u = encoder(x_obs, y_obs, z)  # abduction
+y_cf = decoder(x_counter, z, u)  # action + prediction
 ```
 
 Training maximizes the ELBO with a reconstruction term for *Y* and a KL regularizer on *U*. Because the decoder is differentiable, we can back‑propagate through counterfactual predictions for downstream tasks (e.g., policy optimization).

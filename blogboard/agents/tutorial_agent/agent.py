@@ -1,16 +1,20 @@
 import json
-import re
 import math
+import re
+
+from blogboard.config.settings import app_settings
 from blogboard.graph.state import BlogState
 from blogboard.services.llm import LLMAgentService
-from blogboard.services.storage import get_storage
-from blogboard.config.settings import app_settings
 from blogboard.services.prompt_manager import prompt_manager
-from .prompts import TUTORIAL_TOPIC_PROMPT, TUTORIAL_GENERATION_PROMPT
+from blogboard.services.storage import get_storage
+
+from .prompts import TUTORIAL_GENERATION_PROMPT, TUTORIAL_TOPIC_PROMPT
+
 
 def _read_time(text: str) -> str:
     WORDS_PER_MINUTE = 200
     return f"{math.ceil(len(text.split()) / WORDS_PER_MINUTE)} min"
+
 
 def tutorial_node(state: BlogState) -> BlogState:
     print("  => [TutorialAgent] Running...")
@@ -18,19 +22,17 @@ def tutorial_node(state: BlogState) -> BlogState:
     # --- Step 0: Dry run must not touch R2 or the LLM at all ---
     if state.get("dry_run"):
         tags_config = app_settings.tags.model_dump()
-        target_domain = state.get("domain") or next(
-            (k for k in tags_config if k != "ainews"), "ml"
-        )
+        target_domain = state.get("domain") or next((k for k in tags_config if k != "ainews"), "ml")
         cat_label = tags_config.get(target_domain, {}).get("label", target_domain)
         topic = state.get("topic") or f"Dry Run {cat_label} Topic"
-        print(f"  [DRY RUN] Skipping R2 access and LLM Generation.")
+        print("  [DRY RUN] Skipping R2 access and LLM Generation.")
         return {
             **state,
             "domain": target_domain,
             "topic": topic,
             "subtopics": state.get("subtopics", ""),
             "content": f"# {topic}\n\nDry run tutorial text.",
-            "read_time": "1 min"
+            "read_time": "1 min",
         }
 
     storage = get_storage()
@@ -60,19 +62,23 @@ def tutorial_node(state: BlogState) -> BlogState:
         recent_history = storage.get_recent_history(target_domain, limit=3)
         history_str = "No recent history found."
         if recent_history:
-            history_str = "\n---\n".join([
-                f"Title: {item['title']}\nTopic: {item['topic']}\nSubtopics: {item['subtopics']}"
-                for item in recent_history
-            ])
-            
-        topic_prompt = prompt_manager.get_prompt("Tutorial_Topic_Prompt", TUTORIAL_TOPIC_PROMPT, cat_label=cat_label, history=history_str)
-        
+            history_str = "\n---\n".join(
+                [
+                    f"Title: {item['title']}\nTopic: {item['topic']}\nSubtopics: {item['subtopics']}"
+                    for item in recent_history
+                ]
+            )
+
+        topic_prompt = prompt_manager.get_prompt(
+            "Tutorial_Topic_Prompt", TUTORIAL_TOPIC_PROMPT, cat_label=cat_label, history=history_str
+        )
+
         llm_service = LLMAgentService(temperature=0.8)
         res = llm_service.llm.invoke(topic_prompt)
         raw = res.content.strip()
         raw = re.sub(r"^```json\s*", "", raw, flags=re.MULTILINE)
         raw = re.sub(r"```\s*$", "", raw, flags=re.MULTILINE)
-        
+
         try:
             topic_data = json.loads(raw.strip())
             topic = topic_data.get("topic", "Advanced Concepts")
@@ -80,7 +86,7 @@ def tutorial_node(state: BlogState) -> BlogState:
         except json.JSONDecodeError:
             topic = "Emerging Trends in " + cat_label
             subtopics = ""
-            
+
         print(f"  [AGENT] Picked Topic: {topic}")
     else:
         target_domain = state.get("domain")
@@ -97,7 +103,7 @@ def tutorial_node(state: BlogState) -> BlogState:
             "topic": topic,
             "subtopics": subtopics,
             "content": f"# {topic}\n\nDry run tutorial text.",
-            "read_time": "1 min"
+            "read_time": "1 min",
         }
 
     if not app_settings.is_llm_configured():
@@ -116,15 +122,15 @@ def tutorial_node(state: BlogState) -> BlogState:
         cat_label=cat_label,
         topic=topic,
         subtopics=subtopics,
-        validator_feedback=validator_feedback
+        validator_feedback=validator_feedback,
     )
-    
+
     llm_service_gen = LLMAgentService(temperature=0.6)
     res_gen = llm_service_gen.llm.invoke(generation_prompt)
-    
+
     content = res_gen.content.strip()
     rt = _read_time(content)
-    
+
     print(f"  [AGENT] Generated {len(content.split())} words. Read time: {rt}")
 
     return {
@@ -133,5 +139,5 @@ def tutorial_node(state: BlogState) -> BlogState:
         "topic": topic,
         "subtopics": subtopics,
         "content": content,
-        "read_time": rt
+        "read_time": rt,
     }

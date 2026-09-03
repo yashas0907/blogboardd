@@ -1,4 +1,5 @@
 """Diagnostic script: audit registries, orphans, and article integrity."""
+
 import json
 from pathlib import Path
 

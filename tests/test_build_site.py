@@ -1,5 +1,5 @@
 """Tests for the self-healing site builder (scripts/build_site.py)."""
-import importlib
+
 import json
 import sys
 from pathlib import Path
@@ -9,7 +9,7 @@ import pytest
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from scripts import build_site  # noqa: E402
+from scripts import build_site
 
 
 @pytest.fixture
@@ -46,10 +46,16 @@ class TestSelfHeal:
         assert len(reg) == 1 and reg[0]["title"] == "Fixed"
 
     def test_registers_orphan_md(self, web_sandbox):
-        good = [{"id": "blogs/ml/kept.md", "file": "blogs/ml/kept.md",
-                 "title": "Kept", "category": "ml", "date": "2026-01-01"}]
-        (web_sandbox / "blogs/ml/articles.json").write_text(
-            json.dumps(good), encoding="utf-8")
+        good = [
+            {
+                "id": "blogs/ml/kept.md",
+                "file": "blogs/ml/kept.md",
+                "title": "Kept",
+                "category": "ml",
+                "date": "2026-01-01",
+            }
+        ]
+        (web_sandbox / "blogs/ml/articles.json").write_text(json.dumps(good), encoding="utf-8")
         _write_md(web_sandbox, "blogs/ml/kept.md", "# Kept")
         _write_md(web_sandbox, "blogs/ml/orphan.md", "# Orphan Article\n\nOrphan body.")
         healed = build_site.self_heal_registries()
@@ -59,13 +65,22 @@ class TestSelfHeal:
 
     def test_purges_dead_entries(self, web_sandbox):
         stale = [
-            {"id": "blogs/ml/alive.md", "file": "blogs/ml/alive.md",
-             "title": "Alive", "category": "ml", "date": "2026-01-01"},
-            {"id": "blogs/ml/gone.md", "file": "blogs/ml/gone.md",
-             "title": "Gone", "category": "ml", "date": "2026-01-01"},
+            {
+                "id": "blogs/ml/alive.md",
+                "file": "blogs/ml/alive.md",
+                "title": "Alive",
+                "category": "ml",
+                "date": "2026-01-01",
+            },
+            {
+                "id": "blogs/ml/gone.md",
+                "file": "blogs/ml/gone.md",
+                "title": "Gone",
+                "category": "ml",
+                "date": "2026-01-01",
+            },
         ]
-        (web_sandbox / "blogs/ml/articles.json").write_text(
-            json.dumps(stale), encoding="utf-8")
+        (web_sandbox / "blogs/ml/articles.json").write_text(json.dumps(stale), encoding="utf-8")
         _write_md(web_sandbox, "blogs/ml/alive.md", "# Alive")
         build_site.self_heal_registries()
         reg = json.loads((web_sandbox / "blogs/ml/articles.json").read_text(encoding="utf-8"))
@@ -92,6 +107,7 @@ class TestBuildSiteData:
         assert "Body A" in js and "Body B" in js
         # Parse the embedded JSON back out
         import re
+
         m = re.search(r"window\.SITE_DATA = (\{.*?\});\n", js, re.DOTALL)
         data = json.loads(m.group(1))
         assert data["categories"]["ml"][0]["title"] == "A"
@@ -111,6 +127,7 @@ class TestBuildSiteData:
         out = build_site.build_site_data()
         js = out.read_text(encoding="utf-8")
         import re
+
         m = re.search(r"window\.SITE_DATA = (\{.*?\});\n", js, re.DOTALL)
         data = json.loads(m.group(1))
         assert data["categories"]["ml"] == []

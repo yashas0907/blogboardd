@@ -1,6 +1,4 @@
-import json
 from pathlib import Path
-from typing import Optional, List, Dict, Any
 
 from blogboard.services.storage_base import StorageService
 
@@ -11,8 +9,9 @@ class LocalStorageService(StorageService):
     directory. Perfect for local development, testing, and offline runs.
     """
 
-    def __init__(self, root: Optional[str] = None):
+    def __init__(self, root: str | None = None):
         from blogboard.config.settings import app_settings
+
         self.root = Path(root or app_settings.local_storage_root or "blogboard/web").resolve()
         self.root.mkdir(parents=True, exist_ok=True)
 
@@ -22,7 +21,7 @@ class LocalStorageService(StorageService):
         parts = [p for p in safe.split("/") if p not in ("", ".", "..")]
         return self.root.joinpath(*parts)
 
-    def get_object(self, key: str) -> Optional[str]:
+    def get_object(self, key: str) -> str | None:
         path = self._path(key)
         if not path.is_file():
             return None
@@ -43,13 +42,13 @@ class LocalStorageService(StorageService):
             print(f"[ERROR] Local write failed ({key}): {e}")
             return False
 
-    def list_objects(self, prefix: str = "") -> List[str]:
+    def list_objects(self, prefix: str = "") -> list[str]:
         base = self._path(prefix) if prefix else self.root
         if not base.exists():
             return []
         if base.is_file():
             return [str(base.relative_to(self.root)).replace("\\", "/")]
-        keys: List[str] = []
+        keys: list[str] = []
         for p in sorted(base.rglob("*")):
             if p.is_file():
                 keys.append(str(p.relative_to(self.root)).replace("\\", "/"))

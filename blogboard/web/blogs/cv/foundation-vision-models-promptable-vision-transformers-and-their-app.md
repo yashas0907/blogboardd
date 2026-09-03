@@ -88,9 +88,10 @@ from transformers import CLIPModel, CLIPProcessor
 # 1️⃣ Load frozen CLIP backbone
 model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
 processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
-model.eval()                     # freeze all parameters
+model.eval()  # freeze all parameters
 for param in model.parameters():
     param.requires_grad = False
+
 
 # 2️⃣ Define a learnable soft prompt (5 tokens)
 class SoftPrompt(nn.Module):
@@ -102,7 +103,8 @@ class SoftPrompt(nn.Module):
         # x shape: (B, N, D) where N is original token count
         B = x.shape[0]
         prompt = self.prompt.unsqueeze(0).expand(B, -1, -1)  # (B,5,D)
-        return torch.cat([prompt, x], dim=1)                # prepend
+        return torch.cat([prompt, x], dim=1)  # prepend
+
 
 soft_prompt = SoftPrompt(n_prompt_tokens=5, embed_dim=model.visual.proj.out_features)
 optimizer = torch.optim.AdamW(soft_prompt.parameters(), lr=5e-4)
@@ -112,17 +114,17 @@ criterion = nn.CrossEntropyLoss()
 for epoch in range(5):
     for imgs, labels in dataloader:
         inputs = processor(images=imgs, return_tensors="pt")
-        pixel_values = inputs["pixel_values"]               # (B,3,224,224)
+        pixel_values = inputs["pixel_values"]  # (B,3,224,224)
 
         # Forward through visual encoder
         with torch.no_grad():
-            visual_emb = model.visual(pixel_values)        # (B, N, D)
+            visual_emb = model.visual(pixel_values)  # (B, N, D)
 
         # Insert soft prompt
-        visual_emb = soft_prompt(visual_emb)                # (B, N+5, D)
+        visual_emb = soft_prompt(visual_emb)  # (B, N+5, D)
 
         # CLS token is the first token after prompt
-        cls_emb = visual_emb[:, 0, :]                       # (B, D)
+        cls_emb = visual_emb[:, 0, :]  # (B, D)
 
         # Project to text space (CLIP already has a projection head)
         logits = model.logit_scale.exp() * cls_emb @ model.text_projection.t()
@@ -131,7 +133,7 @@ for epoch in range(5):
         loss.backward()
         optimizer.step()
         optimizer.zero_grad()
-    print(f"Epoch {epoch+1} – loss: {loss.item():.4f}")
+    print(f"Epoch {epoch + 1} – loss: {loss.item():.4f}")
 ```
 
 **Key points**  

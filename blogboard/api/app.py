@@ -1,7 +1,8 @@
 """BlogBoard Admin API — health, stats, article listing, generation trigger."""
-from typing import Optional, Dict, Any
 
-from fastapi import Depends, FastAPI, HTTPException, Header
+from typing import Any
+
+from fastapi import Depends, FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from blogboard.config.settings import app_settings
@@ -22,7 +23,7 @@ app.add_middleware(
 )
 
 
-def require_token(x_admin_token: Optional[str] = Header(default=None)) -> None:
+def require_token(x_admin_token: str | None = Header(default=None)) -> None:
     """Auth dependency: enforces the token only when one is configured."""
     expected = app_settings.admin_token
     if expected and x_admin_token != expected:
@@ -30,7 +31,7 @@ def require_token(x_admin_token: Optional[str] = Header(default=None)) -> None:
 
 
 @app.get("/api/health")
-def health() -> Dict[str, Any]:
+def health() -> dict[str, Any]:
     return {
         "status": "ok",
         "llm_configured": app_settings.is_llm_configured(),
@@ -40,10 +41,10 @@ def health() -> Dict[str, Any]:
 
 
 @app.get("/api/stats")
-def stats() -> Dict[str, Any]:
+def stats() -> dict[str, Any]:
     storage = get_storage()
     all_articles = storage.get_all_articles()
-    by_domain: Dict[str, int] = {}
+    by_domain: dict[str, int] = {}
     for a in all_articles:
         by_domain[a.get("category", "?")] = by_domain.get(a.get("category", "?"), 0) + 1
     return {
@@ -54,7 +55,7 @@ def stats() -> Dict[str, Any]:
 
 
 @app.get("/api/articles")
-def articles(domain: Optional[str] = None, limit: int = 50) -> Dict[str, Any]:
+def articles(domain: str | None = None, limit: int = 50) -> dict[str, Any]:
     storage = get_storage()
     all_articles = storage.get_all_articles()
     if domain:
@@ -64,12 +65,12 @@ def articles(domain: Optional[str] = None, limit: int = 50) -> Dict[str, Any]:
 
 @app.post("/api/generate")
 def generate(
-    domain: Optional[str] = None,
+    domain: str | None = None,
     dry_run: bool = False,
     _token: None = Depends(require_token),
-) -> Dict[str, Any]:
+) -> dict[str, Any]:
     """Trigger the generation pipeline. Protected by X-Admin-Token when configured."""
-    initial_state: Dict[str, Any] = {"dry_run": dry_run}
+    initial_state: dict[str, Any] = {"dry_run": dry_run}
     if domain:
         initial_state["domain"] = domain
 

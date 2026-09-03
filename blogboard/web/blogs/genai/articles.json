@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/synthetic-data-generative-ai-healthcare.md",
+    "category": "genai",
+    "topic": "Synthetic Data Generation with Generative AI for Healthcare Innovation",
+    "subtopics": "Privacy-preserving patient record synthesis, Domain adaptation for rare disease datasets, Evaluation metrics for clinical utility, Regulatory and ethical compliance frameworks",
+    "title": "Synthetic Data Generation with Generative AI: Boost Healthcare Innovation",
+    "description": "Learn how generative AI creates privacy‑preserving synthetic health data, improves rare‑disease research, and meets HIPAA/GDPR compliance.",
+    "date": "2026-09-03",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/genai/synthetic-data-generative-ai-healthcare.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/multimodal-prompt-engineering-for-real-time-robotics-control.md",
     "category": "genai",
     "topic": "Multimodal Prompt Engineering for Real-Time Robotics Control",

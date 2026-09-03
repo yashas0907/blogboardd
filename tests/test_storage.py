@@ -1,4 +1,5 @@
 """Tests for local + R2 storage backends and the storage factory."""
+
 from pathlib import Path
 
 from blogboard.services.local_storage import LocalStorageService
@@ -46,11 +47,14 @@ def test_local_list_objects(tmp_path: Path):
 
 def test_get_recent_history_sorted(tmp_path: Path):
     s = LocalStorageService(root=str(tmp_path))
-    s.save_articles_json("ml", [
-        {"id": "1", "title": "old", "topic": "t1", "date": "2026-01-01"},
-        {"id": "2", "title": "new", "topic": "t2", "date": "2026-02-01"},
-        {"id": "3", "title": "mid", "topic": "t3", "date": "2026-01-15"},
-    ])
+    s.save_articles_json(
+        "ml",
+        [
+            {"id": "1", "title": "old", "topic": "t1", "date": "2026-01-01"},
+            {"id": "2", "title": "new", "topic": "t2", "date": "2026-02-01"},
+            {"id": "3", "title": "mid", "topic": "t3", "date": "2026-01-15"},
+        ],
+    )
     history = s.get_recent_history("ml", limit=2)
     assert [h["title"] for h in history] == ["new", "mid"]
 
@@ -69,9 +73,12 @@ def test_factory_returns_local_when_configured(tmp_path: Path, monkeypatch):
     monkeypatch.setenv("STORAGE_BACKEND", "local")
     # Reimport settings machinery with a fresh env
     import importlib
+
     import blogboard.config.settings as settings_mod
+
     importlib.reload(settings_mod)
     import blogboard.services.storage as storage_mod
+
     importlib.reload(storage_mod)
     # local_storage reads app_settings.local_storage_root at init; point it at tmp
     monkeypatch.setattr(settings_mod.app_settings, "local_storage_root", str(tmp_path))
@@ -80,10 +87,9 @@ def test_factory_returns_local_when_configured(tmp_path: Path, monkeypatch):
 
 
 def test_factory_rejects_unknown_backend(monkeypatch, tmp_path: Path):
-    monkeypatch.setattr(
-        "blogboard.services.storage.app_settings.storage_backend", "ftp"
-    )
+    monkeypatch.setattr("blogboard.services.storage.app_settings.storage_backend", "ftp")
     from blogboard.services.storage import get_storage
+
     try:
         get_storage()
         assert False, "expected ValueError"

@@ -1,5 +1,3 @@
-from typing import Optional, List, Dict, Any
-
 import boto3
 from botocore.exceptions import ClientError
 
@@ -18,7 +16,7 @@ class R2StorageService(StorageService):
                 "R2__BUCKET_NAME in your .env, or use the local storage backend "
                 "(STORAGE_BACKEND=local)."
             )
-        self.bucket_name = app_settings.r2.BUCKET_NAME.strip(' ="\'')
+        self.bucket_name = app_settings.r2.BUCKET_NAME.strip(" =\"'")
         self.client = boto3.client(
             service_name="s3",
             endpoint_url=f"https://{app_settings.r2.ACCOUNT_ID.strip()}.r2.cloudflarestorage.com",
@@ -27,7 +25,7 @@ class R2StorageService(StorageService):
             region_name="auto",
         )
 
-    def get_object(self, key: str) -> Optional[str]:
+    def get_object(self, key: str) -> str | None:
         try:
             response = self.client.get_object(Bucket=self.bucket_name, Key=key)
             return response["Body"].read().decode("utf-8")
@@ -57,10 +55,10 @@ class R2StorageService(StorageService):
             print(f"[ERROR] Unexpected error uploading {key}: {e}")
             return False
 
-    def list_objects(self, prefix: str = "") -> List[str]:
+    def list_objects(self, prefix: str = "") -> list[str]:
         try:
             paginator = self.client.get_paginator("list_objects_v2")
-            keys: List[str] = []
+            keys: list[str] = []
             for page in paginator.paginate(
                 Bucket=self.bucket_name, Prefix=prefix.replace("\\", "/")
             ):
@@ -77,6 +75,7 @@ def get_storage() -> StorageService:
     backend = (app_settings.storage_backend or "r2").lower().strip()
     if backend == "local":
         from blogboard.services.local_storage import LocalStorageService
+
         return LocalStorageService()
     if backend == "r2":
         if not app_settings.is_r2_configured():
@@ -85,6 +84,7 @@ def get_storage() -> StorageService:
                 "(set STORAGE_BACKEND=local to silence this warning)."
             )
             from blogboard.services.local_storage import LocalStorageService
+
             return LocalStorageService()
         return R2StorageService()
     raise ValueError(f"Unknown STORAGE_BACKEND: {backend!r} (expected 'r2' or 'local')")

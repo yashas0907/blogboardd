@@ -3,6 +3,9 @@
   <url><loc>http://localhost:8000/index.html</loc></url>
   <url><loc>http://localhost:8000/category.html</loc></url>
   <url><loc>http://localhost:8000/search.html</loc></url>
+  <url><loc>http://localhost:8000/post.html#id=blogs/statistics/federated-learning-and-differential-privacy-statistical-foundations-f.md</loc><lastmod>2026-09-03</lastmod></url>
+  <url><loc>http://localhost:8000/post.html#id=blogs/nlp/retrieval-augmented-generation-rag-for-large-language-models-techni.md</loc><lastmod>2026-09-03</lastmod></url>
+  <url><loc>http://localhost:8000/post.html#id=blogs/genai/synthetic-data-generative-ai-healthcare.md</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>http://localhost:8000/post.html#id=blogs/dl/diffusion-models-the-new-frontier-in-generative-ai.md</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>http://localhost:8000/post.html#id=blogs/statistics/causal-inference-with-deep-learning-bridging-statistics-and-ai.md</loc><lastmod>2026-09-02</lastmod></url>
   <url><loc>http://localhost:8000/post.html#id=blogs/nlp/prompt-engineering-llm-best-practices.md</loc><lastmod>2026-09-02</lastmod></url>

@@ -1,4 +1,5 @@
 """Tests for the validator agent's JSON extraction and save logic."""
+
 from pathlib import Path
 from unittest.mock import patch
 
@@ -42,10 +43,14 @@ class TestValidatorSaveFlow:
         class FakeRes:
             content = llm_payload
 
-        fake_llm = type("FakeLLM", (), {"llm": type("I", (), {"invoke": staticmethod(lambda p: FakeRes())})})()
-        with patch("blogboard.agents.validator_agent.agent.LLMAgentService", return_value=fake_llm), \
-             patch("blogboard.agents.validator_agent.agent.get_storage", return_value=storage), \
-             patch("blogboard.agents.validator_agent.agent.fetch_cover_image", return_value=None):
+        fake_llm = type(
+            "FakeLLM", (), {"llm": type("I", (), {"invoke": staticmethod(lambda p: FakeRes())})}
+        )()
+        with (
+            patch("blogboard.agents.validator_agent.agent.LLMAgentService", return_value=fake_llm),
+            patch("blogboard.agents.validator_agent.agent.get_storage", return_value=storage),
+            patch("blogboard.agents.validator_agent.agent.fetch_cover_image", return_value=None),
+        ):
             return validator_node(state), storage
 
     def test_approved_article_saved_and_registered(self, tmp_path: Path):
@@ -93,11 +98,18 @@ class TestValidatorSaveFlow:
         class FakeRes:
             content = '{"approved": true, "title": "T", "description": "D", "slug": "s"}'
 
-        fake_llm = type("FakeLLM", (), {"llm": type("I", (), {"invoke": staticmethod(lambda p: FakeRes())})})()
+        fake_llm = type(
+            "FakeLLM", (), {"llm": type("I", (), {"invoke": staticmethod(lambda p: FakeRes())})}
+        )()
         state = {"topic": "T", "content": "c", "domain": "ml", "date": "2026-09-01"}
-        with patch("blogboard.agents.validator_agent.agent.LLMAgentService", return_value=fake_llm), \
-             patch("blogboard.agents.validator_agent.agent.get_storage", return_value=FailingStorage(root=str(tmp_path))), \
-             patch("blogboard.agents.validator_agent.agent.fetch_cover_image", return_value=None):
+        with (
+            patch("blogboard.agents.validator_agent.agent.LLMAgentService", return_value=fake_llm),
+            patch(
+                "blogboard.agents.validator_agent.agent.get_storage",
+                return_value=FailingStorage(root=str(tmp_path)),
+            ),
+            patch("blogboard.agents.validator_agent.agent.fetch_cover_image", return_value=None),
+        ):
             result = validator_node(state)
 
         # Registry must NOT contain a dead entry when upload failed

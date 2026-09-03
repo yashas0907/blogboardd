@@ -1,4 +1,5 @@
 """Tests for RSS + sitemap generation."""
+
 from blogboard.services import site_services
 
 ARTICLES = [

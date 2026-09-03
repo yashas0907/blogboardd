@@ -118,17 +118,18 @@ import rclpy
 from rclpy.action import ActionClient
 from robot_interfaces.action import MultimodalAction
 
+
 class SafetyGuardrail(Node):
     def __init__(self):
-        super().__init__('safety_guardrail')
-        self._client = ActionClient(self, MultimodalAction, 'multimodal_action')
+        super().__init__("safety_guardrail")
+        self._client = ActionClient(self, MultimodalAction, "multimodal_action")
         self._client.wait_for_server()
         self._client.feedback_callback = self._on_feedback
 
     def _on_feedback(self, feedback_msg):
         risk = feedback_msg.risk_score
         if risk > 0.7:
-            self.get_logger().warn(f'High risk ({risk:.2f}) – invoking fallback')
+            self.get_logger().warn(f"High risk ({risk:.2f}) – invoking fallback")
             self._client.cancel_goal()
             self._publish_fallback()
 
@@ -200,37 +201,36 @@ import os
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
+
 def generate_launch_description():
     # Load config files
-    inference_cfg = os.path.join(
-        os.getenv('PWD'), 'config', 'inference.yaml')
-    fallback_cfg = os.path.join(
-        os.getenv('PWD'), 'config', 'fallback_controller.yaml')
+    inference_cfg = os.path.join(os.getenv("PWD"), "config", "inference.yaml")
+    fallback_cfg = os.path.join(os.getenv("PWD"), "config", "fallback_controller.yaml")
 
     # Multimodal Prompt Node (high‑priority)
     prompt_node = Node(
-        package='multimodal_robot_control',
-        executable='multimodal_prompt_node.py',
-        name='multimodal_prompt',
-        output='screen',
+        package="multimodal_robot_control",
+        executable="multimodal_prompt_node.py",
+        name="multimodal_prompt",
+        output="screen",
         parameters=[inference_cfg],
         remappings=[
-            ('/camera/rgb/image_raw', '/camera/front/image_raw'),
-            ('/camera/depth/points', '/camera/front/points')
+            ("/camera/rgb/image_raw", "/camera/front/image_raw"),
+            ("/camera/depth/points", "/camera/front/points"),
         ],
-        arguments=['--ros-args', '--log-level', 'info'],
+        arguments=["--ros-args", "--log-level", "info"],
         # Real‑time priority (Linux only)
-        prefix='taskset -c 2-3 chrt -f 99 '
+        prefix="taskset -c 2-3 chrt -f 99 ",
     )
 
     # Safety Guardrail Node (runs on a lower‑priority core)
     guardrail_node = Node(
-        package='multimodal_robot_control',
-        executable='safety_guardrail_node.py',
-        name='safety_guardrail',
-        output='screen',
+        package="multimodal_robot_control",
+        executable="safety_guardrail_node.py",
+        name="safety_guardrail",
+        output="screen",
         parameters=[fallback_cfg],
-        prefix='taskset -c 4 chrt -f 50 '
+        prefix="taskset -c 4 chrt -f 50 ",
     )
 
     return LaunchDescription([prompt_node, guardrail_node])

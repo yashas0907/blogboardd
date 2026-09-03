@@ -56,24 +56,30 @@ from keras.datasets import mnist
 # Preprocess data
 x_train = x_train.reshape(x_train.shape[0], 28, 28, 1)
 x_test = x_test.reshape(x_test.shape[0], 28, 28, 1)
-x_train = x_train.astype('float32')
-x_test = x_test.astype('float32')
+x_train = x_train.astype("float32")
+x_test = x_test.astype("float32")
 x_train /= 255
 x_test /= 255
 
 # Define model architecture
 model = Sequential()
-model.add(Conv2D(32, (3, 3), activation='relu', input_shape=(28, 28, 1)))
+model.add(Conv2D(32, (3, 3), activation="relu", input_shape=(28, 28, 1)))
 model.add(MaxPooling2D((2, 2)))
 model.add(Flatten())
-model.add(Dense(128, activation='relu'))
-model.add(Dense(10, activation='softmax'))
+model.add(Dense(128, activation="relu"))
+model.add(Dense(10, activation="softmax"))
 
 # Compile model
-model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+model.compile(optimizer="adam", loss="categorical_crossentropy", metrics=["accuracy"])
 
 # Train model
-model.fit(x_train, to_categorical(y_train), epochs=10, batch_size=128, validation_data=(x_test, to_categorical(y_test)))
+model.fit(
+    x_train,
+    to_categorical(y_train),
+    epochs=10,
+    batch_size=128,
+    validation_data=(x_test, to_categorical(y_test)),
+)
 ```
 
 This code defines a simple CNN model using the Keras framework, and trains it on the MNIST dataset to classify images into different categories.

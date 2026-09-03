@@ -1,13 +1,15 @@
-import os
 import logging
+import os
 
 try:
     from opik import Opik
+
     OPIK_AVAILABLE = True
 except ImportError:
     OPIK_AVAILABLE = False
 
 logger = logging.getLogger(__name__)
+
 
 class PromptManager:
     def __init__(self):
@@ -30,9 +32,12 @@ class PromptManager:
                 logger.info(f"✅ Fetched prompt '{prompt_name}' from Opik.")
                 return prompt_obj.format(**kwargs)
             except Exception as e:
-                logger.warning(f"⚠️ Failed to fetch prompt '{prompt_name}' from Opik. Falling back to local prompt. Error: {e}")
-        
+                logger.warning(
+                    f"⚠️ Failed to fetch prompt '{prompt_name}' from Opik. Falling back to local prompt. Error: {e}"
+                )
+
         # Fallback to local prompt
         return fallback_prompt.format(**kwargs)
+
 
 prompt_manager = PromptManager()

@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/retrieval-augmented-generation-rag-for-large-language-models-techni.md",
+    "category": "nlp",
+    "topic": "Retrieval-Augmented Generation (RAG) for Large Language Models: Techniques and Applications",
+    "subtopics": "Integrating External Knowledge Bases, Hybrid Retrieval-Generation Architectures, Fine-Tuning Strategies for RAG, Real-World Use Cases and Performance Evaluation",
+    "title": "Retrieval-Augmented Generation (RAG) for Large Language Models: Techni",
+    "description": "A blog post about Retrieval-Augmented Generation (RAG) for Large Language Models: Techni",
+    "date": "2026-09-03",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/nlp/retrieval-augmented-generation-rag-for-large-language-models-techni.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/prompt-engineering-llm-best-practices.md",
     "category": "nlp",
     "topic": "Prompt Engineering for Large Language Models: Best Practices and Emerging Techniques",

@@ -144,12 +144,11 @@
         </div>
     </footer>
 
-    <!-- marked.js for Markdown rendering -->
-    <script src="https://cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js"></script>
-    <!-- highlight.js for code syntax highlighting -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <!-- marked.js for Markdown rendering (vendored — works offline) -->
+    <script src="vendor/marked.min.js"></script>
+    <!-- highlight.js for code syntax highlighting (vendored — works offline) -->
+    <link rel="stylesheet" href="vendor/hljs-github-dark.css" />
+    <script src="vendor/highlight.min.js"></script>
     <script src="js/config.js"></script>
     <script src="js/giscus-config.js"></script>
     <script src="js/site-data.js"></script>

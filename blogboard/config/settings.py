@@ -1,5 +1,4 @@
-from typing import Dict
-from pydantic import BaseModel, Field, AliasChoices
+from pydantic import AliasChoices, BaseModel, Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -7,29 +6,34 @@ class LLMSettings(BaseModel):
     API_KEY: str = Field(
         default="",
         validation_alias=AliasChoices(
-            'API_KEY', 'api_key',
-            'GROQ_API_KEY', 'groq_api_key',
-            'LLM__API_KEY', 'llm__api_key',
+            "API_KEY",
+            "api_key",
+            "GROQ_API_KEY",
+            "groq_api_key",
+            "LLM__API_KEY",
+            "llm__api_key",
         ),
     )
     MODEL_NAME: str = Field(
         default="openai/gpt-oss-120b",
         validation_alias=AliasChoices(
-            'MODEL_NAME', 'model_name',
-            'LLM__MODEL_NAME', 'llm__model_name',
+            "MODEL_NAME",
+            "model_name",
+            "LLM__MODEL_NAME",
+            "llm__model_name",
         ),
     )
     TEMPERATURE: float = 1.0
 
 
 class TagSettings(BaseModel):
-    ml: Dict[str, str] = {"label": "Machine Learning", "shortLabel": "ML"}
-    dl: Dict[str, str] = {"label": "Deep Learning", "shortLabel": "DL"}
-    statistics: Dict[str, str] = {"label": "Statistics for AI", "shortLabel": "Stats"}
-    nlp: Dict[str, str] = {"label": "Natural Language Processing", "shortLabel": "NLP"}
-    cv: Dict[str, str] = {"label": "Computer Vision", "shortLabel": "CV"}
-    genai: Dict[str, str] = {"label": "Generative AI", "shortLabel": "Gen AI"}
-    ainews: Dict[str, str] = {"label": "AI News", "shortLabel": "AI News"}
+    ml: dict[str, str] = {"label": "Machine Learning", "shortLabel": "ML"}
+    dl: dict[str, str] = {"label": "Deep Learning", "shortLabel": "DL"}
+    statistics: dict[str, str] = {"label": "Statistics for AI", "shortLabel": "Stats"}
+    nlp: dict[str, str] = {"label": "Natural Language Processing", "shortLabel": "NLP"}
+    cv: dict[str, str] = {"label": "Computer Vision", "shortLabel": "CV"}
+    genai: dict[str, str] = {"label": "Generative AI", "shortLabel": "Gen AI"}
+    ainews: dict[str, str] = {"label": "AI News", "shortLabel": "AI News"}
 
 
 class R2Settings(BaseModel):
@@ -68,7 +72,7 @@ class Settings(BaseSettings):
             r2.ACCOUNT_ID.strip()
             and r2.ACCESS_KEY_ID.strip()
             and r2.SECRET_ACCESS_KEY.strip()
-            and r2.BUCKET_NAME.strip(' ="\'')
+            and r2.BUCKET_NAME.strip(" =\"'")
         )
 
     def is_llm_configured(self) -> bool:

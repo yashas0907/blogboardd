@@ -1,12 +1,14 @@
 import json
 import re
 from datetime import datetime
+
 from blogboard.graph.state import BlogState
-from blogboard.services.llm import LLMAgentService
-from blogboard.services.storage import get_storage
-from blogboard.services.prompt_manager import prompt_manager
 from blogboard.services import site_services
+from blogboard.services.llm import LLMAgentService
+from blogboard.services.prompt_manager import prompt_manager
+from blogboard.services.storage import get_storage
 from blogboard.tools.unsplash_search import fetch_cover_image
+
 from .prompts import VALIDATOR_PROMPT
 
 MAX_REVISIONS = 3
@@ -54,7 +56,7 @@ def validator_node(state: BlogState) -> BlogState:
         prompt_name="Validator_Prompt",
         fallback_prompt=VALIDATOR_PROMPT,
         topic=topic,
-        content=content
+        content=content,
     )
 
     llm_service = LLMAgentService(temperature=0.1)
@@ -90,7 +92,7 @@ def validator_node(state: BlogState) -> BlogState:
             **state,
             "revision_needed": True,
             "validator_feedback": feedback,
-            "revision_count": current_revision + 1
+            "revision_count": current_revision + 1,
         }
 
     print("  [AGENT] Draft APPROVED! Generating Metadata and Saving...")
@@ -121,19 +123,21 @@ def validator_node(state: BlogState) -> BlogState:
     except Exception as e:
         print(f"  [WARN] Cover image fetch failed (continuing without): {e}")
 
-    articles.append({
-        "id": md_relative,
-        "category": domain,
-        "topic": topic,
-        "subtopics": state.get("subtopics", ""),
-        "title": title,
-        "description": description,
-        "date": date,
-        "tags": [domain],
-        "readTime": state.get("read_time", "5 min"),
-        "file": md_relative,
-        "coverImage": cover_image or "",
-    })
+    articles.append(
+        {
+            "id": md_relative,
+            "category": domain,
+            "topic": topic,
+            "subtopics": state.get("subtopics", ""),
+            "title": title,
+            "description": description,
+            "date": date,
+            "tags": [domain],
+            "readTime": state.get("read_time", "5 min"),
+            "file": md_relative,
+            "coverImage": cover_image or "",
+        }
+    )
 
     articles = sorted(articles, key=lambda x: x["date"], reverse=True)
     storage.save_articles_json(domain, articles)
@@ -141,18 +145,25 @@ def validator_node(state: BlogState) -> BlogState:
     # ── Site-wide artifacts: RSS + sitemap + baked site data (best-effort) ──
     try:
         all_articles = storage.get_all_articles()
-        storage.put_object("rss.xml", site_services.generate_rss(all_articles), "application/rss+xml")
-        storage.put_object("sitemap.xml", site_services.generate_sitemap(all_articles), "application/xml")
+        storage.put_object(
+            "rss.xml", site_services.generate_rss(all_articles), "application/rss+xml"
+        )
+        storage.put_object(
+            "sitemap.xml", site_services.generate_sitemap(all_articles), "application/xml"
+        )
     except Exception as e:
         print(f"  [WARN] RSS/sitemap regeneration failed (non-fatal): {e}")
 
     try:
-        if (storage.__class__.__name__ == "LocalStorageService"):
+        if storage.__class__.__name__ == "LocalStorageService":
             import importlib
-            import scripts.build_site as build_site
+
+            from scripts import build_site
+
             importlib.reload(build_site).build_all()
         else:  # R2: bake locally anyway so the repo copy stays fresh
-            import scripts.build_site as build_site
+            from scripts import build_site
+
             build_site.build_all()
     except Exception as e:
         print(f"  [WARN] site-data.js rebuild failed (non-fatal): {e}")

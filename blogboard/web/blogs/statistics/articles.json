@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/federated-learning-and-differential-privacy-statistical-foundations-f.md",
+    "category": "statistics",
+    "topic": "Federated Learning and Differential Privacy: Statistical Foundations for Secure AI",
+    "subtopics": "Privacy-Preserving Model Aggregation, Statistical Guarantees under Client Heterogeneity, Differentially Private Mechanisms for Gradient Sharing, Evaluation of Utility-Privacy Trade-offs",
+    "title": "Federated Learning and Differential Privacy: Statistical Foundations f",
+    "description": "A blog post about Federated Learning and Differential Privacy: Statistical Foundations f",
+    "date": "2026-09-03",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/federated-learning-and-differential-privacy-statistical-foundations-f.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/causal-inference-with-deep-learning-bridging-statistics-and-ai.md",
     "category": "statistics",
     "topic": "Causal Inference with Deep Learning: Bridging Statistics and AI",

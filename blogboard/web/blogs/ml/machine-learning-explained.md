@@ -69,10 +69,12 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
 # Load the data
-data = pd.read_csv('house_prices.csv')
+data = pd.read_csv("house_prices.csv")
 
 # Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(data.drop('price', axis=1), data['price'], test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(
+    data.drop("price", axis=1), data["price"], test_size=0.2, random_state=42
+)
 
 # Train a linear regression model
 model = LinearRegression()
@@ -83,7 +85,7 @@ y_pred = model.predict(X_test)
 
 # Evaluate the model using mean squared error
 mse = mean_squared_error(y_test, y_pred)
-print(f'Mean Squared Error: {mse:.2f}')
+print(f"Mean Squared Error: {mse:.2f}")
 ```
 In this example, we can see how to load the data, split it into training and testing sets, train a linear regression model, make predictions, and evaluate the model using mean squared error.
 
