@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/llm-compression-and-distillation-bringing-powerful-language-models-to.md",
+    "category": "nlp",
+    "topic": "LLM Compression and Distillation: Bringing Powerful Language Models to the Edge",
+    "subtopics": "Model Pruning and Quantization Techniques, Knowledge Distillation Strategies for LLMs, Efficient Inference on Edge Devices, Real-World Deployment Case Studies",
+    "title": "LLM Compression and Distillation: Bringing Powerful Language Models to",
+    "description": "A blog post about LLM Compression and Distillation: Bringing Powerful Language Models to",
+    "date": "2026-09-05",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/nlp/llm-compression-and-distillation-bringing-powerful-language-models-to.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/retrieval-augmented-generation-rag-for-large-language-models-techni.md",
     "category": "nlp",
     "topic": "Retrieval-Augmented Generation (RAG) for Large Language Models: Techniques and Applications",
