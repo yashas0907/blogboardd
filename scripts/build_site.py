@@ -30,6 +30,23 @@ LABELS = {
 
 WORDS_PER_MINUTE = 200
 
+# LLMs sometimes emit exotic Unicode that renders as '?' in some fonts.
+# Normalize the offenders to plain ASCII equivalents during the site bake.
+CHAR_FIXES = {
+    "\u202f": " ",   # narrow no-break space
+    "\u00a0": " ",   # non-breaking space
+    "\u2011": "-",   # non-breaking hyphen
+    "\u2010": "-",   # hyphen (unicode)
+    "\u200b": "",    # zero-width space
+    "\ufeff": "",    # BOM / zero-width no-break space
+}
+
+
+def normalize_text(text: str) -> str:
+    for bad, good in CHAR_FIXES.items():
+        text = text.replace(bad, good)
+    return text
+
 
 def _read_time(text: str) -> str:
     return f"{max(1, -(-len(text.split()) // WORDS_PER_MINUTE))} min"
@@ -132,7 +149,7 @@ def build_site_data() -> Path:
             md_path = WEB / a.get("file", "")
             if md_path.is_file():
                 try:
-                    contents[a["id"]] = md_path.read_text(encoding="utf-8")
+                    contents[a["id"]] = normalize_text(md_path.read_text(encoding="utf-8"))
                 except OSError:
                     pass
 

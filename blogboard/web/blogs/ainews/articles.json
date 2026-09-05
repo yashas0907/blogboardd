@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/gpt-6-astra-ai-news-roundup-september-2026.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "GPT-6 Astra Takes Lead as AI Models Gain Direct Computer Control",
+    "description": "Explore OpenAI's GPT‑6 Astra, its OS‑level actions, rival specialized models, and the security, developer, and market impacts.",
+    "date": "2026-09-05",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/ainews/gpt-6-astra-ai-news-roundup-september-2026.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/october-2024-ai-news-roundup.md",
     "category": "ainews",
     "topic": "Latest AI News",
