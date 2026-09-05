@@ -7,11 +7,18 @@ on:
     - cron: "30 0,6,12,18 * * *"
   workflow_dispatch: {}
 
+# Write permission so the bot can push generated articles back to the repo
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history + persist credentials so the commit+push step works
+          fetch-depth: 0
 
       - name: Install uv
         uses: astral-sh/setup-uv@v5
@@ -63,5 +70,10 @@ jobs:
           git config user.name  "blogboard-bot"
           git config user.email "actions@github.com"
           git add blogboard/web/blogs blogboard/web/rss.xml blogboard/web/sitemap.xml blogboard/web/js/site-data.js
-          git diff --cached --quiet || git commit -m "chore: scheduled article [skip ci]"
-          git push
+          if git diff --cached --quiet; then
+            echo "Nothing to commit — no new article."
+          else
+            git commit -m "chore: scheduled article [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
