@@ -27,17 +27,19 @@ except ImportError:
 
 import os
 
-import sentry_sdk
-
+# Sentry error tracking is optional — only active when SENTRY_DSN is set.
 sentry_dsn = os.getenv("SENTRY_DSN")
 if sentry_dsn:
-    sentry_sdk.init(
-        dsn=sentry_dsn,
-        traces_sample_rate=1.0,
-        _experiments={
-            "continuous_profiling_auto_start": True,
-        },
-    )
+    try:
+        import sentry_sdk
+
+        sentry_sdk.init(
+            dsn=sentry_dsn,
+            traces_sample_rate=1.0,
+            _experiments={"continuous_profiling_auto_start": True},
+        )
+    except ImportError:
+        print("[WARN] SENTRY_DSN set but sentry-sdk not installed — skipping.")
 
 # ── Import compiled graph ─────────────────────────────────────────────────────
 from blogboard.graph.graph import graph
