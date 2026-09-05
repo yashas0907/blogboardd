@@ -3,6 +3,7 @@
   <url><loc>http://localhost:8000/index.html</loc></url>
   <url><loc>http://localhost:8000/category.html</loc></url>
   <url><loc>http://localhost:8000/search.html</loc></url>
+  <url><loc>http://localhost:8000/post.html#id=blogs/ml/federated-learning-privacy-preserving-ai-scale.md</loc><lastmod>2026-09-05</lastmod></url>
   <url><loc>http://localhost:8000/post.html#id=blogs/nlp/llm-compression-and-distillation-bringing-powerful-language-models-to.md</loc><lastmod>2026-09-05</lastmod></url>
   <url><loc>http://localhost:8000/post.html#id=blogs/ainews/gpt-6-astra-ai-news-roundup-september-2026.md</loc><lastmod>2026-09-05</lastmod></url>
   <url><loc>http://localhost:8000/post.html#id=blogs/statistics/federated-learning-and-differential-privacy-statistical-foundations-f.md</loc><lastmod>2026-09-03</lastmod></url>

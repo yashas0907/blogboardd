@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/federated-learning-privacy-preserving-ai-scale.md",
+    "category": "ml",
+    "topic": "Federated Learning: Enabling Privacy-Preserving AI at Scale",
+    "subtopics": "Fundamentals of federated learning, Communication efficiency and model compression, Privacy and security mechanisms (DP, secure aggregation), Real-world applications and deployment challenges",
+    "title": "Federated Learning: Scalable Privacy‑Preserving AI for Edge Devices",
+    "description": "Explore federated learning fundamentals, communication tricks, privacy safeguards, and real‑world deployments that enable AI at scale while protecting user data.",
+    "date": "2026-09-05",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/federated-learning-privacy-preserving-ai-scale.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-transfer-learning.md",
     "category": "ml",
     "topic": "Foundation Models and the Future of Transfer Learning",
