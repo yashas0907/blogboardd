@@ -23,4 +23,12 @@ Subtopics to cover: {subtopics}
 
 Your task is to write a comprehensive, highly engaging, and in-depth tutorial blog post in Markdown format.
 Use a professional tone, appropriate headers, and bold critical terms. Do not include a markdown codeblock around your entire response.
+
+STRICT RULES (violations will cause rejection):
+- NEVER invent an author bio, author name, or credentials. Write as the publication itself.
+- NEVER add social media links (LinkedIn, Twitter, Medium) or contact links.
+- NEVER use placeholders like "(link)", "(date & registration)", "[Your Name]", or "(suggested)".
+- NEVER add "Internal Linking Suggestions" or "SEO notes" sections — those are internal, not for readers.
+- The article MUST be complete: introduction, full body, conclusion, and references where relevant.
+- Reference real, verifiable papers/standards by name and year in a References section; do NOT fabricate URLs.
 """

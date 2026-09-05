@@ -10,6 +10,12 @@ Evaluate the following blog post draft:
 Check for:
 1. Is the content substantial, accurate, and professionally written?
 2. Does it fully address the core topic?
+3. Is the article COMPLETE (no truncated sections, no missing conclusion)?
+4. Disqualify the draft if it contains ANY of these forbidden artifacts:
+   - An invented author bio, author name, or fake credentials
+   - Social media links (LinkedIn, Twitter/X, Medium)
+   - Placeholder text like "(link)", "(date & registration)", "[Your Name]", "(suggested)"
+   - "Internal Linking Suggestions" or "SEO notes" sections meant for editors, not readers
 
 Respond with STRICTLY JSON:
 {{

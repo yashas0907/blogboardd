@@ -1,7 +1,5 @@
 # LLM Compression and Distillation: Bringing Powerful Language Models to the Edge  
 
-*By [Your Name], Senior Technical Writer – NLP & Edge‑AI*  
-
 ---
 
 ## Table of Contents

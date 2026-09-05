@@ -156,7 +156,6 @@ Stay tuned for next month’s deep‑dive into **AI‑driven cybersecurity** and
 
 ---  
 
-*Author: [Your Name], Senior Technology Correspondent*  
 *Published: 2 Oct 2024*  
 
 *Keywords: GPT‑4 Turbo, Gemini 1.5, Claude 3.5, EU AI Act, NVIDIA GH200‑P, generative video, AI healthcare, AI climate report, Stability AI Series C*

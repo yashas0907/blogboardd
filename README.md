@@ -4,8 +4,8 @@
 > reviews, revises, illustrates, and publishes deep-dive AI/ML articles — automatically,
 > on a schedule, with zero human intervention.
 
-[![CI](https://github.com/KalyanM45/Multi-Agentic-Blog-Generation/actions/workflows/ci.yml/badge.svg)](https://github.com/KalyanM45/Multi-Agentic-Blog-Generation/actions/workflows/ci.yml)
-[![Generate](https://github.com/KalyanM45/Multi-Agentic-Blog-Generation/actions/workflows/generate.yml/badge.svg)](https://github.com/KalyanM45/Multi-Agentic-Blog-Generation/actions/workflows/generate.yml)
+[![CI](https://github.com/yashas0907/blogboardd/actions/workflows/ci.yml/badge.svg)](https://github.com/yashas0907/blogboardd/actions/workflows/ci.yml)
+[![Generate](https://github.com/yashas0907/blogboardd/actions/workflows/generate.yml/badge.svg)](https://github.com/yashas0907/blogboardd/actions/workflows/generate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## What it does
@@ -24,8 +24,8 @@
 ## Quick start (60 seconds, zero API keys)
 
 ```bash
-git clone https://github.com/KalyanM45/Multi-Agentic-Blog-Generation.git
-cd Multi-Agentic-Blog-Generation
+git clone https://github.com/yashas0907/blogboardd.git
+cd blogboardd
 uv venv && uv sync
 
 # Preview the whole pipeline without any keys or file writes:

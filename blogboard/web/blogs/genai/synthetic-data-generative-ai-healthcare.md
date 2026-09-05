@@ -17,7 +17,6 @@ The rise of **generative AI** has opened new avenues for creating realistic, syn
 4. [Regulatory & Ethical Compliance Frameworks](#regulatory--ethical-compliance-frameworks)  
 5. [Implementation Blueprint: End‑to‑End Workflow](#implementation-blueprint-end-to-end-workflow)  
 6. [Conclusion & Call‑to‑Action](#conclusion--call-to-action)  
-7. [Author Bio](#author-bio)  
 8. [References](#references)  
 
 ---
@@ -159,35 +158,7 @@ flowchart TD
 
 Synthetic data powered by generative AI is no longer a research curiosity—it is a **strategic asset** that can accelerate drug discovery, improve diagnostic models, and democratize access to high‑quality clinical information while respecting patient privacy. By adopting robust privacy mechanisms, domain‑specific adaptation, rigorous utility evaluation, and compliant governance, healthcare organizations can safely unlock the full potential of their data assets.
 
-**Ready to start your synthetic data journey?**  
-- **Download our free checklist**: *“Synthetic Data Readiness for Healthcare”* (link).  
-- **Join our upcoming webinar** on *Privacy‑Preserving AI in Clinical Research* (date & registration).  
-- **Contact our AI Innovation Lab** for a pilot project tailored to your rare‑disease cohort.
-
-*Transform data constraints into innovation opportunities—today.*
-
 ---
-
-## Author Bio  
-
-**Dr. Maya Patel, PhD**  
-Senior Technical Writer & AI‑Healthcare Strategist at **HealthAI Labs**. With a doctorate in Biomedical Informatics and 10+ years of experience bridging machine learning research and clinical implementation, Maya leads the development of privacy‑preserving data pipelines for hospitals and biotech firms. She is a frequent speaker at HIMSS, author of the *Synthetic Data Handbook*, and co‑author of the ISO/TS 22220 draft. Connect with Maya on [LinkedIn](https://www.linkedin.com/in/mayapatel) or follow her insights on [Twitter @MayaAIHealth](https://twitter.com/MayaAIHealth).
-
----
-
-## Internal Linking Suggestions  
-
-| Anchor Text | Target URL (suggested) |
-|-------------|------------------------|
-| “HIPAA Safe Harbor vs. Expert Determination” | `/privacy/hipaa-safe-harbor` |
-| “Differential Privacy in GANs” | `/ai/dp-gans` |
-| “Synthetic Data Quality Index (SDQI)” | `/metrics/sdqi` |
-| “FDA Good Machine Learning Practice (GMLP)” | `/regulation/fda-gmlp` |
-| “Rare Disease Data Augmentation” | `/applications/rare-disease-augmentation` |
-| “Synthetic Data Fact Sheet Template” | `/resources/fact-sheet-template` |
-| “Healthcare AI Ethics Checklist” | `/ethics/healthcare-ai-checklist` |
-
-Embedding these links will improve site navigation, SEO juice, and keep readers engaged with related content.
 
 ---
 
