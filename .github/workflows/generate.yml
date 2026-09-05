@@ -1,9 +1,10 @@
 name: Scheduled Article Generation
 
 on:
-  # 8:00 AM IST = 02:30 UTC — matches the published schedule
+  # Every 6 hours (00:30, 06:30, 12:30, 18:30 UTC) = 4 articles/day
+  # Weekday→domain rotation still applies per run-day
   schedule:
-    - cron: "30 2 * * *"
+    - cron: "30 0,6,12,18 * * *"
   workflow_dispatch: {}
 
 jobs:
@@ -20,15 +21,15 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
-      - name: Determine track (weekday → domain)
+      - name: Determine track (rotates through all domains)
         id: track
         run: |
-          # Mon=ml Tue=dl Wed=statistics Thu=nlp Fri=cv Sat=genai Sun=ainews
-          declare -A SCHEDULE=( [1]=ml [2]=dl [3]=statistics [4]=nlp [5]=cv [6]=genai [7]=ainews )
-          DOW=$(date +%u)
-          DOMAIN=${SCHEDULE[$DOW]}
+          # 7 domains, one per 6-hour slot. Full rotation every 42 hours.
+          DOMAINS=(ml dl statistics nlp cv genai ainews)
+          SLOT=$(( $(date +%s) / 21600 ))   # 6-hour slots since epoch
+          DOMAIN=${DOMAINS[$(( SLOT % 7 ))]}
           echo "domain=$DOMAIN" >> "$GITHUB_OUTPUT"
-          echo "Today is day $DOW → generating for '$DOMAIN'"
+          echo "Slot $SLOT -> generating for '$DOMAIN'"
 
       - name: Run generation pipeline
         env:
