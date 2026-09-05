@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/cv/retrievalaugmented-multimodal-visionlanguage-models-for-realworld-u.md",
+    "category": "cv",
+    "topic": "Retrieval‑Augmented Multimodal Vision‑Language Models for Real‑World Understanding",
+    "subtopics": "Retrieval‑augmented generation for visual tasks, Cross‑modal attention and fusion architectures, Large‑scale pretraining with web‑scale image‑text corpora, Efficient inference and deployment strategies for multimodal systems",
+    "title": "Retrieval‑Augmented Multimodal Vision‑Language Models for Real‑World U",
+    "description": "A blog post about Retrieval‑Augmented Multimodal Vision‑Language Models for Real‑World U",
+    "date": "2026-09-06",
+    "tags": [
+      "cv"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/cv/retrievalaugmented-multimodal-visionlanguage-models-for-realworld-u.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/cv/foundation-vision-models-promptable-vision-transformers-and-their-app.md",
     "category": "cv",
     "topic": "Foundation Vision Models: Promptable Vision Transformers and Their Applications",
