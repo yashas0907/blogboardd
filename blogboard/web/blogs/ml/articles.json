@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/diffusion-models-the-next-frontier-in-generative-ai.md",
+    "category": "ml",
+    "topic": "Diffusion Models: The Next Frontier in Generative AI",
+    "subtopics": "Fundamentals of diffusion processes and denoising, Architecture variants (DDPM, DDIM, Latent Diffusion), Text‑to‑image and multimodal generation, Real‑world applications and future research directions",
+    "title": "Diffusion Models: The Next Frontier in Generative AI",
+    "description": "A blog post about Diffusion Models: The Next Frontier in Generative AI",
+    "date": "2026-09-06",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/diffusion-models-the-next-frontier-in-generative-ai.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/federated-learning-privacy-preserving-ai-scale.md",
     "category": "ml",
     "topic": "Federated Learning: Enabling Privacy-Preserving AI at Scale",
