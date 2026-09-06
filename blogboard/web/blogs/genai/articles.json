@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-sustainable-materials-design.md",
+    "category": "genai",
+    "topic": "Generative AI for Sustainable Materials Design",
+    "subtopics": "Inverse material property prediction using diffusion models, Integration of generative models with high-throughput simulations, Closed-loop experimental validation pipelines, Environmental impact assessment and life-cycle analysis",
+    "title": "Generative AI for Sustainable Materials Design: A Complete Tutorial",
+    "description": "Learn how diffusion models, high‑throughput simulations, closed‑loop experiments, and LCA combine to accelerate eco‑friendly material discovery.",
+    "date": "2026-09-06",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/genai/generative-ai-sustainable-materials-design.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/synthetic-data-generative-ai-healthcare.md",
     "category": "genai",
     "topic": "Synthetic Data Generation with Generative AI for Healthcare Innovation",
