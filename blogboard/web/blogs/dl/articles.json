@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/neural-radiance-fields-nerf-revolutionizing-3d-scene-representation.md",
+    "category": "dl",
+    "topic": "Neural Radiance Fields (NeRF): Revolutionizing 3D Scene Representation",
+    "subtopics": "Fundamentals of NeRF and volumetric rendering, Training pipelines and data requirements, Applications in AR/VR and view synthesis, Recent extensions (Instant‑NGP, mip‑NeRF, dynamic NeRFs)",
+    "title": "Neural Radiance Fields (NeRF): Revolutionizing 3D Scene Representation",
+    "description": "A blog post about Neural Radiance Fields (NeRF): Revolutionizing 3D Scene Representation",
+    "date": "2026-09-07",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/dl/neural-radiance-fields-nerf-revolutionizing-3d-scene-representation.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/diffusion-models-the-new-frontier-in-generative-ai.md",
     "category": "dl",
     "topic": "Diffusion Models: The New Frontier in Generative AI",
