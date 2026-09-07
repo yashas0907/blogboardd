@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/cv/foundations-for-3d-vision-point-cloud-transformers-and-implicit-neura.md",
+    "category": "cv",
+    "topic": "Foundations for 3D Vision: Point Cloud Transformers and Implicit Neural Representations",
+    "subtopics": "Point cloud transformer architectures, Implicit neural representations for 3D scenes (NeRFs, SDFs), Cross‑modal 3D‑2D fusion techniques, Real‑time 3D perception on edge and mobile devices",
+    "title": "Foundations for 3D Vision: Point Cloud Transformers and Implicit Neura",
+    "description": "A blog post about Foundations for 3D Vision: Point Cloud Transformers and Implicit Neura",
+    "date": "2026-09-07",
+    "tags": [
+      "cv"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/cv/foundations-for-3d-vision-point-cloud-transformers-and-implicit-neura.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/cv/retrievalaugmented-multimodal-visionlanguage-models-for-realworld-u.md",
     "category": "cv",
     "topic": "Retrieval‑Augmented Multimodal Vision‑Language Models for Real‑World Understanding",
