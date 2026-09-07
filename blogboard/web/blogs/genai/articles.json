@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-automated-testing-bug-detection.md",
+    "category": "genai",
+    "topic": "Generative AI for Automated Software Testing and Bug Detection",
+    "subtopics": "LLM-driven test case generation, Fault localization and root-cause analysis using generative models, Seamless integration with CI/CD pipelines, Evaluation metrics and benchmark suites for AI-generated tests",
+    "title": "Generative AI for Automated Testing & Bug Detection",
+    "description": "Learn how to use large language models to generate, run, and evaluate automated tests, locate bugs, and integrate AI‑driven testing into CI/CD pipelines.",
+    "date": "2026-09-08",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/genai/generative-ai-automated-testing-bug-detection.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-sustainable-materials-design.md",
     "category": "genai",
     "topic": "Generative AI for Sustainable Materials Design",
