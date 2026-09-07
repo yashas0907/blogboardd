@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/uncertainty-quantification-and-calibration-in-large-language-models.md",
+    "category": "statistics",
+    "topic": "Uncertainty Quantification and Calibration in Large Language Models",
+    "subtopics": "Probabilistic Predictive Distributions for Transformers, Calibration Techniques for Generative Text, Bayesian Approximation Methods in High-Dimensional Models, Impact of Uncertainty Estimates on Downstream AI Applications",
+    "title": "Uncertainty Quantification and Calibration in Large Language Models",
+    "description": "A blog post about Uncertainty Quantification and Calibration in Large Language Models",
+    "date": "2026-09-07",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/statistics/uncertainty-quantification-and-calibration-in-large-language-models.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/federated-learning-and-differential-privacy-statistical-foundations-f.md",
     "category": "statistics",
     "topic": "Federated Learning and Differential Privacy: Statistical Foundations for Secure AI",
