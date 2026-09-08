@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/selfsupervised-learning-unlocking-the-power-of-unlabeled-data-at-sca.md",
+    "category": "ml",
+    "topic": "Self‑Supervised Learning: Unlocking the Power of Unlabeled Data at Scale",
+    "subtopics": "Fundamentals and key paradigms (contrastive, masked, predictive), Architectural breakthroughs (Vision Transformers, BYOL, SimCLR, MAE), Cross‑modal and multimodal self‑supervision, Real‑world deployments and emerging research directions",
+    "title": "Self‑Supervised Learning: Unlocking the Power of Unlabeled Data at Sca",
+    "description": "A blog post about Self‑Supervised Learning: Unlocking the Power of Unlabeled Data at Sca",
+    "date": "2026-09-08",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/selfsupervised-learning-unlocking-the-power-of-unlabeled-data-at-sca.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/diffusion-models-the-next-frontier-in-generative-ai.md",
     "category": "ml",
     "topic": "Diffusion Models: The Next Frontier in Generative AI",
