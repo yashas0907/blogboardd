@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-week-review-gpt6-astra-model-fatigue-safety.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI Week in Review: GPT‑6 Astra, Model‑Fatigue Sprint & Safety Alerts",
+    "description": "A rapid roundup of early September 2026 AI news: OpenAI's GPT‑6 Astra AGI claim, a sprint of new models across labs, and rising safety concerns.",
+    "date": "2026-09-08",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/ainews/ai-week-review-gpt6-astra-model-fatigue-safety.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/ai-news-sep-2026-openai-astra-meta-muse-spark-google-gemini-flash.md",
     "category": "ainews",
     "topic": "Latest AI News",
