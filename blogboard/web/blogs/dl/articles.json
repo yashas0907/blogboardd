@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/multimodal-foundation-models-vision-language-audio.md",
+    "category": "dl",
+    "topic": "Foundation Models for Multimodal AI: Integrating Vision, Language, and Audio",
+    "subtopics": "Fundamentals of multimodal foundation models, Training strategies and dataset curation, Emerging architectures (e.g., CLIP, Flamingo, ALIGN), Real-world applications and challenges",
+    "title": "Multimodal Foundation Models: Vision, Language & Audio Explained",
+    "description": "Explore how multimodal foundation models unify vision, language, and audio, covering training methods, key architectures, applications, and future challenges.",
+    "date": "2026-09-08",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/dl/multimodal-foundation-models-vision-language-audio.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/neural-radiance-fields-nerf-revolutionizing-3d-scene-representation.md",
     "category": "dl",
     "topic": "Neural Radiance Fields (NeRF): Revolutionizing 3D Scene Representation",
