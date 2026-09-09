@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/cv/foundation-models-for-video-understanding-vision-transformers-and-dif.md",
+    "category": "cv",
+    "topic": "Foundation Models for Video Understanding: Vision Transformers and Diffusion for Temporal Modeling",
+    "subtopics": "Spatiotemporal Vision Transformer architectures, Video diffusion models for high‑fidelity generation, Large‑scale pretraining on web‑scale video corpora, Efficient fine‑tuning and deployment strategies for real‑time video applications",
+    "title": "Foundation Models for Video Understanding: Vision Transformers and Dif",
+    "description": "A blog post about Foundation Models for Video Understanding: Vision Transformers and Dif",
+    "date": "2026-09-09",
+    "tags": [
+      "cv"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/cv/foundation-models-for-video-understanding-vision-transformers-and-dif.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/cv/foundations-for-3d-vision-point-cloud-transformers-and-implicit-neura.md",
     "category": "cv",
     "topic": "Foundations for 3D Vision: Point Cloud Transformers and Implicit Neural Representations",
