@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-code-refactoring-docs.md",
+    "category": "genai",
+    "topic": "Generative AI for Automated Code Refactoring and Documentation",
+    "subtopics": "LLM-driven code improvement suggestions, Automated generation of API documentation and usage examples, Integration with version control and CI pipelines for continuous refactoring, Measuring code quality impact and developer productivity metrics",
+    "title": "Generative AI for Automated Code Refactoring & Docs: Complete Guide",
+    "description": "Learn how to harness large language models for automated code refactoring, API documentation, and CI/CD integration, with best practices and measurable ROI.",
+    "date": "2026-09-09",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/genai/generative-ai-code-refactoring-docs.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-automated-testing-bug-detection.md",
     "category": "genai",
     "topic": "Generative AI for Automated Software Testing and Bug Detection",
