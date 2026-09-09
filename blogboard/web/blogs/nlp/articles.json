@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/llm-agents-tool-use-autonomous-ai.md",
+    "category": "nlp",
+    "topic": "LLM Agents and Tool Use: Enabling Autonomous AI Systems",
+    "subtopics": "Agentic Architectures and Planning, Integrating External Tools and APIs, Reinforcement Learning from Human Feedback for Agent Behavior, Safety, Reliability, and Evaluation of LLM Agents",
+    "title": "LLM Agents & Tool Use: Building Autonomous AI Systems",
+    "description": "Explore how LLM agents plan, use tools, and stay safe with RLHF, memory, and compliance standards.",
+    "date": "2026-09-09",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/nlp/llm-agents-tool-use-autonomous-ai.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/llm-compression-and-distillation-bringing-powerful-language-models-to.md",
     "category": "nlp",
     "topic": "LLM Compression and Distillation: Bringing Powerful Language Models to the Edge",
