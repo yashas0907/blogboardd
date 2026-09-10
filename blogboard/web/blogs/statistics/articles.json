@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/robust-statistics-for-ai-tackling-distribution-shifts-and-adversarial.md",
+    "category": "statistics",
+    "topic": "Robust Statistics for AI: Tackling Distribution Shifts and Adversarial Perturbations",
+    "subtopics": "Detecting and Quantifying Distribution Shifts, Robust Estimators and M-Estimators for Deep Networks, Influence Functions for Adversarial Robustness, Statistical Monitoring and Drift Detection in Production",
+    "title": "Robust Statistics for AI: Tackling Distribution Shifts and Adversarial",
+    "description": "A blog post about Robust Statistics for AI: Tackling Distribution Shifts and Adversarial",
+    "date": "2026-09-10",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/robust-statistics-for-ai-tackling-distribution-shifts-and-adversarial.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/uncertainty-quantification-and-calibration-in-large-language-models.md",
     "category": "statistics",
     "topic": "Uncertainty Quantification and Calibration in Large Language Models",
