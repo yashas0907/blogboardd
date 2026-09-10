@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/reinforcement-learning-from-human-feedback-rlhf-shaping-safer-and-a.md",
+    "category": "dl",
+    "topic": "Reinforcement Learning from Human Feedback (RLHF): Shaping Safer and Aligned AI",
+    "subtopics": "Fundamentals of the RLHF pipeline and reward modeling, Data collection and annotation strategies for human feedback, Scaling RLHF to large language and multimodal models, Challenges, safety considerations, and future research directions",
+    "title": "Reinforcement Learning from Human Feedback (RLHF): Shaping Safer and A",
+    "description": "A blog post about Reinforcement Learning from Human Feedback (RLHF): Shaping Safer and A",
+    "date": "2026-09-10",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/dl/reinforcement-learning-from-human-feedback-rlhf-shaping-safer-and-a.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/multimodal-foundation-models-vision-language-audio.md",
     "category": "dl",
     "topic": "Foundation Models for Multimodal AI: Integrating Vision, Language, and Audio",
