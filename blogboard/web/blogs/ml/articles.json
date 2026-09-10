@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/rlhf-aligning-ai-human-intent.md",
+    "category": "ml",
+    "topic": "Reinforcement Learning from Human Feedback: Aligning AI with Human Intent",
+    "subtopics": "Fundamentals of RLHF and reward modeling, Preference data collection and annotation pipelines, Scaling RLHF for large language and multimodal models, Applications, challenges, and ethical considerations",
+    "title": "RLHF: Aligning AI with Human Intent – A Complete Guide",
+    "description": "Learn how Reinforcement Learning from Human Feedback (RLHF) aligns large language and multimodal models with human values, covering fundamentals, pipelines, scaling, ethics, and regulation.",
+    "date": "2026-09-10",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/ml/rlhf-aligning-ai-human-intent.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/selfsupervised-learning-unlocking-the-power-of-unlabeled-data-at-sca.md",
     "category": "ml",
     "topic": "Self‑Supervised Learning: Unlocking the Power of Unlabeled Data at Scale",
