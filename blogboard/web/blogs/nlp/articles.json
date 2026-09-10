@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/multimodal-large-language-models-integrating-text-vision-and-audio.md",
+    "category": "nlp",
+    "topic": "Multimodal Large Language Models: Integrating Text, Vision, and Audio",
+    "subtopics": "Architectures for Multimodal Fusion, Training Paradigms and Datasets, Real-World Applications (e.g., visual question answering, audio captioning, cross‑modal search), Challenges in Alignment, Evaluation, and Resource Efficiency",
+    "title": "Multimodal Large Language Models: Integrating Text, Vision, and Audio",
+    "description": "A blog post about Multimodal Large Language Models: Integrating Text, Vision, and Audio",
+    "date": "2026-09-11",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/nlp/multimodal-large-language-models-integrating-text-vision-and-audio.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/llm-agents-tool-use-autonomous-ai.md",
     "category": "nlp",
     "topic": "LLM Agents and Tool Use: Enabling Autonomous AI Systems",
