@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-news-sep-4-11-2026-math-school-cyber.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI News Sep 4‑11 2026: Math Breakthrough, School Pact, Cyber Threats",
+    "description": "This week’s AI roundup covers OpenAI’s Navier‑Stokes claim, the first national AI safety pact for U.S. schools, and Anthropic’s warning on AI‑enabled cyber threats.",
+    "date": "2026-09-11",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ainews/ai-news-sep-4-11-2026-math-school-cyber.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/ai-week-review-gpt6-astra-model-fatigue-safety.md",
     "category": "ainews",
     "topic": "Latest AI News",
