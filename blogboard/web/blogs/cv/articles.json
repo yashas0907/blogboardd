@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/cv/embodied-visionlanguage-foundation-models-for-robotics-integrating-p.md",
+    "category": "cv",
+    "topic": "Embodied Vision‑Language Foundation Models for Robotics: Integrating Perception, Language, and Action",
+    "subtopics": "Promptable embodied vision‑language models for task specification, Multi‑modal sensor fusion (RGB, depth, proprioception) with transformer backbones, Sim‑to‑real transfer and continual adaptation of large‑scale pre‑trained models, Real‑time planning and control pipelines leveraging foundation models for zero‑shot robotic manipulation",
+    "title": "Embodied Vision‑Language Foundation Models for Robotics: Integrating P",
+    "description": "A blog post about Embodied Vision‑Language Foundation Models for Robotics: Integrating P",
+    "date": "2026-09-11",
+    "tags": [
+      "cv"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/cv/embodied-visionlanguage-foundation-models-for-robotics-integrating-p.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/cv/foundation-models-for-video-understanding-vision-transformers-and-dif.md",
     "category": "cv",
     "topic": "Foundation Models for Video Understanding: Vision Transformers and Diffusion for Temporal Modeling",
