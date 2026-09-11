@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/sparse-mixture-of-experts-and-efficient-scaling-of-large-models.md",
+    "category": "ml",
+    "topic": "Sparse Mixture-of-Experts and Efficient Scaling of Large Models",
+    "subtopics": "Fundamentals of MoE architectures and routing mechanisms, Training stability and scaling laws for sparse models, Real‑world deployments and hardware considerations, Emerging research directions and ethical implications",
+    "title": "Sparse Mixture-of-Experts and Efficient Scaling of Large Models",
+    "description": "A blog post about Sparse Mixture-of-Experts and Efficient Scaling of Large Models",
+    "date": "2026-09-12",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ml/sparse-mixture-of-experts-and-efficient-scaling-of-large-models.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/rlhf-aligning-ai-human-intent.md",
     "category": "ml",
     "topic": "Reinforcement Learning from Human Feedback: Aligning AI with Human Intent",
