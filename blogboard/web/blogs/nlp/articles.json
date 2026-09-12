@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/retrievalaugmented-generation-rag-enhancing-language-models-with-e.md",
+    "category": "nlp",
+    "topic": "Retrieval‑Augmented Generation (RAG): Enhancing Language Models with External Knowledge",
+    "subtopics": "Retriever‑Generator Architectures, Scaling and Indexing Strategies for Large Corpora, Evaluation Metrics for Knowledge‑Intensive Tasks, Real‑World Applications (e.g., fact‑checking, open‑domain QA, personalized assistants)",
+    "title": "Retrieval‑Augmented Generation (RAG): Enhancing Language Models with E",
+    "description": "A blog post about Retrieval‑Augmented Generation (RAG): Enhancing Language Models with E",
+    "date": "2026-09-12",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/nlp/retrievalaugmented-generation-rag-enhancing-language-models-with-e.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/multimodal-large-language-models-integrating-text-vision-and-audio.md",
     "category": "nlp",
     "topic": "Multimodal Large Language Models: Integrating Text, Vision, and Audio",
