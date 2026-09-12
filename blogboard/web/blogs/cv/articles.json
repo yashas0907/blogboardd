@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/cv/foundation-models-for-remote-sensing-and-earth-observation-scaling-vi.md",
+    "category": "cv",
+    "topic": "Foundation Models for Remote Sensing and Earth Observation: Scaling Vision Transformers to Satellite Imagery",
+    "subtopics": "Large‑scale pretraining on multi‑spectral and SAR satellite data, Promptable multimodal queries combining text, geo‑coordinates, and temporal context, Efficient fine‑tuning for downstream tasks such as land‑cover mapping, change detection, and disaster assessment, Real‑time inference on edge/edge‑cloud platforms for rapid response",
+    "title": "Foundation Models for Remote Sensing and Earth Observation: Scaling Vi",
+    "description": "A blog post about Foundation Models for Remote Sensing and Earth Observation: Scaling Vi",
+    "date": "2026-09-13",
+    "tags": [
+      "cv"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/cv/foundation-models-for-remote-sensing-and-earth-observation-scaling-vi.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/cv/embodied-visionlanguage-foundation-models-for-robotics-integrating-p.md",
     "category": "cv",
     "topic": "Embodied Vision‑Language Foundation Models for Robotics: Integrating Perception, Language, and Action",
