@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/diffusion-models-from-image-synthesis-to-scientific-discovery.md",
+    "category": "dl",
+    "topic": "Diffusion Models: From Image Synthesis to Scientific Discovery",
+    "subtopics": "Fundamentals of diffusion processes and probabilistic formulation, Training and sampling strategies (e.g., classifier‑free guidance, progressive distillation), Scaling diffusion models to high‑resolution images, video, and 3‑D data, Real‑world applications: creative generation, drug discovery, inverse problems, and scientific simulation",
+    "title": "Diffusion Models: From Image Synthesis to Scientific Discovery",
+    "description": "A blog post about Diffusion Models: From Image Synthesis to Scientific Discovery",
+    "date": "2026-09-12",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/dl/diffusion-models-from-image-synthesis-to-scientific-discovery.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/reinforcement-learning-from-human-feedback-rlhf-shaping-safer-and-a.md",
     "category": "dl",
     "topic": "Reinforcement Learning from Human Feedback (RLHF): Shaping Safer and Aligned AI",
