@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/causal-inference-for-deep-learning-foundations-methods-and-applicat.md",
+    "category": "statistics",
+    "topic": "Causal Inference for Deep Learning: Foundations, Methods, and Applications",
+    "subtopics": "Causal Graphical Models for Neural Networks, Counterfactual Explanation and Debugging of AI Systems, Estimating Treatment Effects in Recommendation and Personalization, Statistical Tests for Causal Discovery in High‑Dimensional Data",
+    "title": "Causal Inference for Deep Learning: Foundations, Methods, and Applicat",
+    "description": "A blog post about Causal Inference for Deep Learning: Foundations, Methods, and Applicat",
+    "date": "2026-09-12",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/statistics/causal-inference-for-deep-learning-foundations-methods-and-applicat.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/robust-statistics-for-ai-tackling-distribution-shifts-and-adversarial.md",
     "category": "statistics",
     "topic": "Robust Statistics for AI: Tackling Distribution Shifts and Adversarial Perturbations",
