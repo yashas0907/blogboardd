@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-synthetic-data-privacy-analytics.md",
+    "category": "genai",
+    "topic": "Generative AI for Synthetic Data Generation and Privacy-Preserving Analytics",
+    "subtopics": "Diffusion and GAN models for tabular and multimedia synthetic data, Privacy guarantees with differential privacy and federated generation, Integration into data pipelines for model training and testing, Evaluation metrics and downstream task performance assessment",
+    "title": "Generative AI for Synthetic Data & Privacy‑Preserving Analytics",
+    "description": "Explore state‑of‑the‑art GAN and diffusion models for synthetic data, learn differential privacy and federated generation, and master evaluation and deployment.",
+    "date": "2026-09-13",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/genai/generative-ai-synthetic-data-privacy-analytics.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-code-refactoring-docs.md",
     "category": "genai",
     "topic": "Generative AI for Automated Code Refactoring and Documentation",
