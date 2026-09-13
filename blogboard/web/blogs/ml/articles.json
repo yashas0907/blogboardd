@@ -15,6 +15,21 @@
     "coverImage": ""
   },
   {
+    "id": "blogs/ml/foundation-models-for-time-series-scaling-forecasting-with-large-neur.md",
+    "category": "ml",
+    "topic": "Foundation Models for Time Series: Scaling Forecasting with Large Neural Networks",
+    "subtopics": "Fundamentals of time‑series foundation models and pretraining objectives, Large‑scale datasets and self‑supervised pretraining strategies, Fine‑tuning techniques for downstream forecasting, Evaluation metrics, deployment challenges, and future research directions",
+    "title": "Foundation Models for Time Series: Scaling Forecasting with Large Neur",
+    "description": "A blog post about Foundation Models for Time Series: Scaling Forecasting with Large Neur",
+    "date": "2026-09-13",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/foundation-models-for-time-series-scaling-forecasting-with-large-neur.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/sparse-mixture-of-experts-and-efficient-scaling-of-large-models.md",
     "category": "ml",
     "topic": "Sparse Mixture-of-Experts and Efficient Scaling of Large Models",
