@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/energy-based-models-from-theory-to-scalable-generative-ai.md",
+    "category": "dl",
+    "topic": "Energy-Based Models: From Theory to Scalable Generative AI",
+    "subtopics": "Probabilistic foundations and connections to diffusion models, Training techniques and contrastive divergence variants, Efficient sampling via score matching and annealed Langevin dynamics, Applications in image synthesis, scientific modeling, and reinforcement learning",
+    "title": "Energy-Based Models: From Theory to Scalable Generative AI",
+    "description": "A blog post about Energy-Based Models: From Theory to Scalable Generative AI",
+    "date": "2026-09-14",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/dl/energy-based-models-from-theory-to-scalable-generative-ai.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/diffusion-models-from-image-synthesis-to-scientific-discovery.md",
     "category": "dl",
     "topic": "Diffusion Models: From Image Synthesis to Scientific Discovery",
