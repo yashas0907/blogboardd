@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/diffusion-models-from-image-generation-to-multimodal-creativity.md",
+    "category": "ml",
+    "topic": "Diffusion Models: From Image Generation to Multimodal Creativity",
+    "subtopics": "Fundamentals of diffusion processes and training dynamics, Scaling diffusion models with large datasets and compute, Extending diffusion to audio, video, 3D, and text modalities, Open challenges, evaluation metrics, and future research directions",
+    "title": "Diffusion Models: From Image Generation to Multimodal Creativity",
+    "description": "A blog post about Diffusion Models: From Image Generation to Multimodal Creativity",
+    "date": "2026-09-13",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/diffusion-models-from-image-generation-to-multimodal-creativity.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/sparse-mixture-of-experts-and-efficient-scaling-of-large-models.md",
     "category": "ml",
     "topic": "Sparse Mixture-of-Experts and Efficient Scaling of Large Models",
