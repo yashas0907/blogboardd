@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-for-multimodal-retrievalaugmented-generation-rag-in-e.md",
+    "category": "genai",
+    "topic": "Generative AI for Multimodal Retrieval‑Augmented Generation (RAG) in Enterprise Knowledge Management",
+    "subtopics": "Unified vector store architecture for text, image, and audio assets, Prompt‑driven grounding and factuality control across modalities, Secure, compliant pipelines for proprietary data ingestion and access control, Evaluation metrics and benchmark suites for multimodal RAG performance",
+    "title": "Generative AI for Multimodal Retrieval‑Augmented Generation (RAG) in E",
+    "description": "A blog post about Generative AI for Multimodal Retrieval‑Augmented Generation (RAG) in E",
+    "date": "2026-09-15",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/genai/generative-ai-for-multimodal-retrievalaugmented-generation-rag-in-e.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-synthetic-data-privacy-analytics.md",
     "category": "genai",
     "topic": "Generative AI for Synthetic Data Generation and Privacy-Preserving Analytics",
