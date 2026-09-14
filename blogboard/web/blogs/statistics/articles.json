@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-and-evaluation-of-diffusion-models-for-generat.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations and Evaluation of Diffusion Models for Generative AI",
+    "subtopics": "Score Matching and Likelihood Estimation in High Dimensions, Statistical Metrics for Sample Quality and Diversity, Uncertainty Quantification in Diffusion Sampling, Bias and Fairness Assessment in Diffusion-Generated Content",
+    "title": "Statistical Foundations and Evaluation of Diffusion Models for Generat",
+    "description": "A blog post about Statistical Foundations and Evaluation of Diffusion Models for Generat",
+    "date": "2026-09-14",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-and-evaluation-of-diffusion-models-for-generat.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/causal-inference-for-deep-learning-foundations-methods-and-applicat.md",
     "category": "statistics",
     "topic": "Causal Inference for Deep Learning: Foundations, Methods, and Applications",
