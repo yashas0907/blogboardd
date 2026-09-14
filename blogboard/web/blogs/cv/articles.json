@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/cv/foundation-models-for-3d-scene-understanding-scaling-vision-transform.md",
+    "category": "cv",
+    "topic": "Foundation Models for 3D Scene Understanding: Scaling Vision Transformers to Point Clouds and Meshes",
+    "subtopics": "Large‑scale pretraining on multi‑modal 3D datasets (LiDAR, depth, RGB‑D), Promptable 3D queries with textual and spatial descriptors, Efficient fine‑tuning for downstream tasks such as 3D segmentation, object detection, and scene reconstruction, Real‑time inference on edge/AR devices for immersive applications",
+    "title": "Foundation Models for 3D Scene Understanding: Scaling Vision Transform",
+    "description": "A blog post about Foundation Models for 3D Scene Understanding: Scaling Vision Transform",
+    "date": "2026-09-14",
+    "tags": [
+      "cv"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/cv/foundation-models-for-3d-scene-understanding-scaling-vision-transform.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/cv/foundation-models-for-remote-sensing-and-earth-observation-scaling-vi.md",
     "category": "cv",
     "topic": "Foundation Models for Remote Sensing and Earth Observation: Scaling Vision Transformers to Satellite Imagery",
