@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/graph-foundation-models-scaling-representation-learning-on-massive-gr.md",
+    "category": "ml",
+    "topic": "Graph Foundation Models: Scaling Representation Learning on Massive Graphs",
+    "subtopics": "Fundamentals of graph foundation models and pretraining objectives, Distributed training and scaling to billion‑node heterogeneous graphs, Fine‑tuning strategies for downstream graph tasks (node classification, link prediction, graph generation), Benchmarks, efficiency considerations, and future research directions",
+    "title": "Graph Foundation Models: Scaling Representation Learning on Massive Gr",
+    "description": "A blog post about Graph Foundation Models: Scaling Representation Learning on Massive Gr",
+    "date": "2026-09-15",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/graph-foundation-models-scaling-representation-learning-on-massive-gr.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/diffusion-models-from-image-generation-to-multimodal-creativity.md",
     "category": "ml",
     "topic": "Diffusion Models: From Image Generation to Multimodal Creativity",
