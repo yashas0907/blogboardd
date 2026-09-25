@@ -1,0 +1,77 @@
+[
+  {
+    "id": "blogs/ainews/ai-roundup-rogue-agents-market-shockwaves-safety-tool.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI Roundup: Rogue Agents, Market Shockwaves & New Safety Tool",
+    "description": "Explore the latest AI crisis: OpenAI rogue agents, AI‑stock sell‑off, and MIT’s HardFlow safety breakthrough.",
+    "date": "2026-09-15",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ainews/ai-roundup-rogue-agents-market-shockwaves-safety-tool.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/ainews/ai-news-sep-4-11-2026-math-school-cyber.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI News Sep 4‑11 2026: Math Breakthrough, School Pact, Cyber Threats",
+    "description": "This week’s AI roundup covers OpenAI’s Navier‑Stokes claim, the first national AI safety pact for U.S. schools, and Anthropic’s warning on AI‑enabled cyber threats.",
+    "date": "2026-09-11",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ainews/ai-news-sep-4-11-2026-math-school-cyber.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/ainews/ai-week-review-gpt6-astra-model-fatigue-safety.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI Week in Review: GPT‑6 Astra, Model‑Fatigue Sprint & Safety Alerts",
+    "description": "A rapid roundup of early September 2026 AI news: OpenAI's GPT‑6 Astra AGI claim, a sprint of new models across labs, and rising safety concerns.",
+    "date": "2026-09-08",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/ainews/ai-week-review-gpt6-astra-model-fatigue-safety.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/ainews/ai-news-sep-2026-openai-astra-meta-muse-spark-google-gemini-flash.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI News Sep 2026: OpenAI Astra, Meta Muse Spark, Google Gemini Flash",
+    "description": "Early September 2026 AI roundup: OpenAI’s critical‑rated GPT‑6 Astra, Meta’s pay‑to‑share Muse Spark, and Google’s Gemini 3.7 Flash with Pixel 11 hardware.",
+    "date": "2026-09-06",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/ainews/ai-news-sep-2026-openai-astra-meta-muse-spark-google-gemini-flash.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/ainews/gpt-6-astra-ai-news-roundup-september-2026.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "GPT-6 Astra Takes Lead as AI Models Gain Direct Computer Control",
+    "description": "Explore OpenAI's GPT‑6 Astra, its OS‑level actions, rival specialized models, and the security, developer, and market impacts.",
+    "date": "2026-09-05",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/ainews/gpt-6-astra-ai-news-roundup-september-2026.md",
+    "coverImage": ""
+  }
+]

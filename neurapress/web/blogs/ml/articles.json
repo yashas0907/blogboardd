@@ -1,0 +1,153 @@
+[
+  {
+    "id": "blogs/ml/graph-foundation-models-scaling-representation-learning-on-massive-gr.md",
+    "category": "ml",
+    "topic": "Graph Foundation Models: Scaling Representation Learning on Massive Graphs",
+    "subtopics": "Fundamentals of graph foundation models and pretraining objectives, Distributed training and scaling to billion‑node heterogeneous graphs, Fine‑tuning strategies for downstream graph tasks (node classification, link prediction, graph generation), Benchmarks, efficiency considerations, and future research directions",
+    "title": "Graph Foundation Models: Scaling Representation Learning on Massive Gr",
+    "description": "A blog post about Graph Foundation Models: Scaling Representation Learning on Massive Gr",
+    "date": "2026-09-15",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/graph-foundation-models-scaling-representation-learning-on-massive-gr.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/ml/diffusion-models-from-image-generation-to-multimodal-creativity.md",
+    "category": "ml",
+    "topic": "Diffusion Models: From Image Generation to Multimodal Creativity",
+    "subtopics": "Fundamentals of diffusion processes and training dynamics, Scaling diffusion models with large datasets and compute, Extending diffusion to audio, video, 3D, and text modalities, Open challenges, evaluation metrics, and future research directions",
+    "title": "Diffusion Models: From Image Generation to Multimodal Creativity",
+    "description": "A blog post about Diffusion Models: From Image Generation to Multimodal Creativity",
+    "date": "2026-09-13",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/diffusion-models-from-image-generation-to-multimodal-creativity.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/ml/foundation-models-for-time-series-scaling-forecasting-with-large-neur.md",
+    "category": "ml",
+    "topic": "Foundation Models for Time Series: Scaling Forecasting with Large Neural Networks",
+    "subtopics": "Fundamentals of time‑series foundation models and pretraining objectives, Large‑scale datasets and self‑supervised pretraining strategies, Fine‑tuning techniques for downstream forecasting, Evaluation metrics, deployment challenges, and future research directions",
+    "title": "Foundation Models for Time Series: Scaling Forecasting with Large Neur",
+    "description": "A blog post about Foundation Models for Time Series: Scaling Forecasting with Large Neur",
+    "date": "2026-09-13",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/foundation-models-for-time-series-scaling-forecasting-with-large-neur.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/ml/sparse-mixture-of-experts-and-efficient-scaling-of-large-models.md",
+    "category": "ml",
+    "topic": "Sparse Mixture-of-Experts and Efficient Scaling of Large Models",
+    "subtopics": "Fundamentals of MoE architectures and routing mechanisms, Training stability and scaling laws for sparse models, Real‑world deployments and hardware considerations, Emerging research directions and ethical implications",
+    "title": "Sparse Mixture-of-Experts and Efficient Scaling of Large Models",
+    "description": "A blog post about Sparse Mixture-of-Experts and Efficient Scaling of Large Models",
+    "date": "2026-09-12",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ml/sparse-mixture-of-experts-and-efficient-scaling-of-large-models.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/ml/rlhf-aligning-ai-human-intent.md",
+    "category": "ml",
+    "topic": "Reinforcement Learning from Human Feedback: Aligning AI with Human Intent",
+    "subtopics": "Fundamentals of RLHF and reward modeling, Preference data collection and annotation pipelines, Scaling RLHF for large language and multimodal models, Applications, challenges, and ethical considerations",
+    "title": "RLHF: Aligning AI with Human Intent – A Complete Guide",
+    "description": "Learn how Reinforcement Learning from Human Feedback (RLHF) aligns large language and multimodal models with human values, covering fundamentals, pipelines, scaling, ethics, and regulation.",
+    "date": "2026-09-10",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/ml/rlhf-aligning-ai-human-intent.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/ml/selfsupervised-learning-unlocking-the-power-of-unlabeled-data-at-sca.md",
+    "category": "ml",
+    "topic": "Self‑Supervised Learning: Unlocking the Power of Unlabeled Data at Scale",
+    "subtopics": "Fundamentals and key paradigms (contrastive, masked, predictive), Architectural breakthroughs (Vision Transformers, BYOL, SimCLR, MAE), Cross‑modal and multimodal self‑supervision, Real‑world deployments and emerging research directions",
+    "title": "Self‑Supervised Learning: Unlocking the Power of Unlabeled Data at Sca",
+    "description": "A blog post about Self‑Supervised Learning: Unlocking the Power of Unlabeled Data at Sca",
+    "date": "2026-09-08",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/selfsupervised-learning-unlocking-the-power-of-unlabeled-data-at-sca.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/ml/diffusion-models-the-next-frontier-in-generative-ai.md",
+    "category": "ml",
+    "topic": "Diffusion Models: The Next Frontier in Generative AI",
+    "subtopics": "Fundamentals of diffusion processes and denoising, Architecture variants (DDPM, DDIM, Latent Diffusion), Text‑to‑image and multimodal generation, Real‑world applications and future research directions",
+    "title": "Diffusion Models: The Next Frontier in Generative AI",
+    "description": "A blog post about Diffusion Models: The Next Frontier in Generative AI",
+    "date": "2026-09-06",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/diffusion-models-the-next-frontier-in-generative-ai.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/ml/federated-learning-privacy-preserving-ai-scale.md",
+    "category": "ml",
+    "topic": "Federated Learning: Enabling Privacy-Preserving AI at Scale",
+    "subtopics": "Fundamentals of federated learning, Communication efficiency and model compression, Privacy and security mechanisms (DP, secure aggregation), Real-world applications and deployment challenges",
+    "title": "Federated Learning: Scalable Privacy‑Preserving AI for Edge Devices",
+    "description": "Explore federated learning fundamentals, communication tricks, privacy safeguards, and real‑world deployments that enable AI at scale while protecting user data.",
+    "date": "2026-09-05",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/federated-learning-privacy-preserving-ai-scale.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/ml/foundation-models-transfer-learning.md",
+    "category": "ml",
+    "topic": "Foundation Models and the Future of Transfer Learning",
+    "subtopics": "Evolution of large-scale pretraining, Prompt engineering techniques, Ethical considerations and bias mitigation, Real-world deployment strategies",
+    "title": "Foundation Models & Transfer Learning: Trends, Prompting, & Deployment",
+    "description": "Explore how foundation models reshape transfer learning, prompt engineering, ethics, and real‑world deployment strategies.",
+    "date": "2026-09-01",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ml/foundation-models-transfer-learning.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/ml/machine-learning-explained.md",
+    "category": "ml",
+    "title": "Machine Learning Explained",
+    "description": "Discover the basics of machine learning and its applications, learn how to get started",
+    "date": "2026-03-02",
+    "tags": [
+      "machine-learning",
+      "artificial-intelligence",
+      "deep-learning",
+      "natural-language-processing",
+      "data-science"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/ml/machine-learning-explained.md"
+  }
+]

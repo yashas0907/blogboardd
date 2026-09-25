@@ -1,0 +1,97 @@
+name: Scheduled Article Generation
+
+on:
+  # Every 6 hours (00:30, 06:30, 12:30, 18:30 UTC) = 4 articles/day
+  # Weekday→domain rotation still applies per run-day
+  schedule:
+    - cron: "30 0,6,12,18 * * *"
+  workflow_dispatch: {}
+
+# Write permission so the bot can push generated articles back to the repo
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Full history + persist credentials so the commit+push step works
+          fetch-depth: 0
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Determine track (rotates through all domains)
+        id: track
+        run: |
+          # 7 domains, one per 6-hour slot. Full rotation every 42 hours.
+          DOMAINS=(ml dl statistics nlp cv genai ainews)
+          SLOT=$(( $(date +%s) / 21600 ))   # 6-hour slots since epoch
+          DOMAIN=${DOMAINS[$(( SLOT % 7 ))]}
+          echo "domain=$DOMAIN" >> "$GITHUB_OUTPUT"
+          echo "Slot $SLOT -> generating for '$DOMAIN'"
+
+      - name: Run generation pipeline
+        env:
+          LLM__API_KEY: ${{ secrets.LLM_API_KEY }}
+          STORAGE_BACKEND: local
+          LOCAL_STORAGE_ROOT: neurapress/web
+          CONTENT__TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          CONTENT__GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
+          CONTENT__UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
+          R2__ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2__ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2__SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2__BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+          SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+        run: |
+          set -o pipefail
+          DOMAIN=${{ steps.track.outputs.domain }}
+          if [ "$DOMAIN" = "ainews" ]; then
+            CMD="uv run python -m neurapress.run --ainews"
+          else
+            CMD="uv run python -m neurapress.run --domain $DOMAIN"
+          fi
+          if ! $CMD 2>&1 | tee gen_output.log; then
+            # Persist the failure to the repo so it is publicly readable
+            # without needing authenticated log access.
+            {
+              echo "Generation failed at $(date -u +%Y-%m-%dT%H:%M:%SZ) for domain: $DOMAIN"
+              echo "--- last 80 lines of output ---"
+              tail -80 gen_output.log
+            } > generation-error.log
+            git add generation-error.log
+            git commit -m "ci: capture generation error log"
+            git push
+            exit 1
+          fi
+          rm -f gen_output.log
+
+      - name: Verify site integrity
+        run: uv run python scripts/verify_site.py
+        env:
+          STORAGE_BACKEND: local
+
+      - name: Commit generated article
+        run: |
+          git config user.name  "neurapress-bot"
+          git config user.email "actions@github.com"
+          git add neurapress/web/blogs neurapress/web/rss.xml neurapress/web/sitemap.xml neurapress/web/js/site-data.js
+          if git diff --cached --quiet; then
+            echo "Nothing to commit — no new article."
+          else
+            # NOTE: no [skip ci] here — the deploy workflow must run on this
+            # push so the public site picks up the new article immediately.
+            # (generate.yml only triggers on schedule/dispatch, so no loop.)
+            git commit -m "chore: scheduled article"
+            git pull --rebase origin main
+            git push
+          fi

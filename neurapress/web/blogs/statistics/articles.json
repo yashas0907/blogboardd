@@ -1,0 +1,92 @@
+[
+  {
+    "id": "blogs/statistics/statistical-foundations-and-evaluation-of-diffusion-models-for-generat.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations and Evaluation of Diffusion Models for Generative AI",
+    "subtopics": "Score Matching and Likelihood Estimation in High Dimensions, Statistical Metrics for Sample Quality and Diversity, Uncertainty Quantification in Diffusion Sampling, Bias and Fairness Assessment in Diffusion-Generated Content",
+    "title": "Statistical Foundations and Evaluation of Diffusion Models for Generat",
+    "description": "A blog post about Statistical Foundations and Evaluation of Diffusion Models for Generat",
+    "date": "2026-09-14",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-and-evaluation-of-diffusion-models-for-generat.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/statistics/causal-inference-for-deep-learning-foundations-methods-and-applicat.md",
+    "category": "statistics",
+    "topic": "Causal Inference for Deep Learning: Foundations, Methods, and Applications",
+    "subtopics": "Causal Graphical Models for Neural Networks, Counterfactual Explanation and Debugging of AI Systems, Estimating Treatment Effects in Recommendation and Personalization, Statistical Tests for Causal Discovery in High‑Dimensional Data",
+    "title": "Causal Inference for Deep Learning: Foundations, Methods, and Applicat",
+    "description": "A blog post about Causal Inference for Deep Learning: Foundations, Methods, and Applicat",
+    "date": "2026-09-12",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/statistics/causal-inference-for-deep-learning-foundations-methods-and-applicat.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/statistics/robust-statistics-for-ai-tackling-distribution-shifts-and-adversarial.md",
+    "category": "statistics",
+    "topic": "Robust Statistics for AI: Tackling Distribution Shifts and Adversarial Perturbations",
+    "subtopics": "Detecting and Quantifying Distribution Shifts, Robust Estimators and M-Estimators for Deep Networks, Influence Functions for Adversarial Robustness, Statistical Monitoring and Drift Detection in Production",
+    "title": "Robust Statistics for AI: Tackling Distribution Shifts and Adversarial",
+    "description": "A blog post about Robust Statistics for AI: Tackling Distribution Shifts and Adversarial",
+    "date": "2026-09-10",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/robust-statistics-for-ai-tackling-distribution-shifts-and-adversarial.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/statistics/uncertainty-quantification-and-calibration-in-large-language-models.md",
+    "category": "statistics",
+    "topic": "Uncertainty Quantification and Calibration in Large Language Models",
+    "subtopics": "Probabilistic Predictive Distributions for Transformers, Calibration Techniques for Generative Text, Bayesian Approximation Methods in High-Dimensional Models, Impact of Uncertainty Estimates on Downstream AI Applications",
+    "title": "Uncertainty Quantification and Calibration in Large Language Models",
+    "description": "A blog post about Uncertainty Quantification and Calibration in Large Language Models",
+    "date": "2026-09-07",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/statistics/uncertainty-quantification-and-calibration-in-large-language-models.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/statistics/federated-learning-and-differential-privacy-statistical-foundations-f.md",
+    "category": "statistics",
+    "topic": "Federated Learning and Differential Privacy: Statistical Foundations for Secure AI",
+    "subtopics": "Privacy-Preserving Model Aggregation, Statistical Guarantees under Client Heterogeneity, Differentially Private Mechanisms for Gradient Sharing, Evaluation of Utility-Privacy Trade-offs",
+    "title": "Federated Learning and Differential Privacy: Statistical Foundations f",
+    "description": "A blog post about Federated Learning and Differential Privacy: Statistical Foundations f",
+    "date": "2026-09-03",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/federated-learning-and-differential-privacy-statistical-foundations-f.md",
+    "coverImage": ""
+  },
+  {
+    "id": "blogs/statistics/causal-inference-with-deep-learning-bridging-statistics-and-ai.md",
+    "category": "statistics",
+    "topic": "Causal Inference with Deep Learning: Bridging Statistics and AI",
+    "subtopics": "Do-Calculus and Neural Networks, Counterfactual Prediction using Generative Models, Instrumental Variable Techniques for Deep Models, Evaluation Metrics for Causal Effect Estimation",
+    "title": "Causal Inference with Deep Learning: Bridging Statistics and AI",
+    "description": "A blog post about Causal Inference with Deep Learning: Bridging Statistics and AI",
+    "date": "2026-09-02",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/statistics/causal-inference-with-deep-learning-bridging-statistics-and-ai.md",
+    "coverImage": ""
+  }
+]

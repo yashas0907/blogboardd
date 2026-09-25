@@ -1,0 +1,149 @@
+import argparse
+import sys
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+# Windows consoles default to cp1252 and crash on Unicode output (e.g. LLM
+# feedback containing em-dashes or curly quotes). Force UTF-8 with replacement.
+if sys.stdout.encoding and sys.stdout.encoding.lower() not in ("utf-8", "utf8"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except (AttributeError, OSError):
+        pass
+BACKEND_DIR = Path(__file__).parent
+ROOT_DIR = BACKEND_DIR.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+# ── Load .env (GROQ_API_KEY etc.) ────────────────────────────────────────────
+try:
+    from dotenv import load_dotenv
+
+    env_path = BACKEND_DIR.parent / ".env"
+    load_dotenv(dotenv_path=env_path)
+except ImportError:
+    pass  # python-dotenv is optional; export env vars manually if needed
+
+import os
+
+# Sentry error tracking is optional — only active when SENTRY_DSN is set.
+sentry_dsn = os.getenv("SENTRY_DSN")
+if sentry_dsn:
+    try:
+        import sentry_sdk
+
+        sentry_sdk.init(
+            dsn=sentry_dsn,
+            traces_sample_rate=1.0,
+            _experiments={"continuous_profiling_auto_start": True},
+        )
+    except ImportError:
+        print("[WARN] SENTRY_DSN set but sentry-sdk not installed — skipping.")
+
+# ── Import compiled graph ─────────────────────────────────────────────────────
+from neurapress.graph.graph import graph
+
+# ─────────────────────────────────────────────────────────────────────────────
+
+
+def today_ist() -> str:
+    ist = timezone(timedelta(hours=5, minutes=30))
+    return datetime.now(ist).strftime("%Y-%m-%d")
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="NeuraPress LangGraph Article Generator",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples
+--------
+  # Generate today's article (IST):
+  python backend/run.py
+
+  # Generate for a specific date:
+  python backend/run.py --date 2026-03-07
+
+  # Dry run — no LLM calls, no file writes:
+  python backend/run.py --dry-run
+        """,
+    )
+    parser.add_argument(
+        "--date",
+        type=str,
+        default=None,
+        help="Target date in YYYY-MM-DD format (default: today in IST)",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Preview mode: skip Groq calls and file writes",
+    )
+    parser.add_argument(
+        "--ainews",
+        action="store_true",
+        help="Run the AI News gathering and generation graph",
+    )
+    parser.add_argument(
+        "--domain",
+        type=str,
+        default=None,
+        choices=["ml", "dl", "statistics", "nlp", "cv", "genai", "ainews"],
+        help="Force a specific tutorial domain instead of auto-scheduling",
+    )
+    args = parser.parse_args()
+
+    date_str = args.date or today_ist()
+    dry_run = args.dry_run
+    run_ainews = args.ainews
+
+    # ── Banner ────────────────────────────────────────────────────────────────
+    print(f"\n{'=' * 55}")
+    print("  NeuraPress — LangGraph Article Generator")
+    print(f"  Date    : {date_str}")
+    print(f"  Dry run : {dry_run}")
+    print(f"{'=' * 55}")
+
+    # ── Build initial state and invoke the graph ──────────────────────────────
+    initial_state = {
+        "date": date_str,
+        "dry_run": dry_run,
+    }
+
+    if run_ainews:
+        initial_state["domain"] = "ainews"
+    elif args.domain:
+        initial_state["domain"] = args.domain
+
+    config = {"configurable": {"thread_id": "neurapress-1"}}
+    # The single compiled graph is smart enough to route to NewsAgent if domain=='ainews'
+    final_state = graph.invoke(initial_state, config=config)
+
+    # ── Summary ───────────────────────────────────────────────────────────────
+    print(f"\n{'=' * 55}")
+    if dry_run:
+        print("  [DRY RUN] Pipeline completed — no files were written.")
+        domain = final_state.get("domain", "?")
+        topic = final_state.get("topic", "?")
+        slug = final_state.get("slug", "dry-run-generated")
+        print(f"  Chosen Domain : {domain}")
+        print(f"  Chosen Topic  : {topic}")
+        print("  Would have generated:")
+        print(f"    -> blogs/{domain}/{slug}.md")
+        print(f"    -> blogs/{domain}/articles.json (registry updated)")
+    else:
+        domain = final_state.get("domain", "?")
+        title = final_state.get("title", "?")
+        md_path = final_state.get("md_path", "?")
+        read_time = final_state.get("read_time", "?")
+        print("  🎉 Done!  Article generated successfully.")
+        print(f"  Title     : {title}")
+        print(f"  Domain    : {domain}")
+        print(f"  Read time : {read_time}")
+        print(f"  File      : {md_path}")
+    print(f"{'=' * 55}\n")
+
+
+if __name__ == "__main__":
+    main()

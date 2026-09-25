@@ -1,0 +1,6 @@
+// This file provides frontend configuration variables.
+// Copy this file to js/config.js and fill in your own R2 public URL.
+// js/config.js is gitignored — never commit real config values.
+window.CONFIG = {
+    R2_PUBLIC_URL: "https://YOUR-BUCKET-ACCOUNT.r2.dev"
+};
