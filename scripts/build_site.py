@@ -1,5 +1,5 @@
 """
-build_site.py — NeuraPress site builder.
+build_site.py — BlogBoard site builder.
 
 Self-heals registries (registers orphan .md files), then bakes the ENTIRE
 site (article metadata + full markdown content) into js/site-data.js so the
@@ -14,7 +14,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-WEB = ROOT / "neurapress" / "web"
+WEB = ROOT / "blogboard" / "web"
 
 CATEGORIES = ["ml", "dl", "statistics", "nlp", "cv", "genai", "ainews"]
 
@@ -179,31 +179,14 @@ def build_site_data() -> Path:
     return out
 
 
+"""Self-healing site builder: rebuilds registries and bakes site-data.js."""
+
+
 def build_all() -> Path:
     print("  [BUILD] Self-healing registries...")
     self_heal_registries()
     print("  [BUILD] Baking site data...")
-    out = build_site_data()
-    print("  [BUILD] Refreshing RSS + sitemap...")
-    _refresh_feeds()
-    return out
-
-
-def _refresh_feeds() -> None:
-    """Regenerate rss.xml + sitemap.xml from current registries (keeps feeds
-    in sync with branding/content even without a new publish)."""
-    import sys
-
-    sys.path.insert(0, str(ROOT))
-
-    from neurapress.services.local_storage import LocalStorageService
-    from neurapress.services.site_services import generate_rss, generate_sitemap
-
-    storage = LocalStorageService()
-    all_articles = storage.get_all_articles()
-    (WEB / "rss.xml").write_text(generate_rss(all_articles), encoding="utf-8")
-    (WEB / "sitemap.xml").write_text(generate_sitemap(all_articles), encoding="utf-8")
-    print(f"  [BUILD] feeds refreshed ({len(all_articles)} articles)")
+    return build_site_data()
 
 
 if __name__ == "__main__":
