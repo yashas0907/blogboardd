@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-reinforcement-learning-scaling-decision-making-.md",
+    "category": "ml",
+    "topic": "Foundation Models for Reinforcement Learning: Scaling Decision-Making Across Diverse Environments",
+    "subtopics": "Offline pretraining of RL agents with large-scale trajectory datasets, Scalable architectures and distributed training for massive RL models, Transfer learning and fine‑tuning across tasks and domains, Benchmark suites, safety, and evaluation metrics for large RL foundation models",
+    "title": "Foundation Models for Reinforcement Learning: Scaling Decision-Making ",
+    "description": "A blog post about Foundation Models for Reinforcement Learning: Scaling Decision-Making ",
+    "date": "2026-09-26",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/foundation-models-for-reinforcement-learning-scaling-decision-making-.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/graph-foundation-models-scaling-representation-learning-on-massive-gr.md",
     "category": "ml",
     "topic": "Graph Foundation Models: Scaling Representation Learning on Massive Graphs",
