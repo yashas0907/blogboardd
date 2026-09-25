@@ -183,7 +183,27 @@ def build_all() -> Path:
     print("  [BUILD] Self-healing registries...")
     self_heal_registries()
     print("  [BUILD] Baking site data...")
-    return build_site_data()
+    out = build_site_data()
+    print("  [BUILD] Refreshing RSS + sitemap...")
+    _refresh_feeds()
+    return out
+
+
+def _refresh_feeds() -> None:
+    """Regenerate rss.xml + sitemap.xml from current registries (keeps feeds
+    in sync with branding/content even without a new publish)."""
+    import sys
+
+    sys.path.insert(0, str(ROOT))
+
+    from neurapress.services.local_storage import LocalStorageService
+    from neurapress.services.site_services import generate_rss, generate_sitemap
+
+    storage = LocalStorageService()
+    all_articles = storage.get_all_articles()
+    (WEB / "rss.xml").write_text(generate_rss(all_articles), encoding="utf-8")
+    (WEB / "sitemap.xml").write_text(generate_sitemap(all_articles), encoding="utf-8")
+    print(f"  [BUILD] feeds refreshed ({len(all_articles)} articles)")
 
 
 if __name__ == "__main__":
