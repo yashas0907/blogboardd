@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/selfsupervised-representation-learning-from-contrastive-to-generativ.md",
+    "category": "dl",
+    "topic": "Self‑Supervised Representation Learning: From Contrastive to Generative Paradigms",
+    "subtopics": "Contrastive learning foundations and modern variants, Generative self‑supervision (e.g., masked modeling, diffusion‑based pretraining), Parameter‑efficient fine‑tuning of self‑supervised models, Real‑world applications in vision, language, and multimodal domains",
+    "title": "Self‑Supervised Representation Learning: From Contrastive to Generativ",
+    "description": "A blog post about Self‑Supervised Representation Learning: From Contrastive to Generativ",
+    "date": "2026-09-26",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/dl/selfsupervised-representation-learning-from-contrastive-to-generativ.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/energy-based-models-from-theory-to-scalable-generative-ai.md",
     "category": "dl",
     "topic": "Energy-Based Models: From Theory to Scalable Generative AI",
