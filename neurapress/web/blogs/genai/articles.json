@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-digital-twins-real-time-simulation.md",
+    "category": "genai",
+    "topic": "Generative AI for Digital Twin Creation and Real‑Time Simulation",
+    "subtopics": "Multimodal generative modeling of physical assets (3D, sensor streams), Real‑time scenario synthesis and what‑if analysis using LLMs and diffusion models, Edge‑optimized pipelines for IoT data ingestion and low‑latency inference, Metrics and benchmarks for digital‑twin fidelity, performance, and decision impact",
+    "title": "Generative AI‑Powered Digital Twins: Real‑Time Creation & Simulation",
+    "description": "Learn how generative AI transforms digital twin creation with NeRF, diffusion models, LLM-driven scenarios, edge pipelines, and performance metrics.",
+    "date": "2026-09-29",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/genai/generative-ai-digital-twins-real-time-simulation.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-for-multimodal-retrievalaugmented-generation-rag-in-e.md",
     "category": "genai",
     "topic": "Generative AI for Multimodal Retrieval‑Augmented Generation (RAG) in Enterprise Knowledge Management",
