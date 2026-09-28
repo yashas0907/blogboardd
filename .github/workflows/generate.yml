@@ -2,22 +2,31 @@ name: Scheduled Article Generation
 
 on:
   # Every 6 hours (00:30, 06:30, 12:30, 18:30 UTC) = 4 articles/day
-  # Weekday→domain rotation still applies per run-day
   schedule:
     - cron: "30 0,6,12,18 * * *"
   workflow_dispatch: {}
 
-# Write permission so the bot can push generated articles back to the repo
+# contents:write so the bot can push generated articles.
+# pages/id-token so this workflow can deploy the site DIRECTLY - pushes made
+# with the internal GITHUB_TOKEN do not trigger other workflows, so the site
+# must be deployed from here rather than relying on the push event.
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    outputs:
+      published: ${{ steps.publish.outputs.published }}
     steps:
       - uses: actions/checkout@v4
         with:
-          # Full history + persist credentials so the commit+push step works
           fetch-depth: 0
 
       - name: Install uv
@@ -46,10 +55,6 @@ jobs:
           CONTENT__TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           CONTENT__GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
           CONTENT__UNSPLASH_API_KEY: ${{ secrets.UNSPLASH_API_KEY }}
-          R2__ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
-          R2__ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-          R2__SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          R2__BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
           SITE_URL: ${{ secrets.SITE_URL }}
           SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
         run: |
@@ -76,19 +81,19 @@ jobs:
           rm -f gen_output.log
 
       - name: Commit generated article
+        id: publish
         run: |
           git config user.name  "yashas0907"
           git config user.email "yashas0907@users.noreply.github.com"
           git add neurapress/web/blogs neurapress/web/rss.xml neurapress/web/sitemap.xml neurapress/web/js/site-data.js
           if git diff --cached --quiet; then
             echo "Nothing to commit — no new article."
+            echo "published=false" >> "$GITHUB_OUTPUT"
           else
-            # NOTE: no [skip ci] here — the deploy workflow must run on this
-            # push so the public site picks up the new article immediately.
-            # (generate.yml only triggers on schedule/dispatch, so no loop.)
             git commit -m "chore: scheduled article"
             git pull --rebase origin main
             git push
+            echo "published=true" >> "$GITHUB_OUTPUT"
           fi
 
       # Verify AFTER publishing: a verify failure must never discard a
@@ -108,3 +113,27 @@ jobs:
             exit 1
           fi
           rm -f verify_output.log
+
+  # Deploy the site DIRECTLY (cannot rely on the push event: bot pushes use
+  # GITHUB_TOKEN, which does not trigger other workflows).
+  deploy:
+    needs: generate
+    if: needs.generate.outputs.published == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: neurapress/web
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
