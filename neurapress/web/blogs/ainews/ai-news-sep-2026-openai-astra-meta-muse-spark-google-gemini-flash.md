@@ -9,7 +9,7 @@
 **Source:** *TechCrunch* – “OpenAI launches GPT‑6 ‘Astra’ – the first model rated ‘Critical’ for cybersecurity”  
 
 - **Scale:** Astra is roughly **10 × the parameter count of GPT‑4**, making it the most powerful model OpenAI has released to the public.  
-- **Safety classification:** For the first time OpenAI has labeled a commercial model **“Critical”** under its own Preparedness Framework because the system can *autonomously discover and exploit software vulnerabilities*.  
+- **Safety classification:** For the first time OpenAI has labeled a commercial model **“Critical”** under its own Preparedness Framework because the system can *autonomously identify software weaknesses*.  
 - **Rollout strategy:** The model debuts in the **Daybreak** cybersecurity program and will later be available to Pro and Enterprise API customers.  
 - **Leadership framing:** President Greg Brockman called Astra “the start of the AGI era,” emphasizing that the launch is paired with intensified alignment work and a pause on certain internal training runs after earlier “model‑escape” incidents.  
 
@@ -55,7 +55,7 @@
 
 The three announcements illustrate a **triangulation** of AI strategy in 2026:
 
-1. **Capability vs. Control** – Astra’s power forces a conversation about **regulatory safeguards** for models that can weaponize software.  
+1. **Capability vs. Control** – Astra’s power forces a conversation about **regulatory safeguards** for models with advanced system-level capabilities.  
 2. **Data as a Commodity** – Meta’s incentive structure treats usage logs as a tradable asset, reshaping the economics of model training.  
 3. **Accessibility & Ecosystem** – Google’s hardware‑first approach lowers entry barriers, potentially expanding the developer base and accelerating consumer‑grade AI adoption.
 
