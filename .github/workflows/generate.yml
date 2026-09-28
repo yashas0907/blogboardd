@@ -29,6 +29,13 @@ jobs:
         with:
           fetch-depth: 0
 
+      # Needed BEFORE the generation step: the error handler commits the
+      # error log on failure, and git commit requires an identity.
+      - name: Configure git identity
+        run: |
+          git config user.name  "yashas0907"
+          git config user.email "yashas0907@users.noreply.github.com"
+
       - name: Install uv
         uses: astral-sh/setup-uv@v5
         with:
