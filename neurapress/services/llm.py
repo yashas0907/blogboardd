@@ -42,24 +42,39 @@ class LLMAgentService:
     def invoke(self, prompt: str, attempts: int = 4):
         """
         Invoke the LLM with exponential-backoff retries for transient errors
-        (rate limits, timeouts, 5xx). Re-raises the last error on exhaustion.
+        (rate limits, timeouts, 5xx). If all attempts on the primary model
+        fail, falls back to a lighter model with separate rate-limit buckets
+        so scheduled publishing survives provider throttling.
         """
         import time
 
+        models = [self.model_name]
+        fallback = "openai/gpt-oss-20b"
+        if self.model_name != fallback:
+            models.append(fallback)
+
         last: Exception | None = None
-        for attempt in range(1, attempts + 1):
-            try:
-                return self.llm.invoke(prompt)
-            except Exception as e:  # noqa: BLE001 - retry any transient provider error
-                last = e
-                wait = min(60, 5 * (2 ** (attempt - 1)))
-                print(
-                    f"  [RETRY] LLM call failed (attempt {attempt}/{attempts}): "
-                    f"{type(e).__name__}: {str(e)[:150]} — waiting {wait}s"
-                )
-                time.sleep(wait)
+        for model in models:
+            for attempt in range(1, attempts + 1):
+                try:
+                    llm = self.llm if model == self.model_name else self._llm_for(model)
+                    return llm.invoke(prompt)
+                except Exception as e:  # noqa: BLE001 - retry any transient provider error
+                    last = e
+                    wait = min(60, 5 * (2 ** (attempt - 1)))
+                    print(
+                        f"  [RETRY] LLM call failed (model={model}, attempt "
+                        f"{attempt}/{attempts}): {type(e).__name__}: {str(e)[:150]} "
+                        f"— waiting {wait}s"
+                    )
+                    time.sleep(wait)
+            if len(models) > 1 and model == models[0]:
+                print(f"  [FALLBACK] Primary model exhausted — switching to {models[1]}")
         assert last is not None
         raise last
+
+    def _llm_for(self, model_name: str) -> ChatGroq:
+        return ChatGroq(model=model_name, temperature=self.temperature, api_key=self.api_key)
 
     def get_news_agent(self, system_prompt: str | None = None):
         """

@@ -73,16 +73,22 @@ jobs:
             CMD="uv run python -m neurapress.run --domain $DOMAIN"
           fi
           if ! $CMD 2>&1 | tee gen_output.log; then
-            # Persist the failure to the repo so it is publicly readable
-            # without needing authenticated log access.
+            # Persist the failure via the GitHub contents API — no git
+            # operations, immune to -e aborts and push races. The log is
+            # then publicly readable without authenticated access.
             {
               echo "Generation failed at $(date -u +%Y-%m-%dT%H:%M:%SZ) for domain: $DOMAIN"
               echo "--- last 80 lines of output ---"
               tail -80 gen_output.log
-            } > generation-error.log
-            git add generation-error.log
-            git commit -m "ci: capture generation error log"
-            git push
+            } > generation-error.log || true
+            B64=$(base64 -w0 generation-error.log || true)
+            curl -s -X PUT \
+              -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${{ github.repository }}/contents/generation-error.log" \
+              -d "{\"message\":\"ci: capture generation error log\",\"content\":\"$B64\"}" || true
+            echo "## Generation failed for domain: $DOMAIN" >> "$GITHUB_STEP_SUMMARY" || true
+            tail -30 gen_output.log >> "$GITHUB_STEP_SUMMARY" || true
             exit 1
           fi
           rm -f gen_output.log
@@ -113,10 +119,13 @@ jobs:
               echo "Site verify failed at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
               echo "--- last 60 lines ---"
               tail -60 verify_output.log
-            } > verify-error.log
-            git add verify-error.log
-            git commit -m "ci: capture site verify error"
-            git push
+            } > verify-error.log || true
+            B64=$(base64 -w0 verify-error.log || true)
+            curl -s -X PUT \
+              -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${{ github.repository }}/contents/verify-error.log" \
+              -d "{\"message\":\"ci: capture site verify error\",\"content\":\"$B64\"}" || true
             exit 1
           fi
           rm -f verify_output.log
