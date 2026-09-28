@@ -23,6 +23,17 @@ class LLMSettings(BaseModel):
             "llm__model_name",
         ),
     )
+    GEMINI_API_KEY: str = Field(
+        default="",
+        validation_alias=AliasChoices(
+            "GEMINI_API_KEY",
+            "gemini_api_key",
+            "LLM__GEMINI_API_KEY",
+            "llm__gemini_api_key",
+            "GOOGLE_API_KEY",
+            "google_api_key",
+        ),
+    )
     TEMPERATURE: float = 1.0
 
 

@@ -41,40 +41,52 @@ class LLMAgentService:
 
     def invoke(self, prompt: str, attempts: int = 4):
         """
-        Invoke the LLM with exponential-backoff retries for transient errors
-        (rate limits, timeouts, 5xx). If all attempts on the primary model
-        fail, falls back to a lighter model with separate rate-limit buckets
+        Invoke the LLM with exponential-backoff retries for transient errors.
+        Provider chain: primary Groq model -> lighter Groq model (separate
+        rate-limit bucket) -> Gemini (last resort, different provider entirely)
         so scheduled publishing survives provider throttling.
         """
         import time
 
-        models = [self.model_name]
-        fallback = "openai/gpt-oss-20b"
-        if self.model_name != fallback:
-            models.append(fallback)
+        chain: list[tuple[str, str]] = [("groq", self.model_name)]
+        fallback_groq = "openai/gpt-oss-20b"
+        if self.model_name != fallback_groq:
+            chain.append(("groq", fallback_groq))
+        if app_settings.llm.GEMINI_API_KEY.strip():
+            chain.append(("gemini", "gemini-2.5-flash"))
 
         last: Exception | None = None
-        for model in models:
+        for provider, model in chain:
             for attempt in range(1, attempts + 1):
                 try:
-                    llm = self.llm if model == self.model_name else self._llm_for(model)
+                    llm = self._llm_for(provider, model)
                     return llm.invoke(prompt)
                 except Exception as e:  # noqa: BLE001 - retry any transient provider error
                     last = e
                     wait = min(60, 5 * (2 ** (attempt - 1)))
                     print(
-                        f"  [RETRY] LLM call failed (model={model}, attempt "
-                        f"{attempt}/{attempts}): {type(e).__name__}: {str(e)[:150]} "
-                        f"— waiting {wait}s"
+                        f"  [RETRY] LLM call failed (provider={provider}, model={model}, "
+                        f"attempt {attempt}/{attempts}): {type(e).__name__}: "
+                        f"{str(e)[:150]} — waiting {wait}s"
                     )
                     time.sleep(wait)
-            if len(models) > 1 and model == models[0]:
-                print(f"  [FALLBACK] Primary model exhausted — switching to {models[1]}")
+            if (provider, model) != chain[-1]:
+                print(f"  [FALLBACK] {provider}/{model} exhausted — switching to next provider")
         assert last is not None
         raise last
 
-    def _llm_for(self, model_name: str) -> ChatGroq:
-        return ChatGroq(model=model_name, temperature=self.temperature, api_key=self.api_key)
+    def _llm_for(self, provider: str, model: str):
+        if provider == "gemini":
+            from langchain_google_genai import ChatGoogleGenerativeAI
+
+            return ChatGoogleGenerativeAI(
+                model=model,
+                google_api_key=app_settings.llm.GEMINI_API_KEY,
+                temperature=self.temperature,
+            )
+        if model == self.model_name:
+            return self.llm
+        return ChatGroq(model=model, temperature=self.temperature, api_key=self.api_key)
 
     def get_news_agent(self, system_prompt: str | None = None):
         """

@@ -57,6 +57,7 @@ jobs:
       - name: Run generation pipeline
         env:
           LLM__API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM__GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           STORAGE_BACKEND: local
           LOCAL_STORAGE_ROOT: neurapress/web
           CONTENT__TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
