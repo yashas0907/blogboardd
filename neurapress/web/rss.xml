@@ -14,6 +14,14 @@
   <category>dl</category>
 </item>
 <item>
+  <title>Foundation Models for Video Understanding: Scaling Vision Transformers</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/cv/foundation-models-for-video-understanding-scaling-vision-transformers.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/cv/foundation-models-for-video-understanding-scaling-vision-transformers.md</guid>
+  <pubDate>2026-09-28</pubDate>
+  <description>A blog post about Foundation Models for Video Understanding: Scaling Vision Transformers</description>
+  <category>cv</category>
+</item>
+<item>
   <title>Foundation Models for Reinforcement Learning: Scaling Decision-Making </title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-reinforcement-learning-scaling-decision-making-.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-reinforcement-learning-scaling-decision-making-.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-01</pubDate>
   <description>Explore how foundation models reshape transfer learning, prompt engineering, ethics, and real‑world deployment strategies.</description>
   <category>ml</category>
-</item>
-<item>
-  <title>Deep Learning Intro</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/deep-learning-intro.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/deep-learning-intro.md</guid>
-  <pubDate>2026-03-03</pubDate>
-  <description>Learn deep learning fundamentals and boost your AI skills</description>
-  <category>dl</category>
 </item>
 </channel>
 </rss>
