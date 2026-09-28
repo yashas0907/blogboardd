@@ -88,7 +88,14 @@ for arts in cats.values():
 # 9. RSS + sitemap exist and reference articles
 rss = (web / "rss.xml").read_text(encoding="utf-8")
 sm = (web / "sitemap.xml").read_text(encoding="utf-8")
-check("rss.xml has items", rss.count("<item>") >= total)
+# RSS keeps the 50 most recent items by design — verify against the cap,
+# and require that the newest article is present in the feed.
+check("rss.xml has items (cap-aware)", rss.count("<item>") >= min(total, 50))
+newest = max(
+    (a for arts in cats.values() for a in arts),
+    key=lambda x: x.get("date", ""), default=None,
+)
+check("rss includes newest article", newest is not None and newest.get("id", "") in rss)
 check("sitemap.xml has URLs", sm.count("<url>") >= total)
 
 # 10. Dates are valid ISO format
