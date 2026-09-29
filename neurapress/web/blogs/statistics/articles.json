@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-large-language-model-scaling-and-emergent-c.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Large Language Model Scaling and Emergent Capabilities",
+    "subtopics": "Empirical scaling laws and theoretical models, Measurement and quantification of emergent behaviors, Uncertainty quantification in performance extrapolation, Fairness, bias, and robustness trends across model scales",
+    "title": "Statistical Foundations of Large Language Model Scaling and Emergent C",
+    "description": "A blog post about Statistical Foundations of Large Language Model Scaling and Emergent C",
+    "date": "2026-09-30",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/statistics/statistical-foundations-of-large-language-model-scaling-and-emergent-c.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-and-evaluation-of-diffusion-models-for-generat.md",
     "category": "statistics",
     "topic": "Statistical Foundations and Evaluation of Diffusion Models for Generative AI",
