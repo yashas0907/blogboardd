@@ -14,6 +14,14 @@
   <category>genai</category>
 </item>
 <item>
+  <title>AI Week in Review: Safety Halts, UN Briefing &amp; US Policy Summit</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-week-review-safety-un-us-policy.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-week-review-safety-un-us-policy.md</guid>
+  <pubDate>2026-09-29</pubDate>
+  <description>This week’s AI roundup covers OpenAI’s safety‑driven halt of GPT‑6.1 Astra, the first UN Security Council briefing on AI risks, and a high‑stakes US policy meeting with Trump, Congress and tech CEOs.</description>
+  <category>ainews</category>
+</item>
+<item>
   <title>Neural Implicit Representations: From 3D Reconstruction to Dynamic Sce</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/neural-implicit-representations-from-3d-reconstruction-to-dynamic-sce.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/neural-implicit-representations-from-3d-reconstruction-to-dynamic-sce.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-02</pubDate>
   <description>A blog post about Foundation Vision Models: Promptable Vision Transformers and Their App</description>
   <category>cv</category>
-</item>
-<item>
-  <title>Multimodal Prompt Engineering for Real-Time Robotics Control</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/multimodal-prompt-engineering-for-real-time-robotics-control.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/multimodal-prompt-engineering-for-real-time-robotics-control.md</guid>
-  <pubDate>2026-09-02</pubDate>
-  <description>A blog post about Multimodal Prompt Engineering for Real-Time Robotics Control</description>
-  <category>genai</category>
 </item>
 </channel>
 </rss>
