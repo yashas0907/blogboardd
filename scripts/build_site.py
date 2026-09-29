@@ -179,6 +179,9 @@ def build_site_data() -> Path:
     return out
 
 
+"""Self-healing site builder: rebuilds registries and bakes site-data.js."""
+
+
 def build_all() -> Path:
     print("  [BUILD] Self-healing registries...")
     self_heal_registries()
