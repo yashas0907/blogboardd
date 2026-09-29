@@ -141,7 +141,12 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # MUST check out latest main (not github.sha): the article committed
+      # during the generate job is a NEW commit — github.sha still points at
+      # the pre-article head, which would deploy a site missing the new post.
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
