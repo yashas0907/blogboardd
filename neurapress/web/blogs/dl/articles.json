@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/foundation-models-for-multimodal-retrieval-and-generation.md",
+    "category": "dl",
+    "topic": "Foundation Models for Multimodal Retrieval and Generation",
+    "subtopics": "Scaling multimodal transformers (e.g., CLIP, Flamingo, PaLM-E), Cross‑modal alignment and training strategies (contrastive, generative, tokenization), Retrieval‑augmented generation and prompt engineering for vision‑language tasks, Real‑world applications in robotics, AR/VR, and creative content creation",
+    "title": "Foundation Models for Multimodal Retrieval and Generation",
+    "description": "A blog post about Foundation Models for Multimodal Retrieval and Generation",
+    "date": "2026-09-29",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/dl/foundation-models-for-multimodal-retrieval-and-generation.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/neural-implicit-representations-from-3d-reconstruction-to-dynamic-sce.md",
     "category": "dl",
     "topic": "Neural Implicit Representations: From 3D Reconstruction to Dynamic Scene Synthesis",
