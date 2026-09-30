@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-autonomous-agents-decision-making.md",
+    "category": "genai",
+    "topic": "Generative AI for Autonomous Agents and Decision‑Making in Dynamic Environments",
+    "subtopics": "Hierarchical planning and task decomposition with LLMs, Integration of reinforcement learning and diffusion models for adaptive behavior, Real‑time perception‑action loops using multimodal sensor streams, Safety, alignment, and evaluation frameworks for autonomous generative agents",
+    "title": "Generative AI for Autonomous Agents: Planning, Control & Safety",
+    "description": "Explore how large language models, reinforcement learning, diffusion models, and multimodal perception combine to build safe, adaptable autonomous agents.",
+    "date": "2026-09-30",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/genai/generative-ai-autonomous-agents-decision-making.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-digital-twins-real-time-simulation.md",
     "category": "genai",
     "topic": "Generative AI for Digital Twin Creation and Real‑Time Simulation",

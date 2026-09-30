@@ -22,6 +22,14 @@
   <category>nlp</category>
 </item>
 <item>
+  <title>Generative AI for Autonomous Agents: Planning, Control &amp; Safety</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-autonomous-agents-decision-making.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-autonomous-agents-decision-making.md</guid>
+  <pubDate>2026-09-30</pubDate>
+  <description>Explore how large language models, reinforcement learning, diffusion models, and multimodal perception combine to build safe, adaptable autonomous agents.</description>
+  <category>genai</category>
+</item>
+<item>
   <title>Foundation Models for Multimodal Retrieval and Generation</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/foundation-models-for-multimodal-retrieval-and-generation.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/foundation-models-for-multimodal-retrieval-and-generation.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-03</pubDate>
   <description>Learn how generative AI creates privacy‑preserving synthetic health data, improves rare‑disease research, and meets HIPAA/GDPR compliance.</description>
   <category>genai</category>
-</item>
-<item>
-  <title>Diffusion Models: The New Frontier in Generative AI</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/diffusion-models-the-new-frontier-in-generative-ai.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/diffusion-models-the-new-frontier-in-generative-ai.md</guid>
-  <pubDate>2026-09-02</pubDate>
-  <description>A blog post about Diffusion Models: The New Frontier in Generative AI</description>
-  <category>dl</category>
 </item>
 </channel>
 </rss>
