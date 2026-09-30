@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/neurosymbolic-language-models-integrating-symbolic-reasoning-with-ne.md",
+    "category": "nlp",
+    "topic": "Neuro‑Symbolic Language Models: Integrating Symbolic Reasoning with Neural LLMs",
+    "subtopics": "Symbolic Knowledge Integration Techniques (e.g., prompting, external modules, program synthesis), Neuro‑Symbolic Architectures and Training Paradigms, Benchmarks & Evaluation for Logical/Mathematical Reasoning, Real‑World Applications (e.g., legal analysis, scientific discovery, trustworthy AI)",
+    "title": "Neuro‑Symbolic Language Models: Integrating Symbolic Reasoning with Ne",
+    "description": "A blog post about Neuro‑Symbolic Language Models: Integrating Symbolic Reasoning with Ne",
+    "date": "2026-09-30",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/nlp/neurosymbolic-language-models-integrating-symbolic-reasoning-with-ne.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/retrievalaugmented-generation-rag-enhancing-language-models-with-e.md",
     "category": "nlp",
     "topic": "Retrieval‑Augmented Generation (RAG): Enhancing Language Models with External Knowledge",
