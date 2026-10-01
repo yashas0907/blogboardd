@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/diffusion-models-for-highresolution-image-and-video-synthesis.md",
+    "category": "dl",
+    "topic": "Diffusion Models for High‑Resolution Image and Video Synthesis",
+    "subtopics": "Fundamentals and variants of diffusion models, Scaling diffusion to ultra‑high‑resolution generation, Conditional and text‑to‑video diffusion pipelines, Efficient sampling and acceleration techniques (e.g., classifier‑free guidance, distillation, DPMSolver), Real‑world applications in content creation, scientific visualization, and virtual production",
+    "title": "Diffusion Models for High‑Resolution Image and Video Synthesis",
+    "description": "A blog post about Diffusion Models for High‑Resolution Image and Video Synthesis",
+    "date": "2026-10-01",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/dl/diffusion-models-for-highresolution-image-and-video-synthesis.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/foundation-models-for-multimodal-retrieval-and-generation.md",
     "category": "dl",
     "topic": "Foundation Models for Multimodal Retrieval and Generation",
