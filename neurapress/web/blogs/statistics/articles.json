@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-federated-and-privacypreserving-ai.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Federated and Privacy‑Preserving AI",
+    "subtopics": "Differential privacy guarantees and utility‑accuracy trade‑offs, Statistical heterogeneity and convergence analysis in decentralized training, Communication‑efficient sampling, variance reduction, and error bounds, Fairness, bias, and robustness across heterogeneous client populations",
+    "title": "Statistical Foundations of Federated and Privacy‑Preserving AI",
+    "description": "A blog post about Statistical Foundations of Federated and Privacy‑Preserving AI",
+    "date": "2026-10-01",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/statistical-foundations-of-federated-and-privacypreserving-ai.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-large-language-model-scaling-and-emergent-c.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Large Language Model Scaling and Emergent Capabilities",
