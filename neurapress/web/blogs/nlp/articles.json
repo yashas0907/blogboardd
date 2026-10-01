@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/autonomous-language-model-agents-enabling-llms-to-plan-act-and-use-.md",
+    "category": "nlp",
+    "topic": "Autonomous Language Model Agents: Enabling LLMs to Plan, Act, and Use External Tools",
+    "subtopics": "Agent architectures and reasoning loops, Tool integration and API calling mechanisms, Planning, memory, and self‑reflection strategies, Benchmarks and evaluation for agentic behavior, Real‑world use cases (e.g., autonomous assistants, workflow automation, scientific discovery)",
+    "title": "Autonomous Language Model Agents: Enabling LLMs to Plan, Act, and Use ",
+    "description": "A blog post about Autonomous Language Model Agents: Enabling LLMs to Plan, Act, and Use ",
+    "date": "2026-10-02",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/nlp/autonomous-language-model-agents-enabling-llms-to-plan-act-and-use-.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/neurosymbolic-language-models-integrating-symbolic-reasoning-with-ne.md",
     "category": "nlp",
     "topic": "Neuro‑Symbolic Language Models: Integrating Symbolic Reasoning with Neural LLMs",
