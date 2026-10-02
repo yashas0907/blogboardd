@@ -14,6 +14,14 @@
   <category>nlp</category>
 </item>
 <item>
+  <title>Foundation Models for Medical Imaging: Scaling Vision Transformers to </title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/cv/foundation-models-for-medical-imaging-scaling-vision-transformers-to-.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/cv/foundation-models-for-medical-imaging-scaling-vision-transformers-to-.md</guid>
+  <pubDate>2026-10-02</pubDate>
+  <description>A blog post about Foundation Models for Medical Imaging: Scaling Vision Transformers to </description>
+  <category>cv</category>
+</item>
+<item>
   <title>Diffusion Models for High‑Resolution Image and Video Synthesis</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/diffusion-models-for-highresolution-image-and-video-synthesis.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/diffusion-models-for-highresolution-image-and-video-synthesis.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-05</pubDate>
   <description>Explore federated learning fundamentals, communication tricks, privacy safeguards, and real‑world deployments that enable AI at scale while protecting user data.</description>
   <category>ml</category>
-</item>
-<item>
-  <title>LLM Compression and Distillation: Bringing Powerful Language Models to</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/llm-compression-and-distillation-bringing-powerful-language-models-to.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/llm-compression-and-distillation-bringing-powerful-language-models-to.md</guid>
-  <pubDate>2026-09-05</pubDate>
-  <description>A blog post about LLM Compression and Distillation: Bringing Powerful Language Models to</description>
-  <category>nlp</category>
 </item>
 </channel>
 </rss>
