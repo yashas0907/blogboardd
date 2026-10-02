@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-time-series-and-sequential-data-scaling-forecas.md",
+    "category": "ml",
+    "topic": "Foundation Models for Time-Series and Sequential Data: Scaling Forecasting, Classification, and Anomaly Detection",
+    "subtopics": "Self‑supervised pretraining on massive multivariate time‑series datasets, Scalable temporal transformer architectures and distributed training pipelines, Fine‑tuning strategies for downstream tasks (forecasting, anomaly detection, classification), Benchmarks, evaluation metrics, and real‑world deployment considerations",
+    "title": "Foundation Models for Time-Series and Sequential Data: Scaling Forecas",
+    "description": "A blog post about Foundation Models for Time-Series and Sequential Data: Scaling Forecas",
+    "date": "2026-10-03",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/foundation-models-for-time-series-and-sequential-data-scaling-forecas.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-reinforcement-learning-scaling-decision-making-.md",
     "category": "ml",
     "topic": "Foundation Models for Reinforcement Learning: Scaling Decision-Making Across Diverse Environments",
