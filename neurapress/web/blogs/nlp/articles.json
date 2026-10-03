@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/explainability-and-interpretability-for-large-language-models.md",
+    "category": "nlp",
+    "topic": "Explainability and Interpretability for Large Language Models",
+    "subtopics": "Attribution and saliency methods for LLM outputs, Probing and analyzing internal representations, Visualization and debugging tools for model behavior, Human-centric evaluation of explanations and trust",
+    "title": "Explainability and Interpretability for Large Language Models",
+    "description": "A blog post about Explainability and Interpretability for Large Language Models",
+    "date": "2026-10-03",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/nlp/explainability-and-interpretability-for-large-language-models.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/autonomous-language-model-agents-enabling-llms-to-plan-act-and-use-.md",
     "category": "nlp",
     "topic": "Autonomous Language Model Agents: Enabling LLMs to Plan, Act, and Use External Tools",

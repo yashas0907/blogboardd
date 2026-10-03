@@ -30,6 +30,14 @@
   <category>statistics</category>
 </item>
 <item>
+  <title>Explainability and Interpretability for Large Language Models</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/explainability-and-interpretability-for-large-language-models.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/explainability-and-interpretability-for-large-language-models.md</guid>
+  <pubDate>2026-10-03</pubDate>
+  <description>A blog post about Explainability and Interpretability for Large Language Models</description>
+  <category>nlp</category>
+</item>
+<item>
   <title>Autonomous Language Model Agents: Enabling LLMs to Plan, Act, and Use </title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/autonomous-language-model-agents-enabling-llms-to-plan-act-and-use-.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/autonomous-language-model-agents-enabling-llms-to-plan-act-and-use-.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-06</pubDate>
   <description>A blog post about Diffusion Models: The Next Frontier in Generative AI</description>
   <category>ml</category>
-</item>
-<item>
-  <title>Retrieval‑Augmented Multimodal Vision‑Language Models for Real‑World U</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/cv/retrievalaugmented-multimodal-visionlanguage-models-for-realworld-u.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/cv/retrievalaugmented-multimodal-visionlanguage-models-for-realworld-u.md</guid>
-  <pubDate>2026-09-06</pubDate>
-  <description>A blog post about Retrieval‑Augmented Multimodal Vision‑Language Models for Real‑World U</description>
-  <category>cv</category>
 </item>
 </channel>
 </rss>
