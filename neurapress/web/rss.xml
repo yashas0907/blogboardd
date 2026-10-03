@@ -22,6 +22,14 @@
   <category>dl</category>
 </item>
 <item>
+  <title>Statistical Foundations of Multimodal Foundation Models</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/statistical-foundations-of-multimodal-foundation-models.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/statistical-foundations-of-multimodal-foundation-models.md</guid>
+  <pubDate>2026-10-03</pubDate>
+  <description>A blog post about Statistical Foundations of Multimodal Foundation Models</description>
+  <category>statistics</category>
+</item>
+<item>
   <title>Autonomous Language Model Agents: Enabling LLMs to Plan, Act, and Use </title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/autonomous-language-model-agents-enabling-llms-to-plan-act-and-use-.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/autonomous-language-model-agents-enabling-llms-to-plan-act-and-use-.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-06</pubDate>
   <description>A blog post about Retrieval‑Augmented Multimodal Vision‑Language Models for Real‑World U</description>
   <category>cv</category>
-</item>
-<item>
-  <title>Generative AI for Sustainable Materials Design: A Complete Tutorial</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-sustainable-materials-design.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-sustainable-materials-design.md</guid>
-  <pubDate>2026-09-06</pubDate>
-  <description>Learn how diffusion models, high‑throughput simulations, closed‑loop experiments, and LCA combine to accelerate eco‑friendly material discovery.</description>
-  <category>genai</category>
 </item>
 </channel>
 </rss>

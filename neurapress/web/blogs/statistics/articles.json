@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-multimodal-foundation-models.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Multimodal Foundation Models",
+    "subtopics": "Cross‑modal representation learning and joint likelihood modeling, Scaling laws and modality‑imbalance effects, Uncertainty quantification and calibration across modalities, Fairness, bias, and robustness in multimodal generation",
+    "title": "Statistical Foundations of Multimodal Foundation Models",
+    "description": "A blog post about Statistical Foundations of Multimodal Foundation Models",
+    "date": "2026-10-03",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/statistics/statistical-foundations-of-multimodal-foundation-models.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-federated-and-privacypreserving-ai.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Federated and Privacy‑Preserving AI",
