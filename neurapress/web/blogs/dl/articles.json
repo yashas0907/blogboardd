@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/selfsupervised-learning-for-audio-and-speech-representation.md",
+    "category": "dl",
+    "topic": "Self‑Supervised Learning for Audio and Speech Representation",
+    "subtopics": "Contrastive predictive coding and the wav2vec family, Multimodal audio‑visual self‑supervision, Large‑scale pretrained audio models for downstream tasks (ASR, speaker identification, emotion recognition), Efficient fine‑tuning and edge deployment strategies",
+    "title": "Self‑Supervised Learning for Audio and Speech Representation",
+    "description": "A blog post about Self‑Supervised Learning for Audio and Speech Representation",
+    "date": "2026-10-03",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/dl/selfsupervised-learning-for-audio-and-speech-representation.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/diffusion-models-for-highresolution-image-and-video-synthesis.md",
     "category": "dl",
     "topic": "Diffusion Models for High‑Resolution Image and Video Synthesis",

@@ -14,6 +14,14 @@
   <category>ml</category>
 </item>
 <item>
+  <title>Self‑Supervised Learning for Audio and Speech Representation</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/selfsupervised-learning-for-audio-and-speech-representation.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/selfsupervised-learning-for-audio-and-speech-representation.md</guid>
+  <pubDate>2026-10-03</pubDate>
+  <description>A blog post about Self‑Supervised Learning for Audio and Speech Representation</description>
+  <category>dl</category>
+</item>
+<item>
   <title>Autonomous Language Model Agents: Enabling LLMs to Plan, Act, and Use </title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/autonomous-language-model-agents-enabling-llms-to-plan-act-and-use-.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/autonomous-language-model-agents-enabling-llms-to-plan-act-and-use-.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-06</pubDate>
   <description>Learn how diffusion models, high‑throughput simulations, closed‑loop experiments, and LCA combine to accelerate eco‑friendly material discovery.</description>
   <category>genai</category>
-</item>
-<item>
-  <title>AI News Sep 2026: OpenAI Astra, Meta Muse Spark, Google Gemini Flash</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-news-sep-2026-openai-astra-meta-muse-spark-google-gemini-flash.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-news-sep-2026-openai-astra-meta-muse-spark-google-gemini-flash.md</guid>
-  <pubDate>2026-09-06</pubDate>
-  <description>Early September 2026 AI roundup: OpenAI’s critical‑rated GPT‑6 Astra, Meta’s pay‑to‑share Muse Spark, and Google’s Gemini 3.7 Flash with Pixel 11 hardware.</description>
-  <category>ainews</category>
 </item>
 </channel>
 </rss>
