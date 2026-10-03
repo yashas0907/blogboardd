@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/cv/foundation-models-for-aerial-and-satellite-imagery-scaling-vision-tra.md",
+    "category": "cv",
+    "topic": "Foundation Models for Aerial and Satellite Imagery: Scaling Vision Transformers to Geospatial Data",
+    "subtopics": "Large‑scale pretraining on multi‑spectral and SAR satellite datasets with auxiliary GIS metadata, Promptable geospatial queries using natural language and coordinate‑based descriptors, Efficient fine‑tuning for downstream tasks such as land‑use classification, change detection, and disaster assessment, Real‑time cloud/edge inference for continuous monitoring and decision support",
+    "title": "Foundation Models for Aerial and Satellite Imagery: Scaling Vision Tra",
+    "description": "A blog post about Foundation Models for Aerial and Satellite Imagery: Scaling Vision Tra",
+    "date": "2026-10-04",
+    "tags": [
+      "cv"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/cv/foundation-models-for-aerial-and-satellite-imagery-scaling-vision-tra.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/cv/foundation-models-for-medical-imaging-scaling-vision-transformers-to-.md",
     "category": "cv",
     "topic": "Foundation Models for Medical Imaging: Scaling Vision Transformers to Multi‑modal Clinical Data",
