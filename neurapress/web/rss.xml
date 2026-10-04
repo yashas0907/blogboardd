@@ -14,6 +14,14 @@
   <category>cv</category>
 </item>
 <item>
+  <title>AI News Roundup: Safety, Tiered Access &amp; Enterprise Sovereignty</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-news-roundup-safety-tiered-access-enterprise-sovereignty.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-news-roundup-safety-tiered-access-enterprise-sovereignty.md</guid>
+  <pubDate>2026-10-04</pubDate>
+  <description>This week’s AI roundup covers OpenAI’s halted GPT‑6.1 model, Google’s tiered Gemini access, and IBM’s self‑hosted Bob, highlighting safety, monetisation, and enterprise sovereignty.</description>
+  <category>ainews</category>
+</item>
+<item>
   <title>Foundation Models for Time-Series and Sequential Data: Scaling Forecas</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-time-series-and-sequential-data-scaling-forecas.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-time-series-and-sequential-data-scaling-forecas.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-07</pubDate>
   <description>A blog post about Uncertainty Quantification and Calibration in Large Language Models</description>
   <category>statistics</category>
-</item>
-<item>
-  <title>Foundations for 3D Vision: Point Cloud Transformers and Implicit Neura</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/cv/foundations-for-3d-vision-point-cloud-transformers-and-implicit-neura.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/cv/foundations-for-3d-vision-point-cloud-transformers-and-implicit-neura.md</guid>
-  <pubDate>2026-09-07</pubDate>
-  <description>A blog post about Foundations for 3D Vision: Point Cloud Transformers and Implicit Neura</description>
-  <category>cv</category>
 </item>
 </channel>
 </rss>

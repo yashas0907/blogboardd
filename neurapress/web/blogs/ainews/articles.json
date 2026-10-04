@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-news-roundup-safety-tiered-access-enterprise-sovereignty.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI News Roundup: Safety, Tiered Access & Enterprise Sovereignty",
+    "description": "This week’s AI roundup covers OpenAI’s halted GPT‑6.1 model, Google’s tiered Gemini access, and IBM’s self‑hosted Bob, highlighting safety, monetisation, and enterprise sovereignty.",
+    "date": "2026-10-04",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ainews/ai-news-roundup-safety-tiered-access-enterprise-sovereignty.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/weekly-ai-news-openai-pause-trump-accord-microsoft-controls.md",
     "category": "ainews",
     "topic": "Latest AI News",
