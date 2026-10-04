@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/neural-radiance-fields-nerf-and-diffusion-for-3d-scene-synthesis.md",
+    "category": "dl",
+    "topic": "Neural Radiance Fields (NeRF) and Diffusion for 3D Scene Synthesis",
+    "subtopics": "Fundamentals of neural implicit 3D representations, Diffusion‑guided NeRF training and high‑fidelity 3D generation, Real‑time rendering, acceleration, and scalability techniques, Applications in AR/VR, robotics, and digital content creation",
+    "title": "Neural Radiance Fields (NeRF) and Diffusion for 3D Scene Synthesis",
+    "description": "A blog post about Neural Radiance Fields (NeRF) and Diffusion for 3D Scene Synthesis",
+    "date": "2026-10-05",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/dl/neural-radiance-fields-nerf-and-diffusion-for-3d-scene-synthesis.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/selfsupervised-learning-for-audio-and-speech-representation.md",
     "category": "dl",
     "topic": "Self‑Supervised Learning for Audio and Speech Representation",
