@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-large-scale-geospatial-data-scaling-earth-obser.md",
+    "category": "ml",
+    "topic": "Foundation Models for Large-Scale Geospatial Data: Scaling Earth Observation and Spatial Analysis",
+    "subtopics": "Self‑supervised pretraining on massive satellite imagery and multimodal geospatial datasets, Scalable transformer and diffusion architectures for high‑resolution spatial data, Fine‑tuning strategies for downstream tasks such as land‑cover mapping, change detection, and disaster response, Benchmarks, evaluation metrics, and deployment considerations for cloud and edge environments",
+    "title": "Foundation Models for Large-Scale Geospatial Data: Scaling Earth Obser",
+    "description": "A blog post about Foundation Models for Large-Scale Geospatial Data: Scaling Earth Obser",
+    "date": "2026-10-04",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/foundation-models-for-large-scale-geospatial-data-scaling-earth-obser.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-time-series-and-sequential-data-scaling-forecas.md",
     "category": "ml",
     "topic": "Foundation Models for Time-Series and Sequential Data: Scaling Forecasting, Classification, and Anomaly Detection",
