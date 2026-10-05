@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-diffusion-models-for-generative-ai.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Diffusion Models for Generative AI",
+    "subtopics": "Probabilistic diffusion processes and score‑based modeling, Scaling laws and sample complexity of diffusion versus autoregressive models, Uncertainty quantification and calibration of generated samples, Fairness, bias, and robustness in diffusion‑generated content",
+    "title": "Statistical Foundations of Diffusion Models for Generative AI",
+    "description": "A blog post about Statistical Foundations of Diffusion Models for Generative AI",
+    "date": "2026-10-05",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-of-diffusion-models-for-generative-ai.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-multimodal-foundation-models.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Multimodal Foundation Models",
