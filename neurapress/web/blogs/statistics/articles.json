@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-large-language-model-alignment-and-safety.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Large Language Model Alignment and Safety",
+    "subtopics": "Preference‑based learning and statistical modeling of human feedback, Calibration and uncertainty quantification for LLM outputs, Statistical detection and mitigation of bias, toxicity, and hallucinations, Sample‑efficiency and scaling laws for instruction‑tuning and alignment",
+    "title": "Statistical Foundations of Large Language Model Alignment and Safety",
+    "description": "A blog post about Statistical Foundations of Large Language Model Alignment and Safety",
+    "date": "2026-10-07",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-of-large-language-model-alignment-and-safety.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-diffusion-models-for-generative-ai.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Diffusion Models for Generative AI",
