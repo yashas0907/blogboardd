@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-graph-data-and-network-analytics-scaling-repres.md",
+    "category": "ml",
+    "topic": "Foundation Models for Graph Data and Network Analytics: Scaling Representation Learning on Massive Graphs",
+    "subtopics": "Self‑supervised pretraining on web‑scale and heterogeneous graph corpora, Scalable graph transformer and diffusion architectures for billions‑node networks, Fine‑tuning strategies for downstream tasks such as node classification, link prediction, graph generation, and community detection, Benchmarks, evaluation metrics, and deployment considerations for distributed and edge environments",
+    "title": "Foundation Models for Graph Data and Network Analytics: Scaling Repres",
+    "description": "A blog post about Foundation Models for Graph Data and Network Analytics: Scaling Repres",
+    "date": "2026-10-06",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ml/foundation-models-for-graph-data-and-network-analytics-scaling-repres.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-large-scale-geospatial-data-scaling-earth-obser.md",
     "category": "ml",
     "topic": "Foundation Models for Large-Scale Geospatial Data: Scaling Earth Observation and Spatial Analysis",
