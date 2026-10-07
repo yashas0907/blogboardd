@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-for-privacypreserving-synthetic-data-and-federated-lear.md",
+    "category": "genai",
+    "topic": "Generative AI for Privacy‑Preserving Synthetic Data and Federated Learning",
+    "subtopics": "Synthetic data generation for tabular, text, and image domains with diffusion/LLM models, Differential‑privacy mechanisms integrated into generative pipelines, Seamless coupling of synthetic data with federated learning workflows for on‑device model updates, Metrics and benchmarks for balancing data utility, privacy guarantees, and downstream task performance",
+    "title": "Generative AI for Privacy‑Preserving Synthetic Data and Federated Lear",
+    "description": "A blog post about Generative AI for Privacy‑Preserving Synthetic Data and Federated Lear",
+    "date": "2026-10-07",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/genai/generative-ai-for-privacypreserving-synthetic-data-and-federated-lear.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-autonomous-agents-decision-making.md",
     "category": "genai",
     "topic": "Generative AI for Autonomous Agents and Decision‑Making in Dynamic Environments",
