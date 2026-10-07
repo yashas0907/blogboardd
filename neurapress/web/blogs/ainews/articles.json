@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-news-roundup-frontier-models-secure-access-no-code-gaming.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI News: Frontier Models, Secure Access & No‑Code Gaming (Oct 1‑7)",
+    "description": "AI roundup: Google’s Gemini 4 Argon security‑first launch, Anthropic’s Claude models for high‑risk testing, and Google Playground’s no‑code game creator.",
+    "date": "2026-10-08",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ainews/ai-news-roundup-frontier-models-secure-access-no-code-gaming.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/ai-news-roundup-safety-tiered-access-enterprise-sovereignty.md",
     "category": "ainews",
     "topic": "Latest AI News",
