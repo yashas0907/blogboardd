@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/cv/foundation-models-for-video-understanding-scaling-vision-transformers.md",
+    "category": "cv",
+    "topic": "Foundation Models for Video Understanding: Scaling Vision Transformers to Temporal Data",
+    "subtopics": "Large‑scale pretraining on multimodal video datasets (RGB frames, optical flow, audio, subtitles) with temporal metadata, Promptable video queries using natural language and time‑based descriptors, Efficient fine‑tuning for downstream tasks such as action recognition, video segmentation, and video captioning, Real‑time edge inference for AR/VR, robotics, and surveillance applications",
+    "title": "Foundation Models for Video Understanding: Scaling Vision Transformers",
+    "description": "A blog post about Foundation Models for Video Understanding: Scaling Vision Transformers",
+    "date": "2026-10-07",
+    "tags": [
+      "cv"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/cv/foundation-models-for-video-understanding-scaling-vision-transformers.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/cv/foundation-models-for-3d-point-cloud-and-lidar-data-scaling-vision-tr.md",
     "category": "cv",
     "topic": "Foundation Models for 3D Point Cloud and LiDAR Data: Scaling Vision Transformers to Spatial Geometry",
@@ -42,21 +57,6 @@
     ],
     "readTime": "8 min",
     "file": "blogs/cv/foundation-models-for-medical-imaging-scaling-vision-transformers-to-.md",
-    "coverImage": ""
-  },
-  {
-    "id": "blogs/cv/foundation-models-for-video-understanding-scaling-vision-transformers.md",
-    "category": "cv",
-    "topic": "Foundation Models for Video Understanding: Scaling Vision Transformers to Spatiotemporal Data",
-    "subtopics": "Large‑scale pretraining on diverse video corpora with multimodal (audio, text) signals, Promptable video queries using natural language and temporal descriptors, Efficient fine‑tuning for downstream tasks such as action detection, video captioning, and video‑text retrieval, Real‑time streaming inference on edge/edge‑cloud platforms for live analytics",
-    "title": "Foundation Models for Video Understanding: Scaling Vision Transformers",
-    "description": "A blog post about Foundation Models for Video Understanding: Scaling Vision Transformers",
-    "date": "2026-09-28",
-    "tags": [
-      "cv"
-    ],
-    "readTime": "3 min",
-    "file": "blogs/cv/foundation-models-for-video-understanding-scaling-vision-transformers.md",
     "coverImage": ""
   },
   {
