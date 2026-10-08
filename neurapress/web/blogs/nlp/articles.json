@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/green-ai-llm-energy-efficiency.md",
+    "category": "nlp",
+    "topic": "Green AI for Large Language Models: Energy Efficiency and Sustainable Practices",
+    "subtopics": "Energy profiling and carbon accounting for LLM training, Model compression and distillation techniques for low‑resource inference, Hardware‑aware and algorithmic optimizations to reduce compute, Lifecycle sustainability: from data curation to deployment",
+    "title": "Green AI for LLMs: Energy‑Efficient Practices & Sustainable Deployment",
+    "description": "Learn how to profile energy, cut carbon emissions, and apply compression, quantization, and hardware‑aware tricks to make LLMs greener.",
+    "date": "2026-10-09",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/nlp/green-ai-llm-energy-efficiency.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/explainability-and-interpretability-for-large-language-models.md",
     "category": "nlp",
     "topic": "Explainability and Interpretability for Large Language Models",
