@@ -14,6 +14,14 @@
   <category>dl</category>
 </item>
 <item>
+  <title>Statistical Foundations of Causal Inference in Foundation Models</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/statistical-foundations-of-causal-inference-in-foundation-models.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/statistical-foundations-of-causal-inference-in-foundation-models.md</guid>
+  <pubDate>2026-10-08</pubDate>
+  <description>A blog post about Statistical Foundations of Causal Inference in Foundation Models</description>
+  <category>statistics</category>
+</item>
+<item>
   <title>AI News: Frontier Models, Secure Access &amp; No‑Code Gaming (Oct 1‑7)</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-news-roundup-frontier-models-secure-access-no-code-gaming.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-news-roundup-frontier-models-secure-access-no-code-gaming.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-10</pubDate>
   <description>A blog post about Reinforcement Learning from Human Feedback (RLHF): Shaping Safer and A</description>
   <category>dl</category>
-</item>
-<item>
-  <title>Robust Statistics for AI: Tackling Distribution Shifts and Adversarial</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/robust-statistics-for-ai-tackling-distribution-shifts-and-adversarial.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/robust-statistics-for-ai-tackling-distribution-shifts-and-adversarial.md</guid>
-  <pubDate>2026-09-10</pubDate>
-  <description>A blog post about Robust Statistics for AI: Tackling Distribution Shifts and Adversarial</description>
-  <category>statistics</category>
 </item>
 </channel>
 </rss>

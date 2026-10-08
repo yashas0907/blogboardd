@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-causal-inference-in-foundation-models.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Causal Inference in Foundation Models",
+    "subtopics": "Causal representation learning and structural causal models for large language and multimodal models, Counterfactual evaluation and uncertainty quantification of model predictions, Causal regularization techniques to improve robustness and mitigate spurious correlations, Scaling laws and sample complexity for causal discovery in high‑dimensional model internals",
+    "title": "Statistical Foundations of Causal Inference in Foundation Models",
+    "description": "A blog post about Statistical Foundations of Causal Inference in Foundation Models",
+    "date": "2026-10-08",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/statistics/statistical-foundations-of-causal-inference-in-foundation-models.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-large-language-model-alignment-and-safety.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Large Language Model Alignment and Safety",
