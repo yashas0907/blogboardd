@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/energy-based-models-and-score-based-generative-modeling.md",
+    "category": "dl",
+    "topic": "Energy-Based Models and Score-Based Generative Modeling",
+    "subtopics": "Fundamentals of energy-based models and score matching, Training large‑scale EBMs with contrastive and diffusion‑based objectives, Efficient sampling and acceleration techniques (e.g., Langevin dynamics, annealed sampling, distillation), Applications in high‑fidelity image synthesis, scientific data generation, and inverse problems",
+    "title": "Energy-Based Models and Score-Based Generative Modeling",
+    "description": "A blog post about Energy-Based Models and Score-Based Generative Modeling",
+    "date": "2026-10-08",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/dl/energy-based-models-and-score-based-generative-modeling.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/neural-radiance-fields-nerf-and-diffusion-for-3d-scene-synthesis.md",
     "category": "dl",
     "topic": "Neural Radiance Fields (NeRF) and Diffusion for 3D Scene Synthesis",
