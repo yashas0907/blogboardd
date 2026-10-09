@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-roundup-visual-chatgpt-formal-math-gemini-1m-token.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI Roundup: Visual ChatGPT, Formal Math AI, and 1‑Million‑Token Gemini",
+    "description": "Explore OpenAI’s visual ChatGPT, its formal‑math model with Lean verification, and Google’s 1‑million‑token Gemini 4 Argon in this concise AI news roundup.",
+    "date": "2026-10-09",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ainews/ai-roundup-visual-chatgpt-formal-math-gemini-1m-token.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/ai-news-roundup-frontier-models-secure-access-no-code-gaming.md",
     "category": "ainews",
     "topic": "Latest AI News",

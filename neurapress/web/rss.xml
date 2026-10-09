@@ -22,6 +22,14 @@
   <category>genai</category>
 </item>
 <item>
+  <title>AI Roundup: Visual ChatGPT, Formal Math AI, and 1‑Million‑Token Gemini</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-roundup-visual-chatgpt-formal-math-gemini-1m-token.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-roundup-visual-chatgpt-formal-math-gemini-1m-token.md</guid>
+  <pubDate>2026-10-09</pubDate>
+  <description>Explore OpenAI’s visual ChatGPT, its formal‑math model with Lean verification, and Google’s 1‑million‑token Gemini 4 Argon in this concise AI news roundup.</description>
+  <category>ainews</category>
+</item>
+<item>
   <title>Energy-Based Models and Score-Based Generative Modeling</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/energy-based-models-and-score-based-generative-modeling.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/energy-based-models-and-score-based-generative-modeling.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-11</pubDate>
   <description>A blog post about Embodied Vision‑Language Foundation Models for Robotics: Integrating P</description>
   <category>cv</category>
-</item>
-<item>
-  <title>AI News Sep 4‑11 2026: Math Breakthrough, School Pact, Cyber Threats</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-news-sep-4-11-2026-math-school-cyber.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-news-sep-4-11-2026-math-school-cyber.md</guid>
-  <pubDate>2026-09-11</pubDate>
-  <description>This week’s AI roundup covers OpenAI’s Navier‑Stokes claim, the first national AI safety pact for U.S. schools, and Anthropic’s warning on AI‑enabled cyber threats.</description>
-  <category>ainews</category>
 </item>
 </channel>
 </rss>
