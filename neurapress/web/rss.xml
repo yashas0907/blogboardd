@@ -14,6 +14,14 @@
   <category>nlp</category>
 </item>
 <item>
+  <title>Generative AI for Climate Modeling &amp; Sustainable Decision Support</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-for-climate-modeling--sustainable-decision-support.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-for-climate-modeling--sustainable-decision-support.md</guid>
+  <pubDate>2026-10-09</pubDate>
+  <description>A blog post about Generative AI for Climate Modeling &amp; Sustainable Decision Support</description>
+  <category>genai</category>
+</item>
+<item>
   <title>Energy-Based Models and Score-Based Generative Modeling</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/energy-based-models-and-score-based-generative-modeling.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/energy-based-models-and-score-based-generative-modeling.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-11</pubDate>
   <description>This week’s AI roundup covers OpenAI’s Navier‑Stokes claim, the first national AI safety pact for U.S. schools, and Anthropic’s warning on AI‑enabled cyber threats.</description>
   <category>ainews</category>
-</item>
-<item>
-  <title>RLHF: Aligning AI with Human Intent – A Complete Guide</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/rlhf-aligning-ai-human-intent.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/rlhf-aligning-ai-human-intent.md</guid>
-  <pubDate>2026-09-10</pubDate>
-  <description>Learn how Reinforcement Learning from Human Feedback (RLHF) aligns large language and multimodal models with human values, covering fundamentals, pipelines, scaling, ethics, and regulation.</description>
-  <category>ml</category>
 </item>
 </channel>
 </rss>

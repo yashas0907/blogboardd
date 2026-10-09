@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-for-climate-modeling--sustainable-decision-support.md",
+    "category": "genai",
+    "topic": "Generative AI for Climate Modeling & Sustainable Decision Support",
+    "subtopics": "Physics‑informed diffusion and transformer models for high‑resolution climate data, Multimodal fusion of satellite imagery, sensor networks, and textual reports, Uncertainty quantification, interpretability, and bias mitigation in generative climate forecasts, Scenario generation for policy planning and impact assessment with LLM‑driven what‑if analysis",
+    "title": "Generative AI for Climate Modeling & Sustainable Decision Support",
+    "description": "A blog post about Generative AI for Climate Modeling & Sustainable Decision Support",
+    "date": "2026-10-09",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/genai/generative-ai-for-climate-modeling--sustainable-decision-support.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-for-privacypreserving-synthetic-data-and-federated-lear.md",
     "category": "genai",
     "topic": "Generative AI for Privacy‑Preserving Synthetic Data and Federated Learning",
