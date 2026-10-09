@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-multimodal-video-understanding-scaling-visionl.md",
+    "category": "ml",
+    "topic": "Foundation Models for Multimodal Video Understanding: Scaling Vision‑Language‑Audio Representations",
+    "subtopics": "Self‑supervised pretraining on massive video‑audio‑text corpora, Scalable spatiotemporal transformer and diffusion architectures for billions of video frames, Fine‑tuning strategies for downstream tasks such as action recognition, video captioning, and multimodal retrieval, Benchmarks, evaluation metrics, and deployment considerations for cloud, edge, and real‑time inference",
+    "title": "Foundation Models for Multimodal Video Understanding: Scaling Vision‑L",
+    "description": "A blog post about Foundation Models for Multimodal Video Understanding: Scaling Vision‑L",
+    "date": "2026-10-10",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ml/foundation-models-for-multimodal-video-understanding-scaling-visionl.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-graph-data-and-network-analytics-scaling-repres.md",
     "category": "ml",
     "topic": "Foundation Models for Graph Data and Network Analytics: Scaling Representation Learning on Massive Graphs",
