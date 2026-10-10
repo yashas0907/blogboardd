@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-retrievalaugmented-generation-for-large-la.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Retrieval‑Augmented Generation for Large Language Models",
+    "subtopics": "Probabilistic modeling of retrieval relevance and ranking, Uncertainty quantification and calibration of retrieved context, Scaling laws and sample complexity for retrieval‑augmented architectures, Bias detection and mitigation in knowledge‑integrated generation",
+    "title": "Statistical Foundations of Retrieval‑Augmented Generation for Large La",
+    "description": "A blog post about Statistical Foundations of Retrieval‑Augmented Generation for Large La",
+    "date": "2026-10-10",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/statistical-foundations-of-retrievalaugmented-generation-for-large-la.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-causal-inference-in-foundation-models.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Causal Inference in Foundation Models",
