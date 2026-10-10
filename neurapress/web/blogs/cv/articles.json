@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/cv/foundation-models-for-medical-imaging-scaling-vision-transformers-to-.md",
+    "category": "cv",
+    "topic": "Foundation Models for Medical Imaging: Scaling Vision Transformers to Multi‑modal Clinical Data",
+    "subtopics": "Large‑scale pretraining on multimodal medical datasets (CT, MRI, X‑ray, pathology slides) with patient and study metadata, Promptable clinical queries using natural language and anatomical descriptors, Efficient fine‑tuning for downstream tasks such as disease detection, segmentation, and prognosis prediction, Real‑time edge inference for point‑of‑care diagnostics and telemedicine",
+    "title": "Foundation Models for Medical Imaging: Scaling Vision Transformers to ",
+    "description": "A blog post about Foundation Models for Medical Imaging: Scaling Vision Transformers to ",
+    "date": "2026-10-11",
+    "tags": [
+      "cv"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/cv/foundation-models-for-medical-imaging-scaling-vision-transformers-to-.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/cv/foundation-models-for-video-understanding-scaling-vision-transformers.md",
     "category": "cv",
     "topic": "Foundation Models for Video Understanding: Scaling Vision Transformers to Temporal Data",
@@ -42,21 +57,6 @@
     ],
     "readTime": "7 min",
     "file": "blogs/cv/foundation-models-for-aerial-and-satellite-imagery-scaling-vision-tra.md",
-    "coverImage": ""
-  },
-  {
-    "id": "blogs/cv/foundation-models-for-medical-imaging-scaling-vision-transformers-to-.md",
-    "category": "cv",
-    "topic": "Foundation Models for Medical Imaging: Scaling Vision Transformers to Multi‑modal Clinical Data",
-    "subtopics": "Large‑scale pretraining on heterogeneous medical datasets (CT, MRI, X‑ray, pathology slides) with textual reports and patient metadata, Promptable diagnostic queries using natural language and structured clinical codes, Efficient fine‑tuning for downstream tasks such as disease classification, segmentation, and report generation, Real‑time inference on hospital PACS and edge devices for point‑of‑care analytics",
-    "title": "Foundation Models for Medical Imaging: Scaling Vision Transformers to ",
-    "description": "A blog post about Foundation Models for Medical Imaging: Scaling Vision Transformers to ",
-    "date": "2026-10-02",
-    "tags": [
-      "cv"
-    ],
-    "readTime": "8 min",
-    "file": "blogs/cv/foundation-models-for-medical-imaging-scaling-vision-transformers-to-.md",
     "coverImage": ""
   },
   {
