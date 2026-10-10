@@ -22,6 +22,14 @@
   <category>statistics</category>
 </item>
 <item>
+  <title>Privacy‑Preserving Large Language Models: Techniques, Challenges &amp; Solutions</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/privacy-preserving-llm-techniques-challenges.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/privacy-preserving-llm-techniques-challenges.md</guid>
+  <pubDate>2026-10-10</pubDate>
+  <description>Explore differential privacy, federated learning, secure inference, and leakage mitigation for LLMs, plus open research challenges.</description>
+  <category>nlp</category>
+</item>
+<item>
   <title>Green AI for LLMs: Energy‑Efficient Practices &amp; Sustainable Deployment</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/green-ai-llm-energy-efficiency.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/green-ai-llm-energy-efficiency.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-12</pubDate>
   <description>A blog post about Causal Inference for Deep Learning: Foundations, Methods, and Applicat</description>
   <category>statistics</category>
-</item>
-<item>
-  <title>Retrieval‑Augmented Generation (RAG): Enhancing Language Models with E</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/retrievalaugmented-generation-rag-enhancing-language-models-with-e.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/retrievalaugmented-generation-rag-enhancing-language-models-with-e.md</guid>
-  <pubDate>2026-09-12</pubDate>
-  <description>A blog post about Retrieval‑Augmented Generation (RAG): Enhancing Language Models with E</description>
-  <category>nlp</category>
 </item>
 </channel>
 </rss>

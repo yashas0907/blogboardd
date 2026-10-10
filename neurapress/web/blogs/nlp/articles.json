@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/privacy-preserving-llm-techniques-challenges.md",
+    "category": "nlp",
+    "topic": "Privacy-Preserving Large Language Models: Techniques and Challenges",
+    "subtopics": "Differential privacy for LLM training, Federated and split learning architectures for decentralized model development, Secure inference methods (homomorphic encryption, TEEs), Auditing, detection, and mitigation of privacy leaks in LLM outputs",
+    "title": "Privacy‑Preserving Large Language Models: Techniques, Challenges & Solutions",
+    "description": "Explore differential privacy, federated learning, secure inference, and leakage mitigation for LLMs, plus open research challenges.",
+    "date": "2026-10-10",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/nlp/privacy-preserving-llm-techniques-challenges.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/green-ai-llm-energy-efficiency.md",
     "category": "nlp",
     "topic": "Green AI for Large Language Models: Energy Efficiency and Sustainable Practices",
