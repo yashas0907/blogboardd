@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-weekly-oct-4-10-2026.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI Weekly Oct 4‑10 2026: OpenAI Math Papers, Self‑Policing, $20B Cut",
+    "description": "This week’s AI roundup covers OpenAI’s 722 AI‑generated math papers, the White House’s voluntary self‑policing framework, and OpenAI’s $20 bn revenue cut.",
+    "date": "2026-10-11",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "4 min",
+    "file": "blogs/ainews/ai-weekly-oct-4-10-2026.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/ai-roundup-visual-chatgpt-formal-math-gemini-1m-token.md",
     "category": "ainews",
     "topic": "Latest AI News",

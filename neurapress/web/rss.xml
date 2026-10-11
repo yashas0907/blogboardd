@@ -14,6 +14,14 @@
   <category>cv</category>
 </item>
 <item>
+  <title>AI Weekly Oct 4‑10 2026: OpenAI Math Papers, Self‑Policing, $20B Cut</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-weekly-oct-4-10-2026.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-weekly-oct-4-10-2026.md</guid>
+  <pubDate>2026-10-11</pubDate>
+  <description>This week’s AI roundup covers OpenAI’s 722 AI‑generated math papers, the White House’s voluntary self‑policing framework, and OpenAI’s $20 bn revenue cut.</description>
+  <category>ainews</category>
+</item>
+<item>
   <title>Foundation Models for Multimodal Video Understanding: Scaling Vision‑L</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-multimodal-video-understanding-scaling-visionl.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-multimodal-video-understanding-scaling-visionl.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-12</pubDate>
   <description>A blog post about Diffusion Models: From Image Synthesis to Scientific Discovery</description>
   <category>dl</category>
-</item>
-<item>
-  <title>Causal Inference for Deep Learning: Foundations, Methods, and Applicat</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/causal-inference-for-deep-learning-foundations-methods-and-applicat.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/causal-inference-for-deep-learning-foundations-methods-and-applicat.md</guid>
-  <pubDate>2026-09-12</pubDate>
-  <description>A blog post about Causal Inference for Deep Learning: Foundations, Methods, and Applicat</description>
-  <category>statistics</category>
 </item>
 </channel>
 </rss>
