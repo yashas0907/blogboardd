@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/multimodal-large-language-models-foundations-alignment-and-retrieva.md",
+    "category": "dl",
+    "topic": "Multimodal Large Language Models: Foundations, Alignment, and Retrieval‑Augmented Generation",
+    "subtopics": "Vision‑language pretraining architectures (e.g., CLIP, Flamingo, PaLM‑E), Instruction tuning and alignment techniques for multimodal LLMs, Retrieval‑augmented generation and external tool integration, Efficient inference strategies (distillation, quantization, and token pruning)",
+    "title": "Multimodal Large Language Models: Foundations, Alignment, and Retrieva",
+    "description": "A blog post about Multimodal Large Language Models: Foundations, Alignment, and Retrieva",
+    "date": "2026-10-12",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/dl/multimodal-large-language-models-foundations-alignment-and-retrieva.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/energy-based-models-and-score-based-generative-modeling.md",
     "category": "dl",
     "topic": "Energy-Based Models and Score-Based Generative Modeling",
