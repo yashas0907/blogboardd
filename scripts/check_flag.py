@@ -7,8 +7,7 @@ import json
 import re
 import sys
 import time
-from datetime import datetime, timezone
-from pathlib import Path
+from datetime import UTC, datetime
 
 import requests
 
@@ -41,14 +40,14 @@ def check_site(site: str) -> dict:
         "phishing": fields[2] is True,
         "potentially_harmful_app": fields[3] is True,
         "flagged": any(f is True for f in fields[:4]),
-        "checked_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+        "checked_at": datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC"),
     }
 
 
 def main():
     watch = "--watch" in sys.argv
     while True:
-        print(f"\n=== Safe Browsing status — {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')} ===")
+        print(f"\n=== Safe Browsing status — {datetime.now(UTC).strftime('%Y-%m-%d %H:%M UTC')} ===")
         all_clear = True
         for site in SITES:
             status = check_site(site)
