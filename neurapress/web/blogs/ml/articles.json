@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-largescale-timeseries-and-iot-sensor-data-sca.md",
+    "category": "ml",
+    "topic": "Foundation Models for Large‑Scale Time‑Series and IoT Sensor Data: Scaling Predictive Analytics",
+    "subtopics": "Self‑supervised pretraining on massive multivariate sensor corpora, Scalable transformer and diffusion architectures for long‑horizon and irregular time‑series, Fine‑tuning strategies for forecasting, anomaly detection, and classification in industrial and edge environments, Benchmarks, evaluation metrics, and deployment considerations for real‑time inference on cloud, edge, and embedded devices",
+    "title": "Foundation Models for Large‑Scale Time‑Series and IoT Sensor Data: Sca",
+    "description": "A blog post about Foundation Models for Large‑Scale Time‑Series and IoT Sensor Data: Sca",
+    "date": "2026-10-11",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/ml/foundation-models-for-largescale-timeseries-and-iot-sensor-data-sca.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-multimodal-video-understanding-scaling-visionl.md",
     "category": "ml",
     "topic": "Foundation Models for Multimodal Video Understanding: Scaling Vision‑Language‑Audio Representations",
