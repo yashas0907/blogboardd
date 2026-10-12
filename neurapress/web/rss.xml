@@ -14,6 +14,14 @@
   <category>dl</category>
 </item>
 <item>
+  <title>Fairness, Bias &amp; Ethics in Large Language Models: A Practical Guide</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/fairness-bias-ethics-llm-guide.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/fairness-bias-ethics-llm-guide.md</guid>
+  <pubDate>2026-10-12</pubDate>
+  <description>Learn state‑of‑the‑art methods to detect, measure, and mitigate bias in LLMs, plus ethical frameworks and inclusive dataset practices.</description>
+  <category>nlp</category>
+</item>
+<item>
   <title>Foundation Models for Large‑Scale Time‑Series and IoT Sensor Data: Sca</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-largescale-timeseries-and-iot-sensor-data-sca.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-largescale-timeseries-and-iot-sensor-data-sca.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-13</pubDate>
   <description>A blog post about Foundation Models for Remote Sensing and Earth Observation: Scaling Vi</description>
   <category>cv</category>
-</item>
-<item>
-  <title>Generative AI for Synthetic Data &amp; Privacy‑Preserving Analytics</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-synthetic-data-privacy-analytics.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-synthetic-data-privacy-analytics.md</guid>
-  <pubDate>2026-09-13</pubDate>
-  <description>Explore state‑of‑the‑art GAN and diffusion models for synthetic data, learn differential privacy and federated generation, and master evaluation and deployment.</description>
-  <category>genai</category>
 </item>
 </channel>
 </rss>

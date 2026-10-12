@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/fairness-bias-ethics-llm-guide.md",
+    "category": "nlp",
+    "topic": "Fairness, Bias, and Ethics in Large Language Models",
+    "subtopics": "Bias detection and measurement methods, Mitigation strategies across data, model, and post‑processing stages, Ethical frameworks and governance for LLM deployment, Inclusive dataset curation and representation",
+    "title": "Fairness, Bias & Ethics in Large Language Models: A Practical Guide",
+    "description": "Learn state‑of‑the‑art methods to detect, measure, and mitigate bias in LLMs, plus ethical frameworks and inclusive dataset practices.",
+    "date": "2026-10-12",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/nlp/fairness-bias-ethics-llm-guide.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/privacy-preserving-llm-techniques-challenges.md",
     "category": "nlp",
     "topic": "Privacy-Preserving Large Language Models: Techniques and Challenges",
