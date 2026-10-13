@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-continual-learning-for-foundation-models.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Continual Learning for Foundation Models",
+    "subtopics": "Bayesian approaches to task-incremental and domain-incremental learning, Statistical detection and mitigation of catastrophic forgetting, Uncertainty quantification for model updates and drift detection, Sample‑efficiency and scaling laws for lifelong adaptation of large language models",
+    "title": "Statistical Foundations of Continual Learning for Foundation Models",
+    "description": "A blog post about Statistical Foundations of Continual Learning for Foundation Models",
+    "date": "2026-10-14",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-of-continual-learning-for-foundation-models.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-retrievalaugmented-generation-for-large-la.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Retrieval‑Augmented Generation for Large Language Models",
