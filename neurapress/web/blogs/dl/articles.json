@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/diffusion-models-for-high-resolution-video-generation-and-editing.md",
+    "category": "dl",
+    "topic": "Diffusion Models for High-Resolution Video Generation and Editing",
+    "subtopics": "Fundamentals of video diffusion architectures and temporal modeling, Training strategies with multimodal conditioning (text, audio, motion) and large‑scale video datasets, Efficient inference techniques (cascaded diffusion, compression‑aware sampling, token pruning) for real‑time generation, Applications in video editing, inpainting, text‑to‑video synthesis, animation, and deep‑fake detection",
+    "title": "Diffusion Models for High-Resolution Video Generation and Editing",
+    "description": "A blog post about Diffusion Models for High-Resolution Video Generation and Editing",
+    "date": "2026-10-13",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/dl/diffusion-models-for-high-resolution-video-generation-and-editing.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/multimodal-large-language-models-foundations-alignment-and-retrieva.md",
     "category": "dl",
     "topic": "Multimodal Large Language Models: Foundations, Alignment, and Retrieval‑Augmented Generation",
