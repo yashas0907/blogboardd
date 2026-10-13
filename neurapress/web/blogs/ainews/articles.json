@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-weekly-oct-5-12-2026-funding-regulation-multimodal.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI News Oct 5‑12 2026: Funding Surge, Kill‑Switch Call, Multimodal Model",
+    "description": "This week’s AI roundup covers TypeSafe’s $870M Series A, Microsoft’s call for AI kill‑switch regulation, and DeepMind’s open‑source multimodal EmbeddingGemma 2.",
+    "date": "2026-10-13",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ainews/ai-weekly-oct-5-12-2026-funding-regulation-multimodal.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/ai-weekly-oct-4-10-2026.md",
     "category": "ainews",
     "topic": "Latest AI News",
