@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-weekly-worm-threat-openai-revenue-fix-intelligent-ui.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI Weekly: Worm Threat, OpenAI Revenue Fix & New Intelligent UI",
+    "description": "This week’s AI roundup covers Anthropic’s AI‑worm security alert, OpenAI’s corrected $50 B revenue figure, and the launch of Intelligent UI with GPT‑6.",
+    "date": "2026-10-15",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ainews/ai-weekly-worm-threat-openai-revenue-fix-intelligent-ui.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/ai-weekly-oct-5-12-2026-funding-regulation-multimodal.md",
     "category": "ainews",
     "topic": "Latest AI News",
