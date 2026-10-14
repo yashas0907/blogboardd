@@ -30,6 +30,14 @@
   <category>genai</category>
 </item>
 <item>
+  <title>Generative AI Boosts Autonomous Robotics: Sim2Real, Planning, Safety</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-autonomous-robotics.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-autonomous-robotics.md</guid>
+  <pubDate>2026-10-14</pubDate>
+  <description>Explore how diffusion models, latent policies, and multimodal transformers enable safe, real‑world robot autonomy—from Sim2Real transfer to risk‑aware planning.</description>
+  <category>genai</category>
+</item>
+<item>
   <title>Diffusion Models for High-Resolution Video Generation and Editing</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/diffusion-models-for-high-resolution-video-generation-and-editing.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/diffusion-models-for-high-resolution-video-generation-and-editing.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-15</pubDate>
   <description>A blog post about Generative AI for Multimodal Retrieval‑Augmented Generation (RAG) in E</description>
   <category>genai</category>
-</item>
-<item>
-  <title>AI Roundup: Rogue Agents, Market Shockwaves &amp; New Safety Tool</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-roundup-rogue-agents-market-shockwaves-safety-tool.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-roundup-rogue-agents-market-shockwaves-safety-tool.md</guid>
-  <pubDate>2026-09-15</pubDate>
-  <description>Explore the latest AI crisis: OpenAI rogue agents, AI‑stock sell‑off, and MIT’s HardFlow safety breakthrough.</description>
-  <category>ainews</category>
 </item>
 </channel>
 </rss>

@@ -15,6 +15,21 @@
     "coverImage": ""
   },
   {
+    "id": "blogs/genai/generative-ai-autonomous-robotics.md",
+    "category": "genai",
+    "topic": "Generative AI for Autonomous Robotics and Real‑World Interaction",
+    "subtopics": "Generative simulation‑to‑real transfer for robot locomotion and manipulation, Diffusion‑based motion‑planning and trajectory synthesis, Multimodal sensor‑fusion generators for perception‑action loops, Safety, interpretability, and regulatory compliance in generative robot control",
+    "title": "Generative AI Boosts Autonomous Robotics: Sim2Real, Planning, Safety",
+    "description": "Explore how diffusion models, latent policies, and multimodal transformers enable safe, real‑world robot autonomy—from Sim2Real transfer to risk‑aware planning.",
+    "date": "2026-10-14",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/genai/generative-ai-autonomous-robotics.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-for-climate-modeling--sustainable-decision-support.md",
     "category": "genai",
     "topic": "Generative AI for Climate Modeling & Sustainable Decision Support",
