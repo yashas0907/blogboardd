@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/multilingual-and-lowresource-language-modeling-with-large-language-mo.md",
+    "category": "nlp",
+    "topic": "Multilingual and Low‑Resource Language Modeling with Large Language Models",
+    "subtopics": "Cross‑lingual transfer learning and adapter techniques, Data augmentation & synthetic data generation for low‑resource languages, Evaluation metrics and benchmarks for multilingual LLMs, Deployment challenges and cultural considerations in multilingual contexts",
+    "title": "Multilingual and Low‑Resource Language Modeling with Large Language Mo",
+    "description": "A blog post about Multilingual and Low‑Resource Language Modeling with Large Language Mo",
+    "date": "2026-10-14",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/nlp/multilingual-and-lowresource-language-modeling-with-large-language-mo.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/fairness-bias-ethics-llm-guide.md",
     "category": "nlp",
     "topic": "Fairness, Bias, and Ethics in Large Language Models",
