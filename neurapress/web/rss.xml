@@ -14,6 +14,14 @@
   <category>ml</category>
 </item>
 <item>
+  <title>Neural Radiance Fields and Next-Generation 3D Generative Models</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/neural-radiance-fields-and-next-generation-3d-generative-models.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/neural-radiance-fields-and-next-generation-3d-generative-models.md</guid>
+  <pubDate>2026-10-15</pubDate>
+  <description>A blog post about Neural Radiance Fields and Next-Generation 3D Generative Models</description>
+  <category>dl</category>
+</item>
+<item>
   <title>AI Weekly: Worm Threat, OpenAI Revenue Fix &amp; New Intelligent UI</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-weekly-worm-threat-openai-revenue-fix-intelligent-ui.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-weekly-worm-threat-openai-revenue-fix-intelligent-ui.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-26</pubDate>
   <description>A blog post about Foundation Models for Reinforcement Learning: Scaling Decision-Making </description>
   <category>ml</category>
-</item>
-<item>
-  <title>Self‑Supervised Representation Learning: From Contrastive to Generativ</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/selfsupervised-representation-learning-from-contrastive-to-generativ.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/selfsupervised-representation-learning-from-contrastive-to-generativ.md</guid>
-  <pubDate>2026-09-26</pubDate>
-  <description>A blog post about Self‑Supervised Representation Learning: From Contrastive to Generativ</description>
-  <category>dl</category>
 </item>
 </channel>
 </rss>

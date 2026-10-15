@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/neural-radiance-fields-and-next-generation-3d-generative-models.md",
+    "category": "dl",
+    "topic": "Neural Radiance Fields and Next-Generation 3D Generative Models",
+    "subtopics": "Fundamentals of NeRF representations and extensions, Scalable training pipelines for massive 3D datasets, Real-time rendering and acceleration techniques (e.g., sparse voxel grids, tensor decompositions, CUDA kernels), Applications in AR/VR content creation, robotics perception, and digital twin synthesis",
+    "title": "Neural Radiance Fields and Next-Generation 3D Generative Models",
+    "description": "A blog post about Neural Radiance Fields and Next-Generation 3D Generative Models",
+    "date": "2026-10-15",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/dl/neural-radiance-fields-and-next-generation-3d-generative-models.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/diffusion-models-for-high-resolution-video-generation-and-editing.md",
     "category": "dl",
     "topic": "Diffusion Models for High-Resolution Video Generation and Editing",
