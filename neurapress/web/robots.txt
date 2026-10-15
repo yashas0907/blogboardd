@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yashas0907.github.io/blogboardd/sitemap.xml
