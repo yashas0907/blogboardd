@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-privacypreserving-training-and-inference-f.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Privacy‑Preserving Training and Inference for Foundation Models",
+    "subtopics": "Differential privacy mechanisms and utility‑privacy trade‑offs for large language models, Statistical analysis of privacy leakage during fine‑tuning and prompt adaptation, Secure aggregation and federated learning with formal privacy guarantees, Scaling laws and sample‑complexity for privacy‑preserving training and inference",
+    "title": "Statistical Foundations of Privacy‑Preserving Training and Inference f",
+    "description": "A blog post about Statistical Foundations of Privacy‑Preserving Training and Inference f",
+    "date": "2026-10-15",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-of-privacypreserving-training-and-inference-f.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-continual-learning-for-foundation-models.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Continual Learning for Foundation Models",
