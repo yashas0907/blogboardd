@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-scientific-text-and-knowledge-graph-integration.md",
+    "category": "ml",
+    "topic": "Foundation Models for Scientific Text and Knowledge Graph Integration: Scaling Retrieval‑Augmented Generation for Research",
+    "subtopics": "Self‑supervised pretraining on massive scientific literature and citation graphs, Multimodal fusion of text, tables, and knowledge‑graph embeddings for contextual understanding, Fine‑tuning strategies for literature summarization, hypothesis generation, citation recommendation, and fact‑checked question answering, Benchmarks, evaluation metrics, and deployment considerations for cloud‑native and edge‑assisted research assistants",
+    "title": "Foundation Models for Scientific Text and Knowledge Graph Integration:",
+    "description": "A blog post about Foundation Models for Scientific Text and Knowledge Graph Integration:",
+    "date": "2026-10-15",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/foundation-models-for-scientific-text-and-knowledge-graph-integration.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-largescale-timeseries-and-iot-sensor-data-sca.md",
     "category": "ml",
     "topic": "Foundation Models for Large‑Scale Time‑Series and IoT Sensor Data: Scaling Predictive Analytics",
