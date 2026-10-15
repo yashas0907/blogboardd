@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/energyefficient-and-sustainable-large-language-models.md",
+    "category": "nlp",
+    "topic": "Energy‑Efficient and Sustainable Large Language Models",
+    "subtopics": "Model compression techniques (pruning, quantization, distillation), Efficient training strategies (sparse activations, mixture‑of‑experts, curriculum learning), Measuring and reporting carbon footprint and energy consumption, Hardware‑software co‑design for low‑power inference",
+    "title": "Energy‑Efficient and Sustainable Large Language Models",
+    "description": "A blog post about Energy‑Efficient and Sustainable Large Language Models",
+    "date": "2026-10-16",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/nlp/energyefficient-and-sustainable-large-language-models.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/multilingual-and-lowresource-language-modeling-with-large-language-mo.md",
     "category": "nlp",
     "topic": "Multilingual and Low‑Resource Language Modeling with Large Language Models",
