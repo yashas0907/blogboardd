@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-largescale-geospatial-and-earth-observation-dat.md",
+    "category": "ml",
+    "topic": "Foundation Models for Large‑Scale Geospatial and Earth Observation Data: Scaling Spatial‑Temporal Understanding",
+    "subtopics": "Self‑supervised pretraining on massive satellite imagery, LiDAR, and climate sensor corpora, Scalable transformer and diffusion architectures for multi‑resolution spatio‑temporal modeling, Fine‑tuning strategies for downstream tasks such as land‑cover mapping, disaster forecasting, and climate impact analysis, Benchmarks, evaluation metrics, and deployment considerations for cloud‑native and edge‑assisted geospatial analytics",
+    "title": "Foundation Models for Large‑Scale Geospatial and Earth Observation Dat",
+    "description": "A blog post about Foundation Models for Large‑Scale Geospatial and Earth Observation Dat",
+    "date": "2026-10-17",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/foundation-models-for-largescale-geospatial-and-earth-observation-dat.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-scientific-text-and-knowledge-graph-integration.md",
     "category": "ml",
     "topic": "Foundation Models for Scientific Text and Knowledge Graph Integration: Scaling Retrieval‑Augmented Generation for Research",
