@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-for-financial-modeling-forecasting-and-risk-management.md",
+    "category": "genai",
+    "topic": "Generative AI for Financial Modeling, Forecasting, and Risk Management",
+    "subtopics": "Generative time‑series synthesis for market simulation, AI‑driven scenario generation for stress‑testing and what‑if analysis, Integration with reinforcement learning for portfolio optimization and hedging, Regulatory compliance, interpretability, and bias mitigation in AI‑powered finance",
+    "title": "Generative AI for Financial Modeling, Forecasting, and Risk Management",
+    "description": "A blog post about Generative AI for Financial Modeling, Forecasting, and Risk Management",
+    "date": "2026-10-16",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/genai/generative-ai-for-financial-modeling-forecasting-and-risk-management.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-for-drug-discovery-and-molecular-design.md",
     "category": "genai",
     "topic": "Generative AI for Drug Discovery and Molecular Design",

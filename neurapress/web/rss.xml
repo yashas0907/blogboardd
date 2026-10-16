@@ -22,6 +22,14 @@
   <category>cv</category>
 </item>
 <item>
+  <title>Generative AI for Financial Modeling, Forecasting, and Risk Management</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-for-financial-modeling-forecasting-and-risk-management.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-for-financial-modeling-forecasting-and-risk-management.md</guid>
+  <pubDate>2026-10-16</pubDate>
+  <description>A blog post about Generative AI for Financial Modeling, Forecasting, and Risk Management</description>
+  <category>genai</category>
+</item>
+<item>
   <title>Foundation Models for Scientific Text and Knowledge Graph Integration:</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-scientific-text-and-knowledge-graph-integration.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-scientific-text-and-knowledge-graph-integration.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-29</pubDate>
   <description>A blog post about Foundation Models for Multimodal Retrieval and Generation</description>
   <category>dl</category>
-</item>
-<item>
-  <title>Generative AI‑Powered Digital Twins: Real‑Time Creation &amp; Simulation</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-digital-twins-real-time-simulation.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-digital-twins-real-time-simulation.md</guid>
-  <pubDate>2026-09-29</pubDate>
-  <description>Learn how generative AI transforms digital twin creation with NeRF, diffusion models, LLM-driven scenarios, edge pipelines, and performance metrics.</description>
-  <category>genai</category>
 </item>
 </channel>
 </rss>
