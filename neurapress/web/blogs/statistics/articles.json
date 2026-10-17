@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-parameter-efficient-finetuning-for-large-l.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Parameter-Efficient Fine‑Tuning for Large Language Models",
+    "subtopics": "Low‑rank and sparse adaptation theory, Sample‑complexity and generalization bounds for adapter‑based fine‑tuning, Uncertainty quantification and calibration of parameter‑efficient updates, Trade‑offs between computational efficiency and statistical performance",
+    "title": "Statistical Foundations of Parameter-Efficient Fine‑Tuning for Large L",
+    "description": "A blog post about Statistical Foundations of Parameter-Efficient Fine‑Tuning for Large L",
+    "date": "2026-10-17",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/statistics/statistical-foundations-of-parameter-efficient-finetuning-for-large-l.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-privacypreserving-training-and-inference-f.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Privacy‑Preserving Training and Inference for Foundation Models",

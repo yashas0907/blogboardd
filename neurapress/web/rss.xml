@@ -22,6 +22,14 @@
   <category>dl</category>
 </item>
 <item>
+  <title>Statistical Foundations of Parameter-Efficient Fine‑Tuning for Large L</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/statistical-foundations-of-parameter-efficient-finetuning-for-large-l.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/statistical-foundations-of-parameter-efficient-finetuning-for-large-l.md</guid>
+  <pubDate>2026-10-17</pubDate>
+  <description>A blog post about Statistical Foundations of Parameter-Efficient Fine‑Tuning for Large L</description>
+  <category>statistics</category>
+</item>
+<item>
   <title>Energy‑Efficient and Sustainable Large Language Models</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/energyefficient-and-sustainable-large-language-models.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/energyefficient-and-sustainable-large-language-models.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-30</pubDate>
   <description>A blog post about Statistical Foundations of Large Language Model Scaling and Emergent C</description>
   <category>statistics</category>
-</item>
-<item>
-  <title>Neuro‑Symbolic Language Models: Integrating Symbolic Reasoning with Ne</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/neurosymbolic-language-models-integrating-symbolic-reasoning-with-ne.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/neurosymbolic-language-models-integrating-symbolic-reasoning-with-ne.md</guid>
-  <pubDate>2026-09-30</pubDate>
-  <description>A blog post about Neuro‑Symbolic Language Models: Integrating Symbolic Reasoning with Ne</description>
-  <category>nlp</category>
 </item>
 </channel>
 </rss>
