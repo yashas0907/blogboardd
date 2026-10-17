@@ -30,6 +30,14 @@
   <category>statistics</category>
 </item>
 <item>
+  <title>Privacy-Preserving and Secure Large Language Models</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/privacy-preserving-and-secure-large-language-models.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/privacy-preserving-and-secure-large-language-models.md</guid>
+  <pubDate>2026-10-17</pubDate>
+  <description>A blog post about Privacy-Preserving and Secure Large Language Models</description>
+  <category>nlp</category>
+</item>
+<item>
   <title>Energy‑Efficient and Sustainable Large Language Models</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/energyefficient-and-sustainable-large-language-models.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/energyefficient-and-sustainable-large-language-models.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-01</pubDate>
   <description>Top AI headlines: OpenAI delays GPT‑6.1 over safety, Trump‑backed AI safety pledge, and Microsoft’s new enterprise AI‑agent security suite.</description>
   <category>ainews</category>
-</item>
-<item>
-  <title>Statistical Foundations of Large Language Model Scaling and Emergent C</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/statistical-foundations-of-large-language-model-scaling-and-emergent-c.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/statistical-foundations-of-large-language-model-scaling-and-emergent-c.md</guid>
-  <pubDate>2026-09-30</pubDate>
-  <description>A blog post about Statistical Foundations of Large Language Model Scaling and Emergent C</description>
-  <category>statistics</category>
 </item>
 </channel>
 </rss>

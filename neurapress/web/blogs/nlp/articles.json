@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/privacy-preserving-and-secure-large-language-models.md",
+    "category": "nlp",
+    "topic": "Privacy-Preserving and Secure Large Language Models",
+    "subtopics": "Differential privacy techniques for LLM training, Federated and decentralized learning for language models, Secure inference via homomorphic encryption and trusted execution environments, Threat models and mitigation of data leakage and model inversion attacks",
+    "title": "Privacy-Preserving and Secure Large Language Models",
+    "description": "A blog post about Privacy-Preserving and Secure Large Language Models",
+    "date": "2026-10-17",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/nlp/privacy-preserving-and-secure-large-language-models.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/energyefficient-and-sustainable-large-language-models.md",
     "category": "nlp",
     "topic": "Energy‑Efficient and Sustainable Large Language Models",
