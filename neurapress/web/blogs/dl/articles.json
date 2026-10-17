@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/embodied-ai-and-foundation-models-for-autonomous-robotics.md",
+    "category": "dl",
+    "topic": "Embodied AI and Foundation Models for Autonomous Robotics",
+    "subtopics": "Self-supervised perception and world modeling, Hierarchical skill learning with large-scale policy priors, Sim-to-real transfer and curriculum learning, Multi-agent coordination and language grounding",
+    "title": "Embodied AI and Foundation Models for Autonomous Robotics",
+    "description": "A blog post about Embodied AI and Foundation Models for Autonomous Robotics",
+    "date": "2026-10-17",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/dl/embodied-ai-and-foundation-models-for-autonomous-robotics.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/neural-radiance-fields-and-next-generation-3d-generative-models.md",
     "category": "dl",
     "topic": "Neural Radiance Fields and Next-Generation 3D Generative Models",

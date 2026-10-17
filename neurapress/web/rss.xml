@@ -14,6 +14,14 @@
   <category>ml</category>
 </item>
 <item>
+  <title>Embodied AI and Foundation Models for Autonomous Robotics</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/embodied-ai-and-foundation-models-for-autonomous-robotics.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/embodied-ai-and-foundation-models-for-autonomous-robotics.md</guid>
+  <pubDate>2026-10-17</pubDate>
+  <description>A blog post about Embodied AI and Foundation Models for Autonomous Robotics</description>
+  <category>dl</category>
+</item>
+<item>
   <title>Energy‑Efficient and Sustainable Large Language Models</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/energyefficient-and-sustainable-large-language-models.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/energyefficient-and-sustainable-large-language-models.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-09-30</pubDate>
   <description>A blog post about Neuro‑Symbolic Language Models: Integrating Symbolic Reasoning with Ne</description>
   <category>nlp</category>
-</item>
-<item>
-  <title>Generative AI for Autonomous Agents: Planning, Control &amp; Safety</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-autonomous-agents-decision-making.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-autonomous-agents-decision-making.md</guid>
-  <pubDate>2026-09-30</pubDate>
-  <description>Explore how large language models, reinforcement learning, diffusion models, and multimodal perception combine to build safe, adaptable autonomous agents.</description>
-  <category>genai</category>
 </item>
 </channel>
 </rss>
