@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/transformer-based-protein-structure-prediction-and-biological-sequence.md",
+    "category": "dl",
+    "topic": "Transformer-Based Protein Structure Prediction and Biological Sequence Modeling",
+    "subtopics": "Self-supervised pretraining on massive protein sequences, Equivariant and attention‑based architectures for end‑to‑end 3D structure prediction, Multimodal integration of genomics, cryo‑EM, and functional assays, Applications in drug discovery, enzyme engineering, and variant effect prediction",
+    "title": "Transformer-Based Protein Structure Prediction and Biological Sequence",
+    "description": "A blog post about Transformer-Based Protein Structure Prediction and Biological Sequence",
+    "date": "2026-10-19",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/dl/transformer-based-protein-structure-prediction-and-biological-sequence.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/embodied-ai-and-foundation-models-for-autonomous-robotics.md",
     "category": "dl",
     "topic": "Embodied AI and Foundation Models for Autonomous Robotics",
