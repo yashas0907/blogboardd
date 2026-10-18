@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-for-sustainable-materials-design-and-climate-impact-mode.md",
+    "category": "genai",
+    "topic": "Generative AI for Sustainable Materials Design and Climate Impact Modeling",
+    "subtopics": "Generative molecular and polymer design for eco‑friendly materials, AI‑driven synthesis of climate‑impact scenarios and carbon‑budget forecasting, Integration of generative models with multiscale physics‑based simulations for property prediction, Lifecycle assessment, regulatory compliance, and bias mitigation in AI‑enabled sustainability pipelines",
+    "title": "Generative AI for Sustainable Materials Design and Climate Impact Mode",
+    "description": "A blog post about Generative AI for Sustainable Materials Design and Climate Impact Mode",
+    "date": "2026-10-18",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/genai/generative-ai-for-sustainable-materials-design-and-climate-impact-mode.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-for-financial-modeling-forecasting-and-risk-management.md",
     "category": "genai",
     "topic": "Generative AI for Financial Modeling, Forecasting, and Risk Management",
