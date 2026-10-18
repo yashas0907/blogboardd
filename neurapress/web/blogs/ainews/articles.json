@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-week-review-oct-12-18-2026.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI Week in Review (Oct 12‑18, 2026): Market Crash & New Regulations",
+    "description": "A concise roundup of the week’s biggest AI stories: a market correction hitting GPU‑rental firms, the FSB’s first human‑in‑the‑loop guidance, and cautious investor sentiment.",
+    "date": "2026-10-18",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ainews/ai-week-review-oct-12-18-2026.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/ai-weekly-worm-threat-openai-revenue-fix-intelligent-ui.md",
     "category": "ainews",
     "topic": "Latest AI News",

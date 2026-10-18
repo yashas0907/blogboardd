@@ -22,6 +22,14 @@
   <category>genai</category>
 </item>
 <item>
+  <title>AI Week in Review (Oct 12‑18, 2026): Market Crash &amp; New Regulations</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-week-review-oct-12-18-2026.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-week-review-oct-12-18-2026.md</guid>
+  <pubDate>2026-10-18</pubDate>
+  <description>A concise roundup of the week’s biggest AI stories: a market correction hitting GPU‑rental firms, the FSB’s first human‑in‑the‑loop guidance, and cautious investor sentiment.</description>
+  <category>ainews</category>
+</item>
+<item>
   <title>Foundation Models for Large‑Scale Geospatial and Earth Observation Dat</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-largescale-geospatial-and-earth-observation-dat.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-largescale-geospatial-and-earth-observation-dat.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-01</pubDate>
   <description>A blog post about Diffusion Models for High‑Resolution Image and Video Synthesis</description>
   <category>dl</category>
-</item>
-<item>
-  <title>Statistical Foundations of Federated and Privacy‑Preserving AI</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/statistical-foundations-of-federated-and-privacypreserving-ai.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/statistical-foundations-of-federated-and-privacypreserving-ai.md</guid>
-  <pubDate>2026-10-01</pubDate>
-  <description>A blog post about Statistical Foundations of Federated and Privacy‑Preserving AI</description>
-  <category>statistics</category>
 </item>
 </channel>
 </rss>
