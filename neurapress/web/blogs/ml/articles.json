@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-multimodal-videoaudio-understanding-scaling-pe.md",
+    "category": "ml",
+    "topic": "Foundation Models for Multimodal Video‑Audio Understanding: Scaling Perception Across Time and Sound",
+    "subtopics": "Self‑supervised pretraining on massive video‑audio corpora with audio‑visual contrastive learning, Scalable transformer and diffusion architectures for spatiotemporal‑audio modeling, Fine‑tuning strategies for action recognition, video captioning, event detection, and multimodal retrieval, Benchmarks, evaluation metrics, and deployment considerations for cloud‑native and edge‑accelerated video‑audio analytics",
+    "title": "Foundation Models for Multimodal Video‑Audio Understanding: Scaling Pe",
+    "description": "A blog post about Foundation Models for Multimodal Video‑Audio Understanding: Scaling Pe",
+    "date": "2026-10-18",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/foundation-models-for-multimodal-videoaudio-understanding-scaling-pe.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-largescale-geospatial-and-earth-observation-dat.md",
     "category": "ml",
     "topic": "Foundation Models for Large‑Scale Geospatial and Earth Observation Data: Scaling Spatial‑Temporal Understanding",
