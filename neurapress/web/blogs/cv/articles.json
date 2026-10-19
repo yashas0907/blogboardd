@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/cv/foundation-models-for-medical-imaging-scaling-vision-transformers-for.md",
+    "category": "cv",
+    "topic": "Foundation Models for Medical Imaging: Scaling Vision Transformers for Diagnosis and Clinical Decision Support",
+    "subtopics": "Large‑scale pretraining on multimodal medical datasets (MRI, CT, X‑ray, histopathology, EHR), Promptable medical queries using natural language and clinical descriptors, Efficient fine‑tuning for downstream tasks such as disease classification, segmentation, prognosis prediction, and radiology report generation, Real‑time edge inference for point‑of‑care devices and telemedicine",
+    "title": "Foundation Models for Medical Imaging: Scaling Vision Transformers for",
+    "description": "A blog post about Foundation Models for Medical Imaging: Scaling Vision Transformers for",
+    "date": "2026-10-19",
+    "tags": [
+      "cv"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/cv/foundation-models-for-medical-imaging-scaling-vision-transformers-for.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/cv/foundation-models-for-video-understanding-scaling-vision-transformers.md",
     "category": "cv",
     "topic": "Foundation Models for Video Understanding: Scaling Vision Transformers for Spatiotemporal Reasoning",
