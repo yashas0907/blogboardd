@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-causal-reasoning-and-counterfactual-learnin.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Causal Reasoning and Counterfactual Learning for Foundation Models",
+    "subtopics": "Causal discovery from model activations, Counterfactual data augmentation and inference, Causal inference for bias detection and mitigation, Sample‑complexity and generalization bounds for causal fine‑tuning",
+    "title": "Statistical Foundations of Causal Reasoning and Counterfactual Learnin",
+    "description": "A blog post about Statistical Foundations of Causal Reasoning and Counterfactual Learnin",
+    "date": "2026-10-19",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-of-causal-reasoning-and-counterfactual-learnin.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-parameter-efficient-finetuning-for-large-l.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Parameter-Efficient Fine‑Tuning for Large Language Models",
