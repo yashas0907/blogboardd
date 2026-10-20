@@ -14,6 +14,14 @@
   <category>ml</category>
 </item>
 <item>
+  <title>Diffusion Models for High-Fidelity Video Synthesis and Editing</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/diffusion-models-for-high-fidelity-video-synthesis-and-editing.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/diffusion-models-for-high-fidelity-video-synthesis-and-editing.md</guid>
+  <pubDate>2026-10-20</pubDate>
+  <description>A blog post about Diffusion Models for High-Fidelity Video Synthesis and Editing</description>
+  <category>dl</category>
+</item>
+<item>
   <title>Generative AI for Synthetic Data Generation and Privacy‑Preserving Ana</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-for-synthetic-data-generation-and-privacypreserving-ana.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-for-synthetic-data-generation-and-privacypreserving-ana.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-04</pubDate>
   <description>A blog post about Foundation Models for Large-Scale Geospatial Data: Scaling Earth Obser</description>
   <category>ml</category>
-</item>
-<item>
-  <title>Foundation Models for Aerial and Satellite Imagery: Scaling Vision Tra</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/cv/foundation-models-for-aerial-and-satellite-imagery-scaling-vision-tra.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/cv/foundation-models-for-aerial-and-satellite-imagery-scaling-vision-tra.md</guid>
-  <pubDate>2026-10-04</pubDate>
-  <description>A blog post about Foundation Models for Aerial and Satellite Imagery: Scaling Vision Tra</description>
-  <category>cv</category>
 </item>
 </channel>
 </rss>

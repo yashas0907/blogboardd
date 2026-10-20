@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/diffusion-models-for-high-fidelity-video-synthesis-and-editing.md",
+    "category": "dl",
+    "topic": "Diffusion Models for High-Fidelity Video Synthesis and Editing",
+    "subtopics": "Text-to-video generation with diffusion, Temporal consistency and motion modeling techniques, Efficient training pipelines for large-scale video datasets, Applications in film production, virtual try‑on, and scientific visualization",
+    "title": "Diffusion Models for High-Fidelity Video Synthesis and Editing",
+    "description": "A blog post about Diffusion Models for High-Fidelity Video Synthesis and Editing",
+    "date": "2026-10-20",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/dl/diffusion-models-for-high-fidelity-video-synthesis-and-editing.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/transformer-based-protein-structure-prediction-and-biological-sequence.md",
     "category": "dl",
     "topic": "Transformer-Based Protein Structure Prediction and Biological Sequence Modeling",
