@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-healthcare-multimodal-data-scaling-clinical-dec.md",
+    "category": "ml",
+    "topic": "Foundation Models for Healthcare Multimodal Data: Scaling Clinical Decision Support",
+    "subtopics": "Self‑supervised pretraining on large‑scale EHR, medical imaging, and genomics corpora, Multimodal fusion architectures for patient‑level representation learning, Fine‑tuning strategies for diagnosis, treatment recommendation, and risk stratification across specialties, Benchmarks, privacy‑preserving evaluation metrics, and deployment considerations for HIPAA‑compliant cloud‑native and edge‑assisted healthcare systems",
+    "title": "Foundation Models for Healthcare Multimodal Data: Scaling Clinical Dec",
+    "description": "A blog post about Foundation Models for Healthcare Multimodal Data: Scaling Clinical Dec",
+    "date": "2026-10-20",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ml/foundation-models-for-healthcare-multimodal-data-scaling-clinical-dec.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-multimodal-videoaudio-understanding-scaling-pe.md",
     "category": "ml",
     "topic": "Foundation Models for Multimodal Video‑Audio Understanding: Scaling Perception Across Time and Sound",
