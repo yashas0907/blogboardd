@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-robustness-and-out-of-distribution-generali.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Robustness and Out-of-Distribution Generalization for Foundation Models",
+    "subtopics": "Theoretical generalization and sample‑complexity bounds under adversarial and distributional shifts, Statistical methods for detecting and adapting to out‑of‑distribution data, Calibration and uncertainty quantification under OOD conditions, Trade‑offs between robustness, model capacity, and computational efficiency",
+    "title": "Statistical Foundations of Robustness and Out-of-Distribution Generali",
+    "description": "A blog post about Statistical Foundations of Robustness and Out-of-Distribution Generali",
+    "date": "2026-10-21",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/statistical-foundations-of-robustness-and-out-of-distribution-generali.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-causal-reasoning-and-counterfactual-learnin.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Causal Reasoning and Counterfactual Learning for Foundation Models",
