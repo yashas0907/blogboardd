@@ -14,6 +14,14 @@
   <category>genai</category>
 </item>
 <item>
+  <title>AI Roundup: OpenAI $30B Raise, Child‑Safety Lawsuit, Modal Labs $750M</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-weekly-roundup-openai-30b-modal-750m-lawsuit.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-weekly-roundup-openai-30b-modal-750m-lawsuit.md</guid>
+  <pubDate>2026-10-20</pubDate>
+  <description>This week’s AI roundup covers OpenAI’s $30 B funding round, a multistate lawsuit over ChatGPT’s impact on minors, and Modal Labs’ $750 M Series D for inference.</description>
+  <category>ainews</category>
+</item>
+<item>
   <title>Transformer-Based Protein Structure Prediction and Biological Sequence</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/transformer-based-protein-structure-prediction-and-biological-sequence.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/transformer-based-protein-structure-prediction-and-biological-sequence.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-04</pubDate>
   <description>This week’s AI roundup covers OpenAI’s halted GPT‑6.1 model, Google’s tiered Gemini access, and IBM’s self‑hosted Bob, highlighting safety, monetisation, and enterprise sovereignty.</description>
   <category>ainews</category>
-</item>
-<item>
-  <title>Foundation Models for Time-Series and Sequential Data: Scaling Forecas</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-time-series-and-sequential-data-scaling-forecas.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-time-series-and-sequential-data-scaling-forecas.md</guid>
-  <pubDate>2026-10-03</pubDate>
-  <description>A blog post about Foundation Models for Time-Series and Sequential Data: Scaling Forecas</description>
-  <category>ml</category>
 </item>
 </channel>
 </rss>

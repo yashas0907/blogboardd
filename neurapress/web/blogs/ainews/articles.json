@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-weekly-roundup-openai-30b-modal-750m-lawsuit.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI Roundup: OpenAI $30B Raise, Child‑Safety Lawsuit, Modal Labs $750M",
+    "description": "This week’s AI roundup covers OpenAI’s $30 B funding round, a multistate lawsuit over ChatGPT’s impact on minors, and Modal Labs’ $750 M Series D for inference.",
+    "date": "2026-10-20",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ainews/ai-weekly-roundup-openai-30b-modal-750m-lawsuit.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/ai-week-review-oct-12-18-2026.md",
     "category": "ainews",
     "topic": "Latest AI News",
