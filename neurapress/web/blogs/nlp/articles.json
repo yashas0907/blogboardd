@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/explainability-and-interpretability-of-large-language-models.md",
+    "category": "nlp",
+    "topic": "Explainability and Interpretability of Large Language Models",
+    "subtopics": "Probing and diagnostic techniques for internal representations, Attribution and saliency methods for LLM outputs, Causal and counterfactual analysis of model behavior, Benchmarks and metrics for evaluating interpretability",
+    "title": "Explainability and Interpretability of Large Language Models",
+    "description": "A blog post about Explainability and Interpretability of Large Language Models",
+    "date": "2026-10-21",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/nlp/explainability-and-interpretability-of-large-language-models.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/privacy-preserving-and-secure-large-language-models.md",
     "category": "nlp",
     "topic": "Privacy-Preserving and Secure Large Language Models",
