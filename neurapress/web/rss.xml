@@ -22,6 +22,14 @@
   <category>nlp</category>
 </item>
 <item>
+  <title>Generative AI Transforming Drug Discovery &amp; Adaptive Clinical Trials</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-drug-discovery-clinical-trial-design.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-drug-discovery-clinical-trial-design.md</guid>
+  <pubDate>2026-10-21</pubDate>
+  <description>Explore how generative AI accelerates molecular design, integrates multi‑omics, and automates adaptive clinical trial protocols while meeting regulatory standards.</description>
+  <category>genai</category>
+</item>
+<item>
   <title>Foundation Models for Healthcare Multimodal Data: Scaling Clinical Dec</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-healthcare-multimodal-data-scaling-clinical-dec.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-healthcare-multimodal-data-scaling-clinical-dec.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-05</pubDate>
   <description>A blog post about Neural Radiance Fields (NeRF) and Diffusion for 3D Scene Synthesis</description>
   <category>dl</category>
-</item>
-<item>
-  <title>Statistical Foundations of Diffusion Models for Generative AI</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/statistical-foundations-of-diffusion-models-for-generative-ai.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/statistics/statistical-foundations-of-diffusion-models-for-generative-ai.md</guid>
-  <pubDate>2026-10-05</pubDate>
-  <description>A blog post about Statistical Foundations of Diffusion Models for Generative AI</description>
-  <category>statistics</category>
 </item>
 </channel>
 </rss>

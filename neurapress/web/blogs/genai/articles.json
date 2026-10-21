@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-drug-discovery-clinical-trial-design.md",
+    "category": "genai",
+    "topic": "Generative AI for Drug Discovery and Clinical Trial Design",
+    "subtopics": "Molecular and protein structure generation for novel therapeutics, AI‑driven synthesis of adaptive clinical trial protocols and patient cohort simulation, Integration of multi‑omics and real‑world evidence into generative pipelines, Regulatory compliance, safety validation, and ethical considerations in AI‑enabled drug development",
+    "title": "Generative AI Transforming Drug Discovery & Adaptive Clinical Trials",
+    "description": "Explore how generative AI accelerates molecular design, integrates multi‑omics, and automates adaptive clinical trial protocols while meeting regulatory standards.",
+    "date": "2026-10-21",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/genai/generative-ai-drug-discovery-clinical-trial-design.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-for-synthetic-data-generation-and-privacypreserving-ana.md",
     "category": "genai",
     "topic": "Generative AI for Synthetic Data Generation and Privacy‑Preserving Analytics",
