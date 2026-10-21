@@ -30,6 +30,14 @@
   <category>genai</category>
 </item>
 <item>
+  <title>Generative AI for Cybersecurity: Threat Modeling, Malware Synthesis, a</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-for-cybersecurity-threat-modeling-malware-synthesis-a.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-for-cybersecurity-threat-modeling-malware-synthesis-a.md</guid>
+  <pubDate>2026-10-21</pubDate>
+  <description>A blog post about Generative AI for Cybersecurity: Threat Modeling, Malware Synthesis, a</description>
+  <category>genai</category>
+</item>
+<item>
   <title>Foundation Models for Healthcare Multimodal Data: Scaling Clinical Dec</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-healthcare-multimodal-data-scaling-clinical-dec.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-healthcare-multimodal-data-scaling-clinical-dec.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-06</pubDate>
   <description>A blog post about Foundation Models for Graph Data and Network Analytics: Scaling Repres</description>
   <category>ml</category>
-</item>
-<item>
-  <title>Neural Radiance Fields (NeRF) and Diffusion for 3D Scene Synthesis</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/neural-radiance-fields-nerf-and-diffusion-for-3d-scene-synthesis.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/neural-radiance-fields-nerf-and-diffusion-for-3d-scene-synthesis.md</guid>
-  <pubDate>2026-10-05</pubDate>
-  <description>A blog post about Neural Radiance Fields (NeRF) and Diffusion for 3D Scene Synthesis</description>
-  <category>dl</category>
 </item>
 </channel>
 </rss>
