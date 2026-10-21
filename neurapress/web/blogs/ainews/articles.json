@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-news-roundup-scion-nvidia-gemini-argon.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI News Roundup: Scion VCS, NVIDIA Agent Models, Gemini 4 Argon",
+    "description": "This week’s AI roundup covers Anthropic’s Scion VCS, NVIDIA’s Nemotron 3.5 agent models, and Google’s globally‑available Gemini 4 Argon frontier API.",
+    "date": "2026-10-22",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ainews/ai-news-roundup-scion-nvidia-gemini-argon.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/ai-weekly-roundup-openai-30b-modal-750m-lawsuit.md",
     "category": "ainews",
     "topic": "Latest AI News",
