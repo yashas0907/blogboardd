@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-industrial-iot-and-predictive-maintenance-scali.md",
+    "category": "ml",
+    "topic": "Foundation Models for Industrial IoT and Predictive Maintenance: Scaling Sensor‑Fusion Intelligence",
+    "subtopics": "Self‑supervised pretraining on massive multi‑sensor time‑series, vibration, and operational log corpora; Multimodal fusion architectures for real‑time equipment health representation learning; Fine‑tuning strategies for anomaly detection, remaining‑useful‑life prediction, and maintenance scheduling across asset classes; Benchmarks, evaluation metrics, and deployment considerations for edge‑native and cloud‑hybrid manufacturing environments",
+    "title": "Foundation Models for Industrial IoT and Predictive Maintenance: Scali",
+    "description": "A blog post about Foundation Models for Industrial IoT and Predictive Maintenance: Scali",
+    "date": "2026-10-22",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ml/foundation-models-for-industrial-iot-and-predictive-maintenance-scali.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-healthcare-multimodal-data-scaling-clinical-dec.md",
     "category": "ml",
     "topic": "Foundation Models for Healthcare Multimodal Data: Scaling Clinical Decision Support",
