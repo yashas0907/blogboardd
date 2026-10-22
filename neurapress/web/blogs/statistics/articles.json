@@ -15,6 +15,21 @@
     "coverImage": ""
   },
   {
+    "id": "blogs/statistics/statistical-foundations-of-meta-learning-and-few-shot-generalization-f.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Meta-Learning and Few-Shot Generalization for Foundation Models",
+    "subtopics": "Sample‑complexity and generalization bounds for meta‑learning, Hierarchical Bayesian modeling of task distributions, Meta‑generalization under distribution shift and out‑of‑task scenarios, Statistically efficient adaptation algorithms with provable convergence guarantees",
+    "title": "Statistical Foundations of Meta-Learning and Few-Shot Generalization f",
+    "description": "A blog post about Statistical Foundations of Meta-Learning and Few-Shot Generalization f",
+    "date": "2026-10-22",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/statistics/statistical-foundations-of-meta-learning-and-few-shot-generalization-f.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-robustness-and-out-of-distribution-generali.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Robustness and Out-of-Distribution Generalization for Foundation Models",
