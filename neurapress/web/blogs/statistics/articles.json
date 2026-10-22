@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-privacy-preserving-and-federated-learning-f.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Privacy-Preserving and Federated Learning for Foundation Models",
+    "subtopics": "Differential privacy guarantees and sample‑complexity bounds, Statistical trade‑offs in federated optimization and communication constraints, Privacy‑utility and generalization bounds for private fine‑tuning, Adaptive mechanisms for robust private model aggregation",
+    "title": "Statistical Foundations of Privacy-Preserving and Federated Learning f",
+    "description": "A blog post about Statistical Foundations of Privacy-Preserving and Federated Learning f",
+    "date": "2026-10-22",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-of-privacy-preserving-and-federated-learning-f.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-robustness-and-out-of-distribution-generali.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Robustness and Out-of-Distribution Generalization for Foundation Models",
