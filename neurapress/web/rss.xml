@@ -22,6 +22,14 @@
   <category>cv</category>
 </item>
 <item>
+  <title>Generative AI for Sustainable Architecture and Urban Planning</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-for-sustainable-architecture-and-urban-planning.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-for-sustainable-architecture-and-urban-planning.md</guid>
+  <pubDate>2026-10-23</pubDate>
+  <description>A blog post about Generative AI for Sustainable Architecture and Urban Planning</description>
+  <category>genai</category>
+</item>
+<item>
   <title>Foundation Models for Industrial IoT and Predictive Maintenance: Scali</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-industrial-iot-and-predictive-maintenance-scali.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-industrial-iot-and-predictive-maintenance-scali.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-09</pubDate>
   <description>A blog post about Generative AI for Climate Modeling &amp; Sustainable Decision Support</description>
   <category>genai</category>
-</item>
-<item>
-  <title>AI Roundup: Visual ChatGPT, Formal Math AI, and 1‑Million‑Token Gemini</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-roundup-visual-chatgpt-formal-math-gemini-1m-token.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-roundup-visual-chatgpt-formal-math-gemini-1m-token.md</guid>
-  <pubDate>2026-10-09</pubDate>
-  <description>Explore OpenAI’s visual ChatGPT, its formal‑math model with Lean verification, and Google’s 1‑million‑token Gemini 4 Argon in this concise AI news roundup.</description>
-  <category>ainews</category>
 </item>
 </channel>
 </rss>

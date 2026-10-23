@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-for-sustainable-architecture-and-urban-planning.md",
+    "category": "genai",
+    "topic": "Generative AI for Sustainable Architecture and Urban Planning",
+    "subtopics": "AI‑driven generative design of energy‑efficient buildings, Synthetic city‑scale datasets for climate and traffic simulation, Automated optimization of urban layouts for resilience and livability, Governance, equity, and regulatory frameworks for AI‑enabled urban development",
+    "title": "Generative AI for Sustainable Architecture and Urban Planning",
+    "description": "A blog post about Generative AI for Sustainable Architecture and Urban Planning",
+    "date": "2026-10-23",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/genai/generative-ai-for-sustainable-architecture-and-urban-planning.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-drug-discovery-clinical-trial-design.md",
     "category": "genai",
     "topic": "Generative AI for Drug Discovery and Clinical Trial Design",
