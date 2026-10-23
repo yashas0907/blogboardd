@@ -30,6 +30,14 @@
   <category>genai</category>
 </item>
 <item>
+  <title>AI News: $15B DeepSeek Funding, AI‑Hacking Threats, Debt Sell‑Off</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-news-deepseek-funding-ai-hacking-debt-selloff.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ainews/ai-news-deepseek-funding-ai-hacking-debt-selloff.md</guid>
+  <pubDate>2026-10-23</pubDate>
+  <description>This week’s AI roundup covers DeepSeek’s $15 bn raise in China, AI‑generated web vulnerabilities hitting 70% of sites, and a market sell‑off driven by AI‑debt worries.</description>
+  <category>ainews</category>
+</item>
+<item>
   <title>Foundation Models for Industrial IoT and Predictive Maintenance: Scali</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-industrial-iot-and-predictive-maintenance-scali.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/ml/foundation-models-for-industrial-iot-and-predictive-maintenance-scali.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-09</pubDate>
   <description>Learn how to profile energy, cut carbon emissions, and apply compression, quantization, and hardware‑aware tricks to make LLMs greener.</description>
   <category>nlp</category>
-</item>
-<item>
-  <title>Generative AI for Climate Modeling &amp; Sustainable Decision Support</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-for-climate-modeling--sustainable-decision-support.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/genai/generative-ai-for-climate-modeling--sustainable-decision-support.md</guid>
-  <pubDate>2026-10-09</pubDate>
-  <description>A blog post about Generative AI for Climate Modeling &amp; Sustainable Decision Support</description>
-  <category>genai</category>
 </item>
 </channel>
 </rss>

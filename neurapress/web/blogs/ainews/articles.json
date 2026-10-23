@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-news-deepseek-funding-ai-hacking-debt-selloff.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI News: $15B DeepSeek Funding, AI‑Hacking Threats, Debt Sell‑Off",
+    "description": "This week’s AI roundup covers DeepSeek’s $15 bn raise in China, AI‑generated web vulnerabilities hitting 70% of sites, and a market sell‑off driven by AI‑debt worries.",
+    "date": "2026-10-23",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ainews/ai-news-deepseek-funding-ai-hacking-debt-selloff.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/ai-news-roundup-scion-nvidia-gemini-argon.md",
     "category": "ainews",
     "topic": "Latest AI News",
