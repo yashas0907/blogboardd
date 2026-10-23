@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-climate-science-and-earth-observation-scaling-p.md",
+    "category": "ml",
+    "topic": "Foundation Models for Climate Science and Earth Observation: Scaling Planetary Intelligence",
+    "subtopics": "Self‑supervised pretraining on massive satellite imagery, atmospheric sensor, and climate model simulation corpora; Multimodal spatiotemporal fusion architectures for global weather and climate representation learning; Fine‑tuning strategies for extreme‑event forecasting, carbon‑budget estimation, and climate impact assessment across regions; Benchmarks, evaluation metrics, and deployment considerations for cloud‑native, edge‑assisted, and sustainability‑aware research infrastructures",
+    "title": "Foundation Models for Climate Science and Earth Observation: Scaling P",
+    "description": "A blog post about Foundation Models for Climate Science and Earth Observation: Scaling P",
+    "date": "2026-10-24",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ml/foundation-models-for-climate-science-and-earth-observation-scaling-p.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-industrial-iot-and-predictive-maintenance-scali.md",
     "category": "ml",
     "topic": "Foundation Models for Industrial IoT and Predictive Maintenance: Scaling Sensor‑Fusion Intelligence",
