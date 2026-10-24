@@ -14,6 +14,14 @@
   <category>ml</category>
 </item>
 <item>
+  <title>NeRF Fast Training, Dynamic Scenes &amp; Next‑Gen 3D Generation</title>
+  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/nerf-fast-training-dynamic-3d-generation.md</link>
+  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/dl/nerf-fast-training-dynamic-3d-generation.md</guid>
+  <pubDate>2026-10-24</pubDate>
+  <description>Explore how Neural Radiance Fields revolutionize 3D scene generation with fast training, real‑time rendering, and dynamic deformable models for AR, robotics, and content creation.</description>
+  <category>dl</category>
+</item>
+<item>
   <title>Alignment, Safety &amp; Governance of LLMs: A Complete Guide</title>
   <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/alignment-safety-governance-llms-guide.md</link>
   <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/alignment-safety-governance-llms-guide.md</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-10</pubDate>
   <description>A blog post about Statistical Foundations of Retrieval‑Augmented Generation for Large La</description>
   <category>statistics</category>
-</item>
-<item>
-  <title>Privacy‑Preserving Large Language Models: Techniques, Challenges &amp; Solutions</title>
-  <link>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/privacy-preserving-llm-techniques-challenges.md</link>
-  <guid>https://yashas0907.github.io/blogboardd/post.html#id=blogs/nlp/privacy-preserving-llm-techniques-challenges.md</guid>
-  <pubDate>2026-10-10</pubDate>
-  <description>Explore differential privacy, federated learning, secure inference, and leakage mitigation for LLMs, plus open research challenges.</description>
-  <category>nlp</category>
 </item>
 </channel>
 </rss>

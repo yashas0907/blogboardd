@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/nerf-fast-training-dynamic-3d-generation.md",
+    "category": "dl",
+    "topic": "Neural Radiance Fields (NeRF) and Next‑Generation 3D Scene Generation",
+    "subtopics": "Implicit scene representation and volumetric rendering, Fast training and real‑time rendering techniques, Dynamic and deformable NeRFs for moving objects, Applications in AR/VR, robotics, and digital content creation",
+    "title": "NeRF Fast Training, Dynamic Scenes & Next‑Gen 3D Generation",
+    "description": "Explore how Neural Radiance Fields revolutionize 3D scene generation with fast training, real‑time rendering, and dynamic deformable models for AR, robotics, and content creation.",
+    "date": "2026-10-24",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/dl/nerf-fast-training-dynamic-3d-generation.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/diffusion-models-for-high-fidelity-video-synthesis-and-editing.md",
     "category": "dl",
     "topic": "Diffusion Models for High-Fidelity Video Synthesis and Editing",
