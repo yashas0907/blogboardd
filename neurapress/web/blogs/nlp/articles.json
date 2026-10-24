@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/green-ai-llm-sparsity-quantization-carbon.md",
+    "category": "nlp",
+    "topic": "Energy-Efficient and Green AI for Large Language Models",
+    "subtopics": "Model sparsification and pruning, Quantization and low‑bit inference techniques, Efficient architecture designs (e.g., Mixture‑of‑Experts, lightweight Transformers), Carbon accounting and lifecycle assessment of LLM training and deployment",
+    "title": "Green AI for LLMs: Sparsity, Quantization & Carbon Accounting",
+    "description": "Explore practical green‑AI techniques for large language models, from pruning and low‑bit quantization to efficient MoE architectures and carbon accounting.",
+    "date": "2026-10-24",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/nlp/green-ai-llm-sparsity-quantization-carbon.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/alignment-safety-governance-llms-guide.md",
     "category": "nlp",
     "topic": "Alignment, Safety, and Governance of Large Language Models",
