@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-causal-inference-and-counterfactual-reasoni.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Causal Inference and Counterfactual Reasoning for Foundation Models",
+    "subtopics": "Causal representation learning and identifiability in high‑dimensional models, Sample‑complexity and generalization bounds for causal discovery with deep networks, Counterfactual inference and intervention analysis using large language and vision models, Statistical guarantees for causal transfer and policy learning in non‑stationary environments",
+    "title": "Statistical Foundations of Causal Inference and Counterfactual Reasoni",
+    "description": "A blog post about Statistical Foundations of Causal Inference and Counterfactual Reasoni",
+    "date": "2026-10-24",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-of-causal-inference-and-counterfactual-reasoni.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-privacy-preserving-and-federated-learning-f.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Privacy-Preserving and Federated Learning for Foundation Models",
