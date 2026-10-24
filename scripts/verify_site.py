@@ -95,8 +95,30 @@ newest = max(
     (a for arts in cats.values() for a in arts),
     key=lambda x: x.get("date", ""), default=None,
 )
-check("rss includes newest article", newest is not None and newest.get("id", "") in rss)
+
+
+def _page_name(a: dict) -> str:
+    from pathlib import Path as _P
+
+    return f"articles/{a.get('category')}-{_P(str(a.get('file', ''))).stem}.html"
+
+
+check("rss includes newest article", newest is not None and _page_name(newest) in rss)
 check("sitemap.xml has URLs", sm.count("<url>") >= total)
+check("sitemap uses crawlable article URLs", "articles/" in sm and "#id=" not in sm)
+
+# 10. Static article pages generated for every article
+articles_dir = web / "articles"
+generated = list(articles_dir.glob("*.html")) if articles_dir.is_dir() else []
+check(f"static article pages generated ({total})", len(generated) >= total)
+if newest is not None:
+    page = web / _page_name(newest)
+    check("newest article has a static page", page.is_file())
+    if page.is_file():
+        check(
+            "newest static page has real title",
+            newest.get("title", "")[:30] in page.read_text(encoding="utf-8"),
+        )
 
 # 10. Dates are valid ISO format
 import datetime
