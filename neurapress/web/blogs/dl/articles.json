@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/foundation-models-for-embodied-ai-and-multimodal-robotics.md",
+    "category": "dl",
+    "topic": "Foundation Models for Embodied AI and Multimodal Robotics",
+    "subtopics": "Large vision‑language‑action models for perception and planning, Embodied reinforcement learning with pretrained multimodal foundations, Sim‑to‑real transfer and zero‑shot skill acquisition, Applications in autonomous agents, human‑robot interaction, and industry automation",
+    "title": "Foundation Models for Embodied AI and Multimodal Robotics",
+    "description": "A blog post about Foundation Models for Embodied AI and Multimodal Robotics",
+    "date": "2026-10-26",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/dl/foundation-models-for-embodied-ai-and-multimodal-robotics.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/nerf-fast-training-dynamic-3d-generation.md",
     "category": "dl",
     "topic": "Neural Radiance Fields (NeRF) and Next‑Generation 3D Scene Generation",
