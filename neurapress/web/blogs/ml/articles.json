@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-cybersecurity-threat-intel-defense.md",
+    "category": "ml",
+    "topic": "Foundation Models for Cybersecurity: Scaling Threat Intelligence and Automated Defense",
+    "subtopics": "Self‑supervised pretraining on massive network traffic logs, malware binaries, and vulnerability databases; Multimodal fusion architectures for real‑time threat representation learning across textual alerts, binary signatures, and graph‑based attack graphs; Fine‑tuning strategies for intrusion detection, zero‑day exploit prediction, and automated incident response orchestration; Benchmarks, evaluation metrics, and deployment considerations for edge‑native security appliances and cloud‑native SOC platforms",
+    "title": "Foundation Models for Cybersecurity: Scaling Threat Intel & Defense",
+    "description": "Explore how foundation models transform threat intelligence and automated defense with self‑supervised pretraining, multimodal fusion, and fine‑tuning.",
+    "date": "2026-10-25",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/ml/foundation-models-cybersecurity-threat-intel-defense.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-climate-science-and-earth-observation-scaling-p.md",
     "category": "ml",
     "topic": "Foundation Models for Climate Science and Earth Observation: Scaling Planetary Intelligence",
