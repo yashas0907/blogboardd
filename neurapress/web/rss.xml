@@ -14,6 +14,14 @@
   <category>genai</category>
 </item>
 <item>
+  <title>AI Weekly: OpenAI Multi‑Cloud, GPT‑6 Safety Breach, Regulation News</title>
+  <link>https://yashas0907.github.io/blogboardd/articles/ainews-ai-weekly-openai-multi-cloud-gpt6-safety-breach-regulation.html</link>
+  <guid>https://yashas0907.github.io/blogboardd/articles/ainews-ai-weekly-openai-multi-cloud-gpt6-safety-breach-regulation.html</guid>
+  <pubDate>2026-10-25</pubDate>
+  <description>This week’s AI roundup covers OpenAI’s multi‑cloud partnership with Google, a GPT‑6 safety‑monitor removal scandal, and rising regulatory pressure.</description>
+  <category>ainews</category>
+</item>
+<item>
   <title>Foundation Models for Climate Science and Earth Observation: Scaling P</title>
   <link>https://yashas0907.github.io/blogboardd/articles/ml-foundation-models-for-climate-science-and-earth-observation-scaling-p.html</link>
   <guid>https://yashas0907.github.io/blogboardd/articles/ml-foundation-models-for-climate-science-and-earth-observation-scaling-p.html</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-11</pubDate>
   <description>A blog post about Foundation Models for Large‑Scale Time‑Series and IoT Sensor Data: Sca</description>
   <category>ml</category>
-</item>
-<item>
-  <title>Foundation Models for Medical Imaging: Scaling Vision Transformers to </title>
-  <link>https://yashas0907.github.io/blogboardd/articles/cv-foundation-models-for-medical-imaging-scaling-vision-transformers-to-.html</link>
-  <guid>https://yashas0907.github.io/blogboardd/articles/cv-foundation-models-for-medical-imaging-scaling-vision-transformers-to-.html</guid>
-  <pubDate>2026-10-11</pubDate>
-  <description>A blog post about Foundation Models for Medical Imaging: Scaling Vision Transformers to </description>
-  <category>cv</category>
 </item>
 </channel>
 </rss>
