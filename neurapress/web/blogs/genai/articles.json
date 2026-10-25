@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-climate-modeling-extreme-weather.md",
+    "category": "genai",
+    "topic": "Generative AI for Climate Modeling and Extreme Weather Forecasting",
+    "subtopics": "Synthetic climate data generation for high‑resolution model training, AI‑driven scenario simulation for climate impact assessment, Real‑time generative forecasting of extreme weather events, Integration with policy decision support and ethical governance",
+    "title": "Generative AI Transforms Climate Modeling & Extreme Weather Forecasts",
+    "description": "Learn how generative AI creates high‑resolution climate data, fast extreme‑weather forecasts, and policy‑ready scenario insights.",
+    "date": "2026-10-25",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/genai/generative-ai-climate-modeling-extreme-weather.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-for-sustainable-architecture-and-urban-planning.md",
     "category": "genai",
     "topic": "Generative AI for Sustainable Architecture and Urban Planning",
