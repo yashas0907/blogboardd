@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/cv/foundation-models-for-3d-vision-scaling-vision-transformers-for-point.md",
+    "category": "cv",
+    "topic": "Foundation Models for 3D Vision: Scaling Vision Transformers for Point Cloud and Mesh Understanding",
+    "subtopics": "Large‑scale pretraining on multimodal 3D datasets (LiDAR, RGB‑D, meshes), Promptable 3D queries using natural language and spatial descriptors, Efficient fine‑tuning for downstream tasks such as 3D object detection, semantic segmentation, scene reconstruction, and affordance prediction, Real‑time edge inference for robotics, AR/VR, and autonomous navigation",
+    "title": "Foundation Models for 3D Vision: Scaling Vision Transformers for Point",
+    "description": "A blog post about Foundation Models for 3D Vision: Scaling Vision Transformers for Point",
+    "date": "2026-10-26",
+    "tags": [
+      "cv"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/cv/foundation-models-for-3d-vision-scaling-vision-transformers-for-point.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/cv/foundation-models-for-earth-observation-scaling-vision-transformers-f.md",
     "category": "cv",
     "topic": "Foundation Models for Earth Observation: Scaling Vision Transformers for Satellite and Aerial Imagery Analysis",

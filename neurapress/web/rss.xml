@@ -22,6 +22,14 @@
   <category>statistics</category>
 </item>
 <item>
+  <title>Foundation Models for 3D Vision: Scaling Vision Transformers for Point</title>
+  <link>https://yashas0907.github.io/blogboardd/articles/cv-foundation-models-for-3d-vision-scaling-vision-transformers-for-point.html</link>
+  <guid>https://yashas0907.github.io/blogboardd/articles/cv-foundation-models-for-3d-vision-scaling-vision-transformers-for-point.html</guid>
+  <pubDate>2026-10-26</pubDate>
+  <description>A blog post about Foundation Models for 3D Vision: Scaling Vision Transformers for Point</description>
+  <category>cv</category>
+</item>
+<item>
   <title>Foundation Models for Cybersecurity: Scaling Threat Intel &amp; Defense</title>
   <link>https://yashas0907.github.io/blogboardd/articles/ml-foundation-models-cybersecurity-threat-intel-defense.html</link>
   <guid>https://yashas0907.github.io/blogboardd/articles/ml-foundation-models-cybersecurity-threat-intel-defense.html</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-13</pubDate>
   <description>This week’s AI roundup covers TypeSafe’s $870M Series A, Microsoft’s call for AI kill‑switch regulation, and DeepMind’s open‑source multimodal EmbeddingGemma 2.</description>
   <category>ainews</category>
-</item>
-<item>
-  <title>Multimodal Large Language Models: Foundations, Alignment, and Retrieva</title>
-  <link>https://yashas0907.github.io/blogboardd/articles/dl-multimodal-large-language-models-foundations-alignment-and-retrieva.html</link>
-  <guid>https://yashas0907.github.io/blogboardd/articles/dl-multimodal-large-language-models-foundations-alignment-and-retrieva.html</guid>
-  <pubDate>2026-10-12</pubDate>
-  <description>A blog post about Multimodal Large Language Models: Foundations, Alignment, and Retrieva</description>
-  <category>dl</category>
 </item>
 </channel>
 </rss>
