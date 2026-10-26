@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-uncertainty-quantification-and-calibration-.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Uncertainty Quantification and Calibration for Foundation Models",
+    "subtopics": "Bayesian deep learning and scalable posterior approximations, Conformal prediction and distribution‑free calibration methods, Decomposing epistemic and aleatoric uncertainty in multimodal models, Statistical guarantees for risk‑sensitive decision making under model uncertainty",
+    "title": "Statistical Foundations of Uncertainty Quantification and Calibration ",
+    "description": "A blog post about Statistical Foundations of Uncertainty Quantification and Calibration ",
+    "date": "2026-10-26",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-of-uncertainty-quantification-and-calibration-.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-causal-inference-and-counterfactual-reasoni.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Causal Inference and Counterfactual Reasoning for Foundation Models",
