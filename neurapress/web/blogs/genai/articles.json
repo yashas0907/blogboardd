@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-quantum-algorithm-design.md",
+    "category": "genai",
+    "topic": "Generative AI for Quantum Computing Algorithm Design",
+    "subtopics": "Automated generation of quantum circuits and algorithms, Synthetic quantum dataset creation for simulator training, AI‑driven optimization of error mitigation and noise‑robustness, Integration with quantum hardware verification and cross‑platform deployment",
+    "title": "Generative AI Boosts Quantum Algorithm Design & Error Mitigation",
+    "description": "Explore how generative AI automates quantum circuit synthesis, creates synthetic datasets, optimizes error mitigation, and streamlines cross‑platform deployment.",
+    "date": "2026-10-27",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/genai/generative-ai-quantum-algorithm-design.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-climate-modeling-extreme-weather.md",
     "category": "genai",
     "topic": "Generative AI for Climate Modeling and Extreme Weather Forecasting",
