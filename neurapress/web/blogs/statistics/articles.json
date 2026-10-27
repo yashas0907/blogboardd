@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-robustness-and-adversarial-defense-for-foun.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Robustness and Adversarial Defense for Foundation Models",
+    "subtopics": "Distributionally robust optimization and worst‑case risk bounds, Certified adversarial robustness via probabilistic guarantees, Trade‑offs between robustness, accuracy, and model capacity, Statistical methods for detecting and mitigating data‑poisoning attacks",
+    "title": "Statistical Foundations of Robustness and Adversarial Defense for Foun",
+    "description": "A blog post about Statistical Foundations of Robustness and Adversarial Defense for Foun",
+    "date": "2026-10-28",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-of-robustness-and-adversarial-defense-for-foun.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-uncertainty-quantification-and-calibration-.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Uncertainty Quantification and Calibration for Foundation Models",
