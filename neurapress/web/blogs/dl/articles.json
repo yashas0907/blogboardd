@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/deep-learning-for-protein-structure-prediction-and-drug-discovery.md",
+    "category": "dl",
+    "topic": "Deep Learning for Protein Structure Prediction and Drug Discovery",
+    "subtopics": "AlphaFold-inspired architectures and recent advances, End-to-end generative models for molecular design, Integration of multimodal biological data (sequence, structure, interaction), Applications in virtual screening and de novo drug design",
+    "title": "Deep Learning for Protein Structure Prediction and Drug Discovery",
+    "description": "A blog post about Deep Learning for Protein Structure Prediction and Drug Discovery",
+    "date": "2026-10-27",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/dl/deep-learning-for-protein-structure-prediction-and-drug-discovery.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/foundation-models-for-embodied-ai-and-multimodal-robotics.md",
     "category": "dl",
     "topic": "Foundation Models for Embodied AI and Multimodal Robotics",
