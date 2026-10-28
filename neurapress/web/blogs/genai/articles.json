@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-precision-agriculture-food-security.md",
+    "category": "genai",
+    "topic": "Generative AI for Precision Agriculture and Food Security",
+    "subtopics": "Synthetic crop phenotype and yield data generation for model training, AI‑driven optimization of planting schedules, irrigation, and nutrient application, Generative simulation of pest, disease, and climate stress scenarios for proactive mitigation, Integration with IoT sensor networks and decision‑support dashboards for sustainable, high‑output farming",
+    "title": "Generative AI in Precision Agriculture: Boost Yields & Food Security",
+    "description": "Explore how generative AI transforms precision farming—synthetic data, AI‑driven optimization, stress simulation, and IoT integration—to secure food supply.",
+    "date": "2026-10-28",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/genai/generative-ai-precision-agriculture-food-security.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-quantum-algorithm-design.md",
     "category": "genai",
     "topic": "Generative AI for Quantum Computing Algorithm Design",

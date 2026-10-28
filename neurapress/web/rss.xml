@@ -22,6 +22,14 @@
   <category>nlp</category>
 </item>
 <item>
+  <title>Generative AI in Precision Agriculture: Boost Yields &amp; Food Security</title>
+  <link>https://yashas0907.github.io/blogboardd/articles/genai-generative-ai-precision-agriculture-food-security.html</link>
+  <guid>https://yashas0907.github.io/blogboardd/articles/genai-generative-ai-precision-agriculture-food-security.html</guid>
+  <pubDate>2026-10-28</pubDate>
+  <description>Explore how generative AI transforms precision farming—synthetic data, AI‑driven optimization, stress simulation, and IoT integration—to secure food supply.</description>
+  <category>genai</category>
+</item>
+<item>
   <title>Deep Learning for Protein Structure Prediction and Drug Discovery</title>
   <link>https://yashas0907.github.io/blogboardd/articles/dl-deep-learning-for-protein-structure-prediction-and-drug-discovery.html</link>
   <guid>https://yashas0907.github.io/blogboardd/articles/dl-deep-learning-for-protein-structure-prediction-and-drug-discovery.html</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-14</pubDate>
   <description>A blog post about Statistical Foundations of Continual Learning for Foundation Models</description>
   <category>statistics</category>
-</item>
-<item>
-  <title>Multilingual and Low‑Resource Language Modeling with Large Language Mo</title>
-  <link>https://yashas0907.github.io/blogboardd/articles/nlp-multilingual-and-lowresource-language-modeling-with-large-language-mo.html</link>
-  <guid>https://yashas0907.github.io/blogboardd/articles/nlp-multilingual-and-lowresource-language-modeling-with-large-language-mo.html</guid>
-  <pubDate>2026-10-14</pubDate>
-  <description>A blog post about Multilingual and Low‑Resource Language Modeling with Large Language Mo</description>
-  <category>nlp</category>
 </item>
 </channel>
 </rss>
