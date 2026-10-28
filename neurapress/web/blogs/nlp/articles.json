@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/privacy-preserving-personalization-and-fine-tuning-of-large-language-m.md",
+    "category": "nlp",
+    "topic": "Privacy-Preserving Personalization and Fine-Tuning of Large Language Models",
+    "subtopics": "Federated learning and on-device fine-tuning for LLMs, Differential privacy mechanisms in LLM training and inference, Retrieval‑augmented generation for user‑specific knowledge without model weight updates, Legal, ethical, and compliance considerations for personalized LLM deployments",
+    "title": "Privacy-Preserving Personalization and Fine-Tuning of Large Language M",
+    "description": "A blog post about Privacy-Preserving Personalization and Fine-Tuning of Large Language M",
+    "date": "2026-10-28",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/nlp/privacy-preserving-personalization-and-fine-tuning-of-large-language-m.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/green-ai-llm-sparsity-quantization-carbon.md",
     "category": "nlp",
     "topic": "Energy-Efficient and Green AI for Large Language Models",
