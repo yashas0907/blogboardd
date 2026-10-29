@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/llms-for-low-resource-languages-techniques-challenges-and-opportuni.md",
+    "category": "nlp",
+    "topic": "LLMs for Low-Resource Languages: Techniques, Challenges, and Opportunities",
+    "subtopics": "Cross‑lingual transfer and multilingual pre‑training, Data augmentation and synthetic corpus generation, Unsupervised and self‑supervised learning for scarce data, Evaluation benchmarks and community‑driven dataset creation",
+    "title": "LLMs for Low-Resource Languages: Techniques, Challenges, and Opportuni",
+    "description": "A blog post about LLMs for Low-Resource Languages: Techniques, Challenges, and Opportuni",
+    "date": "2026-10-30",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/nlp/llms-for-low-resource-languages-techniques-challenges-and-opportuni.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/privacy-preserving-personalization-and-fine-tuning-of-large-language-m.md",
     "category": "nlp",
     "topic": "Privacy-Preserving Personalization and Fine-Tuning of Large Language Models",
