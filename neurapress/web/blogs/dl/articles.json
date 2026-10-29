@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/selfsupervised-learning-for-multimodal-earth-observation-and-climate-.md",
+    "category": "dl",
+    "topic": "Self‑Supervised Learning for Multimodal Earth Observation and Climate Forecasting",
+    "subtopics": "Self‑supervised pretraining on satellite imagery and sensor streams, Temporal dynamics modeling with transformer‑based architectures, Cross‑modal fusion of optical, SAR, and atmospheric data, Applications in climate anomaly detection, flood prediction, and carbon monitoring",
+    "title": "Self‑Supervised Learning for Multimodal Earth Observation and Climate ",
+    "description": "A blog post about Self‑Supervised Learning for Multimodal Earth Observation and Climate ",
+    "date": "2026-10-29",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/dl/selfsupervised-learning-for-multimodal-earth-observation-and-climate-.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/deep-learning-for-protein-structure-prediction-and-drug-discovery.md",
     "category": "dl",
     "topic": "Deep Learning for Protein Structure Prediction and Drug Discovery",
