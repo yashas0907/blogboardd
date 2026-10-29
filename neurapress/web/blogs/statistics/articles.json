@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-fairness-bias-detection-and-mitigation-in.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Fairness, Bias Detection, and Mitigation in Foundation Models",
+    "subtopics": "Statistical tests and confidence intervals for disparate impact in high‑dimensional models, Distribution‑free fairness guarantees under sample selection bias, Causal fairness analysis via mediation and counterfactual decomposition, Trade‑offs between differential privacy, utility, and fairness with formal risk bounds",
+    "title": "Statistical Foundations of Fairness, Bias Detection, and Mitigation in",
+    "description": "A blog post about Statistical Foundations of Fairness, Bias Detection, and Mitigation in",
+    "date": "2026-10-29",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/statistical-foundations-of-fairness-bias-detection-and-mitigation-in.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-robustness-and-adversarial-defense-for-foun.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Robustness and Adversarial Defense for Foundation Models",

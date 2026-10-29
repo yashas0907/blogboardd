@@ -14,6 +14,14 @@
   <category>dl</category>
 </item>
 <item>
+  <title>Statistical Foundations of Fairness, Bias Detection, and Mitigation in</title>
+  <link>https://yashas0907.github.io/blogboardd/articles/statistics-statistical-foundations-of-fairness-bias-detection-and-mitigation-in.html</link>
+  <guid>https://yashas0907.github.io/blogboardd/articles/statistics-statistical-foundations-of-fairness-bias-detection-and-mitigation-in.html</guid>
+  <pubDate>2026-10-29</pubDate>
+  <description>A blog post about Statistical Foundations of Fairness, Bias Detection, and Mitigation in</description>
+  <category>statistics</category>
+</item>
+<item>
   <title>Statistical Foundations of Robustness and Adversarial Defense for Foun</title>
   <link>https://yashas0907.github.io/blogboardd/articles/statistics-statistical-foundations-of-robustness-and-adversarial-defense-for-foun.html</link>
   <guid>https://yashas0907.github.io/blogboardd/articles/statistics-statistical-foundations-of-robustness-and-adversarial-defense-for-foun.html</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-15</pubDate>
   <description>A blog post about Statistical Foundations of Privacy‑Preserving Training and Inference f</description>
   <category>statistics</category>
-</item>
-<item>
-  <title>AI Weekly: Worm Threat, OpenAI Revenue Fix &amp; New Intelligent UI</title>
-  <link>https://yashas0907.github.io/blogboardd/articles/ainews-ai-weekly-worm-threat-openai-revenue-fix-intelligent-ui.html</link>
-  <guid>https://yashas0907.github.io/blogboardd/articles/ainews-ai-weekly-worm-threat-openai-revenue-fix-intelligent-ui.html</guid>
-  <pubDate>2026-10-15</pubDate>
-  <description>This week’s AI roundup covers Anthropic’s AI‑worm security alert, OpenAI’s corrected $50 B revenue figure, and the launch of Intelligent UI with GPT‑6.</description>
-  <category>ainews</category>
 </item>
 </channel>
 </rss>
