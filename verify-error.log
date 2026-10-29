@@ -1,0 +1,62 @@
+Site verify failed at 2026-10-29T06:07:11Z
+--- last 60 lines ---
+  PASS  title sane: Foundation Models for 3D Point Cloud and
+  PASS  title sane: Foundation Models for Aerial and Satelli
+  PASS  title sane: Foundation Models for Remote Sensing and
+  PASS  title sane: Embodied Vision‑Language Foundation Mode
+  PASS  title sane: Foundation Models for Video Understandin
+  PASS  title sane: Foundations for 3D Vision: Point Cloud T
+  PASS  title sane: Retrieval‑Augmented Multimodal Vision‑La
+  PASS  title sane: Foundation Vision Models: Promptable Vis
+  PASS  title sane: Generative AI in Precision Agriculture: 
+  PASS  title sane: Generative AI Boosts Quantum Algorithm D
+  PASS  title sane: Generative AI Transforms Climate Modelin
+  PASS  title sane: Generative AI for Sustainable Architectu
+  PASS  title sane: Generative AI Transforming Drug Discover
+  PASS  title sane: Generative AI for Cybersecurity: Threat 
+  PASS  title sane: Generative AI for Synthetic Data Generat
+  PASS  title sane: Generative AI for Sustainable Materials 
+  PASS  title sane: Generative AI for Financial Modeling, Fo
+  PASS  title sane: Generative AI for Drug Discovery and Mol
+  PASS  title sane: Generative AI Boosts Autonomous Robotics
+  PASS  title sane: Generative AI for Climate Modeling & Sus
+  PASS  title sane: Generative AI for Privacy‑Preserving Syn
+  PASS  title sane: Generative AI for Autonomous Agents: Pla
+  PASS  title sane: Generative AI‑Powered Digital Twins: Rea
+  PASS  title sane: Generative AI for Multimodal Retrieval‑A
+  PASS  title sane: Generative AI for Synthetic Data & Priva
+  PASS  title sane: Generative AI for Automated Code Refacto
+  PASS  title sane: Generative AI for Automated Testing & Bu
+  PASS  title sane: Generative AI for Sustainable Materials 
+  PASS  title sane: Synthetic Data Generation with Generativ
+  PASS  title sane: Multimodal Prompt Engineering for Real-T
+  PASS  title sane: AI Weekly: OpenAI Multi‑Cloud, GPT‑6 Saf
+  PASS  title sane: AI News: $15B DeepSeek Funding, AI‑Hacki
+  PASS  title sane: AI News Roundup: Scion VCS, NVIDIA Agent
+  PASS  title sane: AI Roundup: OpenAI $30B Raise, Child‑Saf
+  PASS  title sane: AI Week in Review (Oct 12‑18, 2026): Mar
+  PASS  title sane: AI Weekly: Worm Threat, OpenAI Revenue F
+  PASS  title sane: AI News Oct 5‑12 2026: Funding Surge, Ki
+  PASS  title sane: AI Weekly Oct 4‑10 2026: OpenAI Math Pap
+  PASS  title sane: AI Roundup: Visual ChatGPT, Formal Math 
+  PASS  title sane: AI News: Frontier Models, Secure Access 
+  PASS  title sane: AI News Roundup: Safety, Tiered Access &
+  PASS  title sane: Weekly AI News: OpenAI Pause, Trump AI A
+  PASS  title sane: AI Week in Review: Safety Halts, UN Brie
+  PASS  title sane: AI Roundup: Rogue Agents, Market Shockwa
+  PASS  title sane: AI News Sep 4‑11 2026: Math Breakthrough
+  PASS  title sane: AI Week in Review: GPT‑6 Astra, Model‑Fa
+  PASS  title sane: AI News Sep 2026: OpenAI Astra, Meta Mus
+  PASS  title sane: GPT-6 Astra Takes Lead as AI Models Gain
+  PASS  rss.xml has items (cap-aware)
+  PASS  rss includes newest article
+  PASS  sitemap.xml has URLs
+  PASS  sitemap uses crawlable article URLs
+  PASS  static article pages generated (144)
+  PASS  newest article has a static page
+  FAIL  newest static page has real title 
+  PASS  all dates valid ISO
+
+==================================================
+RESULT: 168 passed, 1 failed
+  FAILED: newest static page has real title
