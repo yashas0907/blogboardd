@@ -14,6 +14,14 @@
   <category>nlp</category>
 </item>
 <item>
+  <title>Generative AI for Sustainable Materials Discovery &amp; Design</title>
+  <link>https://yashas0907.github.io/blogboardd/articles/genai-generative-ai-for-sustainable-materials-discovery--design.html</link>
+  <guid>https://yashas0907.github.io/blogboardd/articles/genai-generative-ai-for-sustainable-materials-discovery--design.html</guid>
+  <pubDate>2026-10-30</pubDate>
+  <description>A blog post about Generative AI for Sustainable Materials Discovery &amp; Design</description>
+  <category>genai</category>
+</item>
+<item>
   <title>Self‑Supervised Learning for Multimodal Earth Observation and Climate </title>
   <link>https://yashas0907.github.io/blogboardd/articles/dl-selfsupervised-learning-for-multimodal-earth-observation-and-climate-.html</link>
   <guid>https://yashas0907.github.io/blogboardd/articles/dl-selfsupervised-learning-for-multimodal-earth-observation-and-climate-.html</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-15</pubDate>
   <description>A blog post about Foundation Models for Scientific Text and Knowledge Graph Integration:</description>
   <category>ml</category>
-</item>
-<item>
-  <title>Neural Radiance Fields and Next-Generation 3D Generative Models</title>
-  <link>https://yashas0907.github.io/blogboardd/articles/dl-neural-radiance-fields-and-next-generation-3d-generative-models.html</link>
-  <guid>https://yashas0907.github.io/blogboardd/articles/dl-neural-radiance-fields-and-next-generation-3d-generative-models.html</guid>
-  <pubDate>2026-10-15</pubDate>
-  <description>A blog post about Neural Radiance Fields and Next-Generation 3D Generative Models</description>
-  <category>dl</category>
 </item>
 </channel>
 </rss>

@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-for-sustainable-materials-discovery--design.md",
+    "category": "genai",
+    "topic": "Generative AI for Sustainable Materials Discovery & Design",
+    "subtopics": "Generative creation of novel polymer and composite structures, AI‑driven prediction of mechanical, thermal, and environmental properties, Integration with high‑throughput synthesis & automated characterization platforms, Lifecycle impact modeling for circular‑economy material optimization",
+    "title": "Generative AI for Sustainable Materials Discovery & Design",
+    "description": "A blog post about Generative AI for Sustainable Materials Discovery & Design",
+    "date": "2026-10-30",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/genai/generative-ai-for-sustainable-materials-discovery--design.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-precision-agriculture-food-security.md",
     "category": "genai",
     "topic": "Generative AI for Precision Agriculture and Food Security",
