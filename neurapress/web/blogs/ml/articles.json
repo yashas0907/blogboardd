@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-healthcare-scaling-clinical-decision-support-an.md",
+    "category": "ml",
+    "topic": "Foundation Models for Healthcare: Scaling Clinical Decision Support and Precision Medicine",
+    "subtopics": "Self‑supervised pretraining on massive electronic health records, medical imaging, and genomic sequences; Multimodal fusion architectures for patient‑level representation learning across text, imaging, and omics data; Fine‑tuning strategies for disease diagnosis, treatment recommendation, and prognosis prediction; Benchmarks, evaluation metrics, and privacy‑preserving deployment considerations for edge‑cloud hybrid hospital infrastructures",
+    "title": "Foundation Models for Healthcare: Scaling Clinical Decision Support an",
+    "description": "A blog post about Foundation Models for Healthcare: Scaling Clinical Decision Support an",
+    "date": "2026-10-31",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/foundation-models-for-healthcare-scaling-clinical-decision-support-an.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-cybersecurity-threat-intel-defense.md",
     "category": "ml",
     "topic": "Foundation Models for Cybersecurity: Scaling Threat Intelligence and Automated Defense",
