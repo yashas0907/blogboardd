@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/diffusion-models-for-generative-materials-design.md",
+    "category": "dl",
+    "topic": "Diffusion Models for Generative Materials Design",
+    "subtopics": "Diffusion‑based crystal and molecule generation, Conditional diffusion for property‑driven inverse design, Integration of diffusion with reinforcement learning for closed‑loop materials discovery, Evaluation metrics, datasets, and benchmarking for generative materials models",
+    "title": "Diffusion Models for Generative Materials Design",
+    "description": "A blog post about Diffusion Models for Generative Materials Design",
+    "date": "2026-10-31",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/dl/diffusion-models-for-generative-materials-design.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/selfsupervised-learning-for-multimodal-earth-observation-and-climate-.md",
     "category": "dl",
     "topic": "Self‑Supervised Learning for Multimodal Earth Observation and Climate Forecasting",

@@ -14,6 +14,14 @@
   <category>ml</category>
 </item>
 <item>
+  <title>Diffusion Models for Generative Materials Design</title>
+  <link>https://yashas0907.github.io/blogboardd/articles/dl-diffusion-models-for-generative-materials-design.html</link>
+  <guid>https://yashas0907.github.io/blogboardd/articles/dl-diffusion-models-for-generative-materials-design.html</guid>
+  <pubDate>2026-10-31</pubDate>
+  <description>A blog post about Diffusion Models for Generative Materials Design</description>
+  <category>dl</category>
+</item>
+<item>
   <title>LLMs for Low-Resource Languages: Techniques, Challenges, and Opportuni</title>
   <link>https://yashas0907.github.io/blogboardd/articles/nlp-llms-for-low-resource-languages-techniques-challenges-and-opportuni.html</link>
   <guid>https://yashas0907.github.io/blogboardd/articles/nlp-llms-for-low-resource-languages-techniques-challenges-and-opportuni.html</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-16</pubDate>
   <description>A blog post about Foundation Models for 3D Scene Understanding: Scaling Vision Transform</description>
   <category>cv</category>
-</item>
-<item>
-  <title>Generative AI for Financial Modeling, Forecasting, and Risk Management</title>
-  <link>https://yashas0907.github.io/blogboardd/articles/genai-generative-ai-for-financial-modeling-forecasting-and-risk-management.html</link>
-  <guid>https://yashas0907.github.io/blogboardd/articles/genai-generative-ai-for-financial-modeling-forecasting-and-risk-management.html</guid>
-  <pubDate>2026-10-16</pubDate>
-  <description>A blog post about Generative AI for Financial Modeling, Forecasting, and Risk Management</description>
-  <category>genai</category>
 </item>
 </channel>
 </rss>
