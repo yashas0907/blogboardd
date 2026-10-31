@@ -22,6 +22,14 @@
   <category>dl</category>
 </item>
 <item>
+  <title>Continual Learning for LLMs: Keep Your Language Model Fresh</title>
+  <link>https://yashas0907.github.io/blogboardd/articles/nlp-continual-learning-llm-adaptation.html</link>
+  <guid>https://yashas0907.github.io/blogboardd/articles/nlp-continual-learning-llm-adaptation.html</guid>
+  <pubDate>2026-10-31</pubDate>
+  <description>Learn practical techniques, adapters, replay methods, and benchmarks to continuously update large language models without forgetting past knowledge.</description>
+  <category>nlp</category>
+</item>
+<item>
   <title>LLMs for Low-Resource Languages: Techniques, Challenges, and Opportuni</title>
   <link>https://yashas0907.github.io/blogboardd/articles/nlp-llms-for-low-resource-languages-techniques-challenges-and-opportuni.html</link>
   <guid>https://yashas0907.github.io/blogboardd/articles/nlp-llms-for-low-resource-languages-techniques-challenges-and-opportuni.html</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-16</pubDate>
   <description>A blog post about Energy‑Efficient and Sustainable Large Language Models</description>
   <category>nlp</category>
-</item>
-<item>
-  <title>Foundation Models for 3D Scene Understanding: Scaling Vision Transform</title>
-  <link>https://yashas0907.github.io/blogboardd/articles/cv-foundation-models-for-3d-scene-understanding-scaling-vision-transform.html</link>
-  <guid>https://yashas0907.github.io/blogboardd/articles/cv-foundation-models-for-3d-scene-understanding-scaling-vision-transform.html</guid>
-  <pubDate>2026-10-16</pubDate>
-  <description>A blog post about Foundation Models for 3D Scene Understanding: Scaling Vision Transform</description>
-  <category>cv</category>
 </item>
 </channel>
 </rss>

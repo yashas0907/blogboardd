@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/continual-learning-llm-adaptation.md",
+    "category": "nlp",
+    "topic": "Continual Learning and Lifelong Adaptation in Large Language Models",
+    "subtopics": "Incremental fine‑tuning without catastrophic forgetting, Parameter‑efficient adapters and memory replay mechanisms, Benchmarks and metrics for lifelong language tasks, Real‑world applications in dynamic domains such as news, finance, and social media",
+    "title": "Continual Learning for LLMs: Keep Your Language Model Fresh",
+    "description": "Learn practical techniques, adapters, replay methods, and benchmarks to continuously update large language models without forgetting past knowledge.",
+    "date": "2026-10-31",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/nlp/continual-learning-llm-adaptation.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/llms-for-low-resource-languages-techniques-challenges-and-opportuni.md",
     "category": "nlp",
     "topic": "LLMs for Low-Resource Languages: Techniques, Challenges, and Opportunities",
