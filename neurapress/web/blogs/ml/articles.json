@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-materials-science-and-accelerated-discovery.md",
+    "category": "ml",
+    "topic": "Foundation Models for Materials Science and Accelerated Discovery",
+    "subtopics": "Self‑supervised pretraining on massive materials property databases, crystal structure repositories, and simulation trajectories; Multimodal fusion of textual literature, graph‑based crystal representations, and microscopy imagery for unified material embeddings; Fine‑tuning strategies for property prediction, synthesis route planning, and inverse design of novel compounds; Benchmarks, evaluation metrics, and deployment considerations for HPC clusters, cloud‑native labs, and autonomous experimentation platforms",
+    "title": "Foundation Models for Materials Science and Accelerated Discovery",
+    "description": "A blog post about Foundation Models for Materials Science and Accelerated Discovery",
+    "date": "2026-11-01",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ml/foundation-models-for-materials-science-and-accelerated-discovery.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-healthcare-scaling-clinical-decision-support-an.md",
     "category": "ml",
     "topic": "Foundation Models for Healthcare: Scaling Clinical Decision Support and Precision Medicine",
