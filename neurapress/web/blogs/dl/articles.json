@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/neural-radiance-fields-and-3d-deep-learning-for-scientific-visualizati.md",
+    "category": "dl",
+    "topic": "Neural Radiance Fields and 3D Deep Learning for Scientific Visualization and Virtual Reality",
+    "subtopics": "NeRF-based reconstruction of volumetric scientific data, Physics‑informed neural rendering for accurate simulations, Real‑time interactive visualization pipelines, Applications in medical imaging, climate modeling, and molecular structures",
+    "title": "Neural Radiance Fields and 3D Deep Learning for Scientific Visualizati",
+    "description": "A blog post about Neural Radiance Fields and 3D Deep Learning for Scientific Visualizati",
+    "date": "2026-11-02",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/dl/neural-radiance-fields-and-3d-deep-learning-for-scientific-visualizati.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/diffusion-models-for-generative-materials-design.md",
     "category": "dl",
     "topic": "Diffusion Models for Generative Materials Design",
