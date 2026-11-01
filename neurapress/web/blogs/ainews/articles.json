@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-weekly-gpt6-meta-mistral.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI Weekly: GPT‑6 on Cloud, Meta’s $95B AI Push, Mistral Open Model",
+    "description": "This AI weekly covers OpenAI’s GPT‑6 launch on Google Cloud, Meta’s $95 billion AI super‑cluster funding, and Mistral’s open‑weight model for European sovereignty.",
+    "date": "2026-11-01",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/ainews/ai-weekly-gpt6-meta-mistral.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/ai-weekly-openai-multi-cloud-gpt6-safety-breach-regulation.md",
     "category": "ainews",
     "topic": "Latest AI News",
