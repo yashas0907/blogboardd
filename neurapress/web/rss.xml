@@ -22,6 +22,14 @@
   <category>nlp</category>
 </item>
 <item>
+  <title>Foundation Models for Video Analytics: Scaling Vision Transformers for</title>
+  <link>https://yashas0907.github.io/blogboardd/articles/cv-foundation-models-for-video-analytics-scaling-vision-transformers-for.html</link>
+  <guid>https://yashas0907.github.io/blogboardd/articles/cv-foundation-models-for-video-analytics-scaling-vision-transformers-for.html</guid>
+  <pubDate>2026-11-02</pubDate>
+  <description>A blog post about Foundation Models for Video Analytics: Scaling Vision Transformers for</description>
+  <category>cv</category>
+</item>
+<item>
   <title>Foundation Models for Materials Science and Accelerated Discovery</title>
   <link>https://yashas0907.github.io/blogboardd/articles/ml-foundation-models-for-materials-science-and-accelerated-discovery.html</link>
   <guid>https://yashas0907.github.io/blogboardd/articles/ml-foundation-models-for-materials-science-and-accelerated-discovery.html</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-18</pubDate>
   <description>A concise roundup of the week’s biggest AI stories: a market correction hitting GPU‑rental firms, the FSB’s first human‑in‑the‑loop guidance, and cautious investor sentiment.</description>
   <category>ainews</category>
-</item>
-<item>
-  <title>Foundation Models for Large‑Scale Geospatial and Earth Observation Dat</title>
-  <link>https://yashas0907.github.io/blogboardd/articles/ml-foundation-models-for-largescale-geospatial-and-earth-observation-dat.html</link>
-  <guid>https://yashas0907.github.io/blogboardd/articles/ml-foundation-models-for-largescale-geospatial-and-earth-observation-dat.html</guid>
-  <pubDate>2026-10-17</pubDate>
-  <description>A blog post about Foundation Models for Large‑Scale Geospatial and Earth Observation Dat</description>
-  <category>ml</category>
 </item>
 </channel>
 </rss>

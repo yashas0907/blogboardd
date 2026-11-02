@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/cv/foundation-models-for-video-analytics-scaling-vision-transformers-for.md",
+    "category": "cv",
+    "topic": "Foundation Models for Video Analytics: Scaling Vision Transformers for Real-time Action Recognition and Event Forecasting",
+    "subtopics": "Large‑scale pretraining on multimodal video datasets (RGB, optical flow, audio, depth), Promptable video queries using natural language and temporal descriptors, Efficient fine‑tuning for downstream tasks such as action recognition, video captioning, anomaly detection, and future frame prediction, Real‑time edge inference for smart cameras, AR/VR, and autonomous systems",
+    "title": "Foundation Models for Video Analytics: Scaling Vision Transformers for",
+    "description": "A blog post about Foundation Models for Video Analytics: Scaling Vision Transformers for",
+    "date": "2026-11-02",
+    "tags": [
+      "cv"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/cv/foundation-models-for-video-analytics-scaling-vision-transformers-for.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/cv/foundation-models-for-3d-vision-scaling-vision-transformers-for-point.md",
     "category": "cv",
     "topic": "Foundation Models for 3D Vision: Scaling Vision Transformers for Point Cloud and Mesh Understanding",
