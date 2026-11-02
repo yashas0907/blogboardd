@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/robust-trustworthy-llms.md",
+    "category": "nlp",
+    "topic": "Robustness and Trustworthiness of Large Language Models",
+    "subtopics": "Adversarial attacks and defense strategies, Detecting and mitigating hallucinations, Fact-checking and factual consistency mechanisms, Evaluation frameworks for trustworthiness and reliability",
+    "title": "Ensuring Robustness & Trustworthiness in Large Language Models",
+    "description": "Learn practical strategies to defend LLMs against adversarial attacks, detect hallucinations, enforce factual consistency, and evaluate trustworthiness.",
+    "date": "2026-11-02",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/nlp/robust-trustworthy-llms.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/continual-learning-llm-adaptation.md",
     "category": "nlp",
     "topic": "Continual Learning and Lifelong Adaptation in Large Language Models",
