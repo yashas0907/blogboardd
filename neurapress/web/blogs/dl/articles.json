@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/federated-learning-for-privacypreserving-medical-imaging-and-healthca.md",
+    "category": "dl",
+    "topic": "Federated Learning for Privacy‑Preserving Medical Imaging and Healthcare AI",
+    "subtopics": "Federated training of segmentation and diagnostic models across hospitals, Differential privacy and secure aggregation techniques for medical data, Cross‑silo collaboration frameworks and communication-efficient protocols, Benchmarking on multi‑institution imaging datasets and real‑world deployment challenges",
+    "title": "Federated Learning for Privacy‑Preserving Medical Imaging and Healthca",
+    "description": "A blog post about Federated Learning for Privacy‑Preserving Medical Imaging and Healthca",
+    "date": "2026-11-03",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/dl/federated-learning-for-privacypreserving-medical-imaging-and-healthca.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/neural-radiance-fields-and-3d-deep-learning-for-scientific-visualizati.md",
     "category": "dl",
     "topic": "Neural Radiance Fields and 3D Deep Learning for Scientific Visualization and Virtual Reality",
