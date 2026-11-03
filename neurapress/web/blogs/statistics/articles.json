@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-interpretability-and-explainability-for-fou.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Interpretability and Explainability for Foundation Models",
+    "subtopics": "Statistically sound feature attribution and hypothesis testing, Confidence‑interval based counterfactual explanations, Multi‑view consistency and uncertainty quantification for explanations, Trade‑offs between explanation fidelity, robustness, and privacy with formal risk bounds",
+    "title": "Statistical Foundations of Interpretability and Explainability for Fou",
+    "description": "A blog post about Statistical Foundations of Interpretability and Explainability for Fou",
+    "date": "2026-11-04",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-of-interpretability-and-explainability-for-fou.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-fairness-bias-detection-and-mitigation-in.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Fairness, Bias Detection, and Mitigation in Foundation Models",
