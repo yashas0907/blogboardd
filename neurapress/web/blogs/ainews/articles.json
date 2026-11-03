@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-week-review-robots-banking-institute-verification-models.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI Week Review: Robots, Banking AI Institute & Verification‑Grade Models",
+    "description": "This week’s AI roundup spotlights China’s embodied‑robot brain boom, HSBC’s new AI institute, and Harmonic’s verification‑grade models for software and chip design.",
+    "date": "2026-11-03",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "4 min",
+    "file": "blogs/ainews/ai-week-review-robots-banking-institute-verification-models.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/ai-weekly-gpt6-meta-mistral.md",
     "category": "ainews",
     "topic": "Latest AI News",
