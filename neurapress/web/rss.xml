@@ -14,6 +14,14 @@
   <category>statistics</category>
 </item>
 <item>
+  <title>Foundation Models for Biomedical Imaging: Scaling Vision Transformers </title>
+  <link>https://yashas0907.github.io/blogboardd/articles/cv-foundation-models-for-biomedical-imaging-scaling-vision-transformers-.html</link>
+  <guid>https://yashas0907.github.io/blogboardd/articles/cv-foundation-models-for-biomedical-imaging-scaling-vision-transformers-.html</guid>
+  <pubDate>2026-11-04</pubDate>
+  <description>A blog post about Foundation Models for Biomedical Imaging: Scaling Vision Transformers </description>
+  <category>cv</category>
+</item>
+<item>
   <title>Federated Learning for Privacy‑Preserving Medical Imaging and Healthca</title>
   <link>https://yashas0907.github.io/blogboardd/articles/dl-federated-learning-for-privacypreserving-medical-imaging-and-healthca.html</link>
   <guid>https://yashas0907.github.io/blogboardd/articles/dl-federated-learning-for-privacypreserving-medical-imaging-and-healthca.html</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-19</pubDate>
   <description>A blog post about Foundation Models for Medical Imaging: Scaling Vision Transformers for</description>
   <category>cv</category>
-</item>
-<item>
-  <title>Foundation Models for Multimodal Video‑Audio Understanding: Scaling Pe</title>
-  <link>https://yashas0907.github.io/blogboardd/articles/ml-foundation-models-for-multimodal-videoaudio-understanding-scaling-pe.html</link>
-  <guid>https://yashas0907.github.io/blogboardd/articles/ml-foundation-models-for-multimodal-videoaudio-understanding-scaling-pe.html</guid>
-  <pubDate>2026-10-18</pubDate>
-  <description>A blog post about Foundation Models for Multimodal Video‑Audio Understanding: Scaling Pe</description>
-  <category>ml</category>
 </item>
 </channel>
 </rss>
