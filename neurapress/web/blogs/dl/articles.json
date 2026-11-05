@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/self-supervised-learning-for-remote-sensing-and-earth-observation.md",
+    "category": "dl",
+    "topic": "Self-supervised Learning for Remote Sensing and Earth Observation",
+    "subtopics": "Contrastive and masked image modeling for satellite imagery, Multi‑modal fusion of SAR, optical, and LiDAR data, Pretraining large‑scale Earth observation models for downstream tasks (land‑cover mapping, change detection, disaster response), Evaluation benchmarks and domain‑adaptation strategies",
+    "title": "Self-supervised Learning for Remote Sensing and Earth Observation",
+    "description": "A blog post about Self-supervised Learning for Remote Sensing and Earth Observation",
+    "date": "2026-11-05",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/dl/self-supervised-learning-for-remote-sensing-and-earth-observation.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/federated-learning-for-privacypreserving-medical-imaging-and-healthca.md",
     "category": "dl",
     "topic": "Federated Learning for Privacy‑Preserving Medical Imaging and Healthcare AI",
