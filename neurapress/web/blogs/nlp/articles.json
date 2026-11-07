@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/energyefficient-and-sustainable-llms-green-ai-for-natural-language-p.md",
+    "category": "nlp",
+    "topic": "Energy‑Efficient and Sustainable LLMs: Green AI for Natural Language Processing",
+    "subtopics": "Model quantization, pruning, and sparsity for LLMs, Knowledge distillation and parameter‑efficient training methods, Measuring and reporting carbon footprint and energy consumption of LLM pipelines, Hardware‑aware optimization and inference scaling for low‑power devices",
+    "title": "Energy‑Efficient and Sustainable LLMs: Green AI for Natural Language P",
+    "description": "A blog post about Energy‑Efficient and Sustainable LLMs: Green AI for Natural Language P",
+    "date": "2026-11-07",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/nlp/energyefficient-and-sustainable-llms-green-ai-for-natural-language-p.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/robust-trustworthy-llms.md",
     "category": "nlp",
     "topic": "Robustness and Trustworthiness of Large Language Models",
