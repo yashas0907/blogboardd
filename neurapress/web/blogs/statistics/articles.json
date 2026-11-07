@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-data-valuation-influence-and-trainingset.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Data Valuation, Influence, and Training‑Set Diagnostics for Foundation Models",
+    "subtopics": "Influence‑function and Shapley‑value based data importance scoring, Statistical tests for mislabeled and outlier samples in high‑dimensional datasets, Confidence‑interval driven active learning and sample‑efficiency guarantees, Trade‑offs between data valuation, privacy, and model generalization",
+    "title": "Statistical Foundations of Data Valuation, Influence, and Training‑Set",
+    "description": "A blog post about Statistical Foundations of Data Valuation, Influence, and Training‑Set",
+    "date": "2026-11-07",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-of-data-valuation-influence-and-trainingset.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-interpretability-and-explainability-for-fou.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Interpretability and Explainability for Foundation Models",
