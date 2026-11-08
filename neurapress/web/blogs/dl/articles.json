@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/diffusion-models-for-synthetic-data-generation-in-healthcare-and-finan.md",
+    "category": "dl",
+    "topic": "Diffusion Models for Synthetic Data Generation in Healthcare and Finance",
+    "subtopics": "Fundamentals of diffusion models and conditional generation, Synthetic medical imaging and electronic health record generation with privacy guarantees, Tabular and time‑series data synthesis for financial risk modeling, Evaluation metrics, regulatory considerations, and deployment pipelines for synthetic data",
+    "title": "Diffusion Models for Synthetic Data Generation in Healthcare and Finan",
+    "description": "A blog post about Diffusion Models for Synthetic Data Generation in Healthcare and Finan",
+    "date": "2026-11-09",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/dl/diffusion-models-for-synthetic-data-generation-in-healthcare-and-finan.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/self-supervised-learning-for-remote-sensing-and-earth-observation.md",
     "category": "dl",
     "topic": "Self-supervised Learning for Remote Sensing and Earth Observation",
