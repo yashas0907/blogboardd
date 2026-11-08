@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-cybersecurity-detection-response-resilience.md",
+    "category": "ml",
+    "topic": "Foundation Models for Cybersecurity: Threat Detection, Resilience, and Automated Response",
+    "subtopics": "Self‑supervised pretraining on heterogeneous security data (network traffic logs, malware binaries, vulnerability disclosures); Multimodal fusion of code semantics, system logs, and textual threat intelligence for unified security embeddings; Fine‑tuning strategies for zero‑day intrusion detection, ransomware forecasting, and automated incident response orchestration; Benchmarks, evaluation metrics, and deployment considerations for edge‑based IDS, cloud‑native SOC platforms, and privacy‑preserving federated security analytics",
+    "title": "Foundation Models for Cybersecurity: Detection, Response & Resilience",
+    "description": "Explore how self‑supervised foundation models and multimodal fusion empower next‑gen threat detection, ransomware forecasting, and automated incident response.",
+    "date": "2026-11-08",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/foundation-models-cybersecurity-detection-response-resilience.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-climate-science-accelerating-earth-system-model.md",
     "category": "ml",
     "topic": "Foundation Models for Climate Science: Accelerating Earth System Modeling and Decision Support",
