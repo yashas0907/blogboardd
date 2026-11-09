@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-climate-resilient-infrastructure-urban-planning.md",
+    "category": "genai",
+    "topic": "Generative AI for Climate‑Resilient Infrastructure & Smart Urban Planning",
+    "subtopics": "AI‑generated design of flood‑ and heat‑resistant building structures, Synthetic simulation of extreme weather events for scenario planning, Integration with GIS and BIM platforms for adaptive city‑scale layout optimization, Generative optimization of energy‑efficient materials and passive climate‑control systems",
+    "title": "Generative AI for Climate‑Resilient Infrastructure & Smart Urban Planning",
+    "description": "Explore how generative AI designs flood‑proof, heat‑resistant buildings, creates synthetic extreme weather, and integrates with GIS/BIM for sustainable, climate‑resilient cities.",
+    "date": "2026-11-10",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/genai/generative-ai-climate-resilient-infrastructure-urban-planning.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-for-nextgeneration-drug-discovery--personalized-therap.md",
     "category": "genai",
     "topic": "Generative AI for Next‑Generation Drug Discovery & Personalized Therapeutics",
