@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/privacy-preserving-and-federated-learning-for-large-language-models.md",
+    "category": "nlp",
+    "topic": "Privacy-Preserving and Federated Learning for Large Language Models",
+    "subtopics": "Differential privacy techniques for LLM training, Federated learning architectures for decentralized LLM updates, Secure multi‑party computation and homomorphic encryption in inference, Evaluation of privacy‑utility trade‑offs and regulatory compliance",
+    "title": "Privacy-Preserving and Federated Learning for Large Language Models",
+    "description": "A blog post about Privacy-Preserving and Federated Learning for Large Language Models",
+    "date": "2026-11-09",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/nlp/privacy-preserving-and-federated-learning-for-large-language-models.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/energyefficient-and-sustainable-llms-green-ai-for-natural-language-p.md",
     "category": "nlp",
     "topic": "Energy‑Efficient and Sustainable LLMs: Green AI for Natural Language Processing",
