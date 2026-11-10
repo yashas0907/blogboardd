@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-robustness-adversarial-defense-and-distri.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Robustness, Adversarial Defense, and Distribution‑Shift Resilience for Foundation Models",
+    "subtopics": "Hypothesis‑testing based detection of adversarial vulnerability, Conformal‑prediction and confidence‑interval certificates for provable robustness, Statistical methods for out‑of‑distribution and covariate‑shift detection, Trade‑offs between robustness, accuracy, and privacy with formal risk bounds",
+    "title": "Statistical Foundations of Robustness, Adversarial Defense, and Distri",
+    "description": "A blog post about Statistical Foundations of Robustness, Adversarial Defense, and Distri",
+    "date": "2026-11-11",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-of-robustness-adversarial-defense-and-distri.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-data-valuation-influence-and-trainingset.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Data Valuation, Influence, and Training‑Set Diagnostics for Foundation Models",
