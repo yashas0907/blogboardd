@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-precision-medicine-multimodal-patient-data-and-.md",
+    "category": "ml",
+    "topic": "Foundation Models for Precision Medicine: Multimodal Patient Data and Clinical Decision Support",
+    "subtopics": "Self‑supervised pretraining on heterogeneous health data (EHRs, genomics, medical imaging, wearables); Multimodal fusion of longitudinal records, radiology/pathology images, and molecular profiles for unified patient embeddings; Fine‑tuning strategies for disease risk stratification, personalized treatment recommendation, and drug response prediction; Benchmarks, evaluation metrics, and deployment considerations for hospital edge compute, cloud‑native health AI platforms, and privacy‑preserving federated learning",
+    "title": "Foundation Models for Precision Medicine: Multimodal Patient Data and ",
+    "description": "A blog post about Foundation Models for Precision Medicine: Multimodal Patient Data and ",
+    "date": "2026-11-10",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/foundation-models-for-precision-medicine-multimodal-patient-data-and-.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-cybersecurity-detection-response-resilience.md",
     "category": "ml",
     "topic": "Foundation Models for Cybersecurity: Threat Detection, Resilience, and Automated Response",
