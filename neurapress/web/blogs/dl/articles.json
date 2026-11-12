@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/energy-efficient-deep-learning-and-green-ai.md",
+    "category": "dl",
+    "topic": "Energy-Efficient Deep Learning and Green AI",
+    "subtopics": "Model pruning, quantization, and low-rank factorization for reduced compute, Neural Architecture Search and hardware-aware training for optimal efficiency, Carbon footprint measurement, reporting standards, and mitigation strategies, Deployment of ultra-efficient models on edge and IoT devices",
+    "title": "Energy-Efficient Deep Learning and Green AI",
+    "description": "A blog post about Energy-Efficient Deep Learning and Green AI",
+    "date": "2026-11-12",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/dl/energy-efficient-deep-learning-and-green-ai.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/diffusion-models-for-synthetic-data-generation-in-healthcare-and-finan.md",
     "category": "dl",
     "topic": "Diffusion Models for Synthetic Data Generation in Healthcare and Finance",
