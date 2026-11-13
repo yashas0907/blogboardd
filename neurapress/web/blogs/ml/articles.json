@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-materials-science-accelerating-materials-discov.md",
+    "category": "ml",
+    "topic": "Foundation Models for Materials Science: Accelerating Materials Discovery and Design",
+    "subtopics": "Self‑supervised pretraining on heterogeneous materials data (crystal structures, spectroscopy, processing parameters, simulation outputs); Multimodal fusion of textual patents, graph‑based material graphs, and high‑resolution microscopy images for unified material embeddings; Fine‑tuning strategies for property prediction, inverse design of novel compounds, and accelerated high‑throughput experimentation; Benchmarks, evaluation metrics, and deployment considerations for cloud‑native materials AI platforms, edge‑enabled lab instrumentation, and privacy‑preserving collaborative research networks",
+    "title": "Foundation Models for Materials Science: Accelerating Materials Discov",
+    "description": "A blog post about Foundation Models for Materials Science: Accelerating Materials Discov",
+    "date": "2026-11-14",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/ml/foundation-models-for-materials-science-accelerating-materials-discov.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-precision-medicine-multimodal-patient-data-and-.md",
     "category": "ml",
     "topic": "Foundation Models for Precision Medicine: Multimodal Patient Data and Clinical Decision Support",
