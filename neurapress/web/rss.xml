@@ -22,6 +22,14 @@
   <category>statistics</category>
 </item>
 <item>
+  <title>Foundation Models for 3D Spatial Understanding: Scaling Vision Transfo</title>
+  <link>https://yashas0907.github.io/blogboardd/articles/cv-foundation-models-for-3d-spatial-understanding-scaling-vision-transfo.html</link>
+  <guid>https://yashas0907.github.io/blogboardd/articles/cv-foundation-models-for-3d-spatial-understanding-scaling-vision-transfo.html</guid>
+  <pubDate>2026-11-14</pubDate>
+  <description>A blog post about Foundation Models for 3D Spatial Understanding: Scaling Vision Transfo</description>
+  <category>cv</category>
+</item>
+<item>
   <title>Generative AI Boosts Energy Grid Optimization &amp; Renewable Integration</title>
   <link>https://yashas0907.github.io/blogboardd/articles/genai-generative-ai-grid-optimization-renewable-integration.html</link>
   <guid>https://yashas0907.github.io/blogboardd/articles/genai-generative-ai-grid-optimization-renewable-integration.html</guid>
@@ -395,14 +403,6 @@
   <guid>https://yashas0907.github.io/blogboardd/articles/nlp-green-ai-llm-sparsity-quantization-carbon.html</guid>
   <pubDate>2026-10-24</pubDate>
   <description>Explore practical green‑AI techniques for large language models, from pruning and low‑bit quantization to efficient MoE architectures and carbon accounting.</description>
-  <category>nlp</category>
-</item>
-<item>
-  <title>Alignment, Safety &amp; Governance of LLMs: A Complete Guide</title>
-  <link>https://yashas0907.github.io/blogboardd/articles/nlp-alignment-safety-governance-llms-guide.html</link>
-  <guid>https://yashas0907.github.io/blogboardd/articles/nlp-alignment-safety-governance-llms-guide.html</guid>
-  <pubDate>2026-10-23</pubDate>
-  <description>Explore state‑of‑the‑art alignment methods, safety testing, and governance frameworks for large language models to deploy them responsibly.</description>
   <category>nlp</category>
 </item>
 </channel>

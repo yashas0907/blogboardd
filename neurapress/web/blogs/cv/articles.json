@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/cv/foundation-models-for-3d-spatial-understanding-scaling-vision-transfo.md",
+    "category": "cv",
+    "topic": "Foundation Models for 3D Spatial Understanding: Scaling Vision Transformers for LiDAR and Point Cloud Data",
+    "subtopics": "Large‑scale pretraining on multimodal 3D datasets (LiDAR, RGB‑D, photogrammetry), Promptable 3D queries using natural language and spatial descriptors, Efficient fine‑tuning for downstream tasks such as autonomous driving perception, robotics navigation, and urban mapping, Real‑time edge inference for autonomous vehicles and drones",
+    "title": "Foundation Models for 3D Spatial Understanding: Scaling Vision Transfo",
+    "description": "A blog post about Foundation Models for 3D Spatial Understanding: Scaling Vision Transfo",
+    "date": "2026-11-14",
+    "tags": [
+      "cv"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/cv/foundation-models-for-3d-spatial-understanding-scaling-vision-transfo.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/cv/foundation-models-for-remote-sensing-scaling-vision-transformers-for-.md",
     "category": "cv",
     "topic": "Foundation Models for Remote Sensing: Scaling Vision Transformers for Satellite and Aerial Imagery",
