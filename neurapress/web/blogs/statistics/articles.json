@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-fairness-bias-mitigation-and-ethical-ai-f.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Fairness, Bias Mitigation, and Ethical AI for Foundation Models",
+    "subtopics": "Causal inference and counterfactual testing for algorithmic fairness, Statistical hypothesis‑testing frameworks for bias detection in high‑dimensional representations, Confidence‑interval and Bayesian approaches to fairness‑aware uncertainty quantification, Trade‑offs between fairness constraints, privacy guarantees, and model utility with formal risk bounds",
+    "title": "Statistical Foundations of Fairness, Bias Mitigation, and Ethical AI f",
+    "description": "A blog post about Statistical Foundations of Fairness, Bias Mitigation, and Ethical AI f",
+    "date": "2026-11-14",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/statistical-foundations-of-fairness-bias-mitigation-and-ethical-ai-f.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-robustness-adversarial-defense-and-distri.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Robustness, Adversarial Defense, and Distribution‑Shift Resilience for Foundation Models",
