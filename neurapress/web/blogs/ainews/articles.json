@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-week-review-lawsuit-robotics-grid.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI Week Review: Lawsuit Freeze, OpenAI Robotics Shift, Grid Tensions",
+    "description": "This week’s AI roundup covers a nonprofit lawsuit seeking to freeze frontier models, OpenAI’s robotics team merger, and power‑grid challenges from AI data centers.",
+    "date": "2026-11-15",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ainews/ai-week-review-lawsuit-robotics-grid.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/ai-news-robots-txt-gpt6-code-storage-deal.md",
     "category": "ainews",
     "topic": "Latest AI News",
