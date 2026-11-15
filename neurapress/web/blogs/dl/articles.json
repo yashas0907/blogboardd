@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/federated-learning-at-scale-for-privacy-preserving-ai.md",
+    "category": "dl",
+    "topic": "Federated Learning at Scale for Privacy-Preserving AI",
+    "subtopics": "Secure aggregation protocols and differential privacy, Cross‑silo vs. cross‑device federated architectures, Personalization techniques and model heterogeneity handling, Real‑world deployment case studies in healthcare and finance",
+    "title": "Federated Learning at Scale for Privacy-Preserving AI",
+    "description": "A blog post about Federated Learning at Scale for Privacy-Preserving AI",
+    "date": "2026-11-16",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/dl/federated-learning-at-scale-for-privacy-preserving-ai.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/energy-efficient-deep-learning-and-green-ai.md",
     "category": "dl",
     "topic": "Energy-Efficient Deep Learning and Green AI",
