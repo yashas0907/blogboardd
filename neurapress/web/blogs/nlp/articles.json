@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/bias-fairness-ethical-governance-llms.md",
+    "category": "nlp",
+    "topic": "Bias, Fairness, and Ethical Governance in Large Language Models",
+    "subtopics": "Bias detection and quantification across demographic groups, Mitigation strategies: debiasing during pre‑training and fine‑tuning, Fairness auditing frameworks and metric standardization, Ethical governance: policy implications, transparency, and stakeholder accountability",
+    "title": "Bias, Fairness & Ethical Governance in Large Language Models",
+    "description": "Learn how to detect, quantify, and mitigate bias in LLMs, audit fairness, and implement ethical governance from pre‑training to production.",
+    "date": "2026-11-16",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/nlp/bias-fairness-ethical-governance-llms.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/privacy-preserving-and-federated-learning-for-large-language-models.md",
     "category": "nlp",
     "topic": "Privacy-Preserving and Federated Learning for Large Language Models",

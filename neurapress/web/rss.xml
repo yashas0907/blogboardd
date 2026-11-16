@@ -14,6 +14,14 @@
   <category>dl</category>
 </item>
 <item>
+  <title>Bias, Fairness &amp; Ethical Governance in Large Language Models</title>
+  <link>https://yashas0907.github.io/blogboardd/articles/nlp-bias-fairness-ethical-governance-llms.html</link>
+  <guid>https://yashas0907.github.io/blogboardd/articles/nlp-bias-fairness-ethical-governance-llms.html</guid>
+  <pubDate>2026-11-16</pubDate>
+  <description>Learn how to detect, quantify, and mitigate bias in LLMs, audit fairness, and implement ethical governance from pre‑training to production.</description>
+  <category>nlp</category>
+</item>
+<item>
   <title>AI Week Review: Lawsuit Freeze, OpenAI Robotics Shift, Grid Tensions</title>
   <link>https://yashas0907.github.io/blogboardd/articles/ainews-ai-week-review-lawsuit-robotics-grid.html</link>
   <guid>https://yashas0907.github.io/blogboardd/articles/ainews-ai-week-review-lawsuit-robotics-grid.html</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-24</pubDate>
   <description>A blog post about Foundation Models for Climate Science and Earth Observation: Scaling P</description>
   <category>ml</category>
-</item>
-<item>
-  <title>NeRF Fast Training, Dynamic Scenes &amp; Next‑Gen 3D Generation</title>
-  <link>https://yashas0907.github.io/blogboardd/articles/dl-nerf-fast-training-dynamic-3d-generation.html</link>
-  <guid>https://yashas0907.github.io/blogboardd/articles/dl-nerf-fast-training-dynamic-3d-generation.html</guid>
-  <pubDate>2026-10-24</pubDate>
-  <description>Explore how Neural Radiance Fields revolutionize 3D scene generation with fast training, real‑time rendering, and dynamic deformable models for AR, robotics, and content creation.</description>
-  <category>dl</category>
 </item>
 </channel>
 </rss>
