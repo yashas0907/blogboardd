@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-climate--earth-systems-multimodal-modeling-for.md",
+    "category": "ml",
+    "topic": "Foundation Models for Climate & Earth Systems: Multimodal Modeling for Sustainable Decision‑Making",
+    "subtopics": "Self‑supervised pretraining on heterogeneous climate data (satellite imagery, sensor networks, atmospheric simulations, socioeconomic indicators), Multimodal fusion of spatio‑temporal geospatial grids, textual policy documents, and climate model outputs for unified earth system embeddings, Fine‑tuning strategies for extreme weather forecasting, carbon budget estimation, and climate impact assessment on infrastructure, Benchmarks, evaluation metrics, and deployment considerations for edge‑enabled IoT sensor clusters, cloud‑native Earth AI platforms, and privacy‑preserving federated climate analytics",
+    "title": "Foundation Models for Climate & Earth Systems: Multimodal Modeling for",
+    "description": "A blog post about Foundation Models for Climate & Earth Systems: Multimodal Modeling for",
+    "date": "2026-11-17",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/foundation-models-for-climate--earth-systems-multimodal-modeling-for.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-materials-science-accelerating-materials-discov.md",
     "category": "ml",
     "topic": "Foundation Models for Materials Science: Accelerating Materials Discovery and Design",
