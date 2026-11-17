@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-federated-learning-privacy-and-model-aggr.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Federated Learning, Privacy, and Model Aggregation for Foundation Models",
+    "subtopics": "Hypothesis‑testing for client‑distribution drift and poisoning attacks, Confidence‑interval and Bayesian guarantees for aggregated model performance, Differential‑privacy and statistical risk bounds in federated optimization, Trade‑offs between communication efficiency, model utility, and privacy with formal statistical analysis",
+    "title": "Statistical Foundations of Federated Learning, Privacy, and Model Aggr",
+    "description": "A blog post about Statistical Foundations of Federated Learning, Privacy, and Model Aggr",
+    "date": "2026-11-18",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/statistics/statistical-foundations-of-federated-learning-privacy-and-model-aggr.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-fairness-bias-mitigation-and-ethical-ai-f.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Fairness, Bias Mitigation, and Ethical AI for Foundation Models",
