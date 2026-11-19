@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/foundation-models-for-multimodal-understanding-and-generation.md",
+    "category": "dl",
+    "topic": "Foundation Models for Multimodal Understanding and Generation",
+    "subtopics": "Unified architectures for vision‑language‑audio‑text integration, Cross‑modal pretraining strategies and large-scale datasets, Zero‑shot and few‑shot evaluation benchmarks across modalities, Real‑world applications in robotics, AR/VR, and AI‑assisted content creation",
+    "title": "Foundation Models for Multimodal Understanding and Generation",
+    "description": "A blog post about Foundation Models for Multimodal Understanding and Generation",
+    "date": "2026-11-19",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/dl/foundation-models-for-multimodal-understanding-and-generation.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/federated-learning-at-scale-for-privacy-preserving-ai.md",
     "category": "dl",
     "topic": "Federated Learning at Scale for Privacy-Preserving AI",
