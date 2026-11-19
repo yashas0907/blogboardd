@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/robustness-safety-adversarial-resilience-llms.md",
+    "category": "nlp",
+    "topic": "Robustness, Safety, and Adversarial Resilience in Large Language Models",
+    "subtopics": "Adversarial prompt attacks and defense mechanisms, Out-of-distribution detection and uncertainty quantification, Safe fine‑tuning and alignment for harmful content mitigation, Benchmarking robustness across diverse linguistic and domain shifts",
+    "title": "Robustness, Safety & Adversarial Resilience in LLMs – A Practical Guide",
+    "description": "Explore state‑of‑the‑art techniques for making large language models robust, safe, and resistant to adversarial prompts, with benchmarks and alignment strategies.",
+    "date": "2026-11-20",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/nlp/robustness-safety-adversarial-resilience-llms.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/bias-fairness-ethical-governance-llms.md",
     "category": "nlp",
     "topic": "Bias, Fairness, and Ethical Governance in Large Language Models",
