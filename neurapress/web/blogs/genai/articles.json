@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-for-circular-economy--sustainable-materials.md",
+    "category": "genai",
+    "topic": "Generative AI for Circular Economy & Sustainable Materials",
+    "subtopics": "AI‑generated design of recyclable and bio‑based materials, Synthetic lifecycle‑assessment simulations for emissions and waste impact, Integration with IoT waste‑stream sensors and digital‑twin factories for real‑time material flow optimization, Generative planning of reverse‑logistics and product‑as‑a‑service networks to close the loop",
+    "title": "Generative AI for Circular Economy & Sustainable Materials",
+    "description": "A blog post about Generative AI for Circular Economy & Sustainable Materials",
+    "date": "2026-11-20",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/genai/generative-ai-for-circular-economy--sustainable-materials.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-for-sustainable-agriculture--food-security.md",
     "category": "genai",
     "topic": "Generative AI for Sustainable Agriculture & Food Security",
