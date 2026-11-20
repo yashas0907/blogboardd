@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-sustainable-agriculture-multimodal-modeling-for.md",
+    "category": "ml",
+    "topic": "Foundation Models for Sustainable Agriculture: Multimodal Modeling for Food Security",
+    "subtopics": "Self‑supervised pretraining on heterogeneous agricultural data (satellite imagery, drone video, soil sensor networks, weather forecasts, crop genomics), Multimodal fusion of geospatial grids, textual agronomy reports, and high‑resolution plant phenotyping images for unified farm embeddings, Fine‑tuning strategies for yield prediction, disease and pest detection, and precision resource (water, fertilizer, pesticide) recommendation, Benchmarks, evaluation metrics, and deployment considerations for edge‑enabled farm equipment, cloud‑native agri‑AI platforms, and privacy‑preserving federated learning across cooperative farms",
+    "title": "Foundation Models for Sustainable Agriculture: Multimodal Modeling for",
+    "description": "A blog post about Foundation Models for Sustainable Agriculture: Multimodal Modeling for",
+    "date": "2026-11-21",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/ml/foundation-models-for-sustainable-agriculture-multimodal-modeling-for.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-climate--earth-systems-multimodal-modeling-for.md",
     "category": "ml",
     "topic": "Foundation Models for Climate & Earth Systems: Multimodal Modeling for Sustainable Decision‑Making",
