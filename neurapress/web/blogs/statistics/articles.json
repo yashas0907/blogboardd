@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-uncertainty-quantification-calibration-an.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Uncertainty Quantification, Calibration, and Reliability for Foundation Models",
+    "subtopics": "Bayesian posterior predictive checks and hierarchical modeling for LLM output uncertainty, Conformal prediction and distribution‑free confidence intervals for token‑level and sequence‑level predictions, Hypothesis‑testing frameworks for detecting calibration drift in deployed models, Formal risk‑benefit analysis of calibration vs. utility and computational cost in large‑scale inference",
+    "title": "Statistical Foundations of Uncertainty Quantification, Calibration, an",
+    "description": "A blog post about Statistical Foundations of Uncertainty Quantification, Calibration, an",
+    "date": "2026-11-21",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-of-uncertainty-quantification-calibration-an.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-federated-learning-privacy-and-model-aggr.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Federated Learning, Privacy, and Model Aggregation for Foundation Models",
