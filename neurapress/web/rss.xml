@@ -14,6 +14,14 @@
   <category>cv</category>
 </item>
 <item>
+  <title>AI Weekly Roundup: Microsoft MAI, OpenAI GPT‑6.2 &amp; NVIDIA Q3 2026</title>
+  <link>https://yashas0907.github.io/blogboardd/articles/ainews-ai-weekly-roundup-nov-15-22-2026.html</link>
+  <guid>https://yashas0907.github.io/blogboardd/articles/ainews-ai-weekly-roundup-nov-15-22-2026.html</guid>
+  <pubDate>2026-11-22</pubDate>
+  <description>This AI Weekly Roundup (Nov 15‑22 2026) breaks down Microsoft’s new MAI models, OpenAI’s GPT‑6.2 Astra &amp; Sol releases, and NVIDIA’s volatile Q3 earnings.</description>
+  <category>ainews</category>
+</item>
+<item>
   <title>Foundation Models for Sustainable Agriculture: Multimodal Modeling for</title>
   <link>https://yashas0907.github.io/blogboardd/articles/ml-foundation-models-for-sustainable-agriculture-multimodal-modeling-for.html</link>
   <guid>https://yashas0907.github.io/blogboardd/articles/ml-foundation-models-for-sustainable-agriculture-multimodal-modeling-for.html</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-28</pubDate>
   <description>A blog post about Statistical Foundations of Robustness and Adversarial Defense for Foun</description>
   <category>statistics</category>
-</item>
-<item>
-  <title>Privacy-Preserving Personalization and Fine-Tuning of Large Language M</title>
-  <link>https://yashas0907.github.io/blogboardd/articles/nlp-privacy-preserving-personalization-and-fine-tuning-of-large-language-m.html</link>
-  <guid>https://yashas0907.github.io/blogboardd/articles/nlp-privacy-preserving-personalization-and-fine-tuning-of-large-language-m.html</guid>
-  <pubDate>2026-10-28</pubDate>
-  <description>A blog post about Privacy-Preserving Personalization and Fine-Tuning of Large Language M</description>
-  <category>nlp</category>
 </item>
 </channel>
 </rss>

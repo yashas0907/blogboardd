@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ainews/ai-weekly-roundup-nov-15-22-2026.md",
+    "category": "ainews",
+    "topic": "Latest AI News",
+    "subtopics": "",
+    "title": "AI Weekly Roundup: Microsoft MAI, OpenAI GPT‑6.2 & NVIDIA Q3 2026",
+    "description": "This AI Weekly Roundup (Nov 15‑22 2026) breaks down Microsoft’s new MAI models, OpenAI’s GPT‑6.2 Astra & Sol releases, and NVIDIA’s volatile Q3 earnings.",
+    "date": "2026-11-22",
+    "tags": [
+      "ainews"
+    ],
+    "readTime": "5 min",
+    "file": "blogs/ainews/ai-weekly-roundup-nov-15-22-2026.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ainews/ai-weekly-openai-gpt6-google-gemini-microsoft-copilotforce.md",
     "category": "ainews",
     "topic": "Latest AI News",
