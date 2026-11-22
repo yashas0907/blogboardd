@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/neurosymbolic-deep-learning-merging-neural-networks-with-symbolic-rea.md",
+    "category": "dl",
+    "topic": "Neurosymbolic Deep Learning: Merging Neural Networks with Symbolic Reasoning",
+    "subtopics": "Hybrid architectures combining neural nets and symbolic modules, Training paradigms for neuro‑symbolic integration, Applications in knowledge‑intensive domains such as chemistry, law, and scientific discovery, Interpretability, reasoning, and verification of hybrid models",
+    "title": "Neurosymbolic Deep Learning: Merging Neural Networks with Symbolic Rea",
+    "description": "A blog post about Neurosymbolic Deep Learning: Merging Neural Networks with Symbolic Rea",
+    "date": "2026-11-23",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/dl/neurosymbolic-deep-learning-merging-neural-networks-with-symbolic-rea.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/foundation-models-for-multimodal-understanding-and-generation.md",
     "category": "dl",
     "topic": "Foundation Models for Multimodal Understanding and Generation",
