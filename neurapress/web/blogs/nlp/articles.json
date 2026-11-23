@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/continual-learning--lifelong-adaptation-in-large-language-models.md",
+    "category": "nlp",
+    "topic": "Continual Learning & Lifelong Adaptation in Large Language Models",
+    "subtopics": "Catastrophic forgetting mitigation strategies, Parameter‑efficient adapters and modular fine‑tuning, Curriculum design and task scheduling for sequential learning, Benchmarks and evaluation metrics for continual LLM performance",
+    "title": "Continual Learning & Lifelong Adaptation in Large Language Models",
+    "description": "A blog post about Continual Learning & Lifelong Adaptation in Large Language Models",
+    "date": "2026-11-23",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "9 min",
+    "file": "blogs/nlp/continual-learning--lifelong-adaptation-in-large-language-models.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/robustness-safety-adversarial-resilience-llms.md",
     "category": "nlp",
     "topic": "Robustness, Safety, and Adversarial Resilience in Large Language Models",
