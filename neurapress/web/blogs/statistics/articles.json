@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-explainability-interpretability-and-attri.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Explainability, Interpretability, and Attribution for Foundation Models",
+    "subtopics": "Causal inference‑based attribution methods for token‑level explanations, Post‑hoc confidence intervals for feature importance scores via bootstrapping and Bayesian posterior sampling, Hypothesis‑testing frameworks for detecting spurious correlations in model saliency maps, Trade‑offs between interpretability fidelity, privacy leakage, and downstream utility with formal statistical risk bounds",
+    "title": "Statistical Foundations of Explainability, Interpretability, and Attri",
+    "description": "A blog post about Statistical Foundations of Explainability, Interpretability, and Attri",
+    "date": "2026-11-25",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/statistics/statistical-foundations-of-explainability-interpretability-and-attri.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-uncertainty-quantification-calibration-an.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Uncertainty Quantification, Calibration, and Reliability for Foundation Models",
