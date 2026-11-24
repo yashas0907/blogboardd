@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-healthcare-multimodal-modeling-for-precision-me.md",
+    "category": "ml",
+    "topic": "Foundation Models for Healthcare: Multimodal Modeling for Precision Medicine",
+    "subtopics": "Self‑supervised pretraining on heterogeneous health data (EHR, medical imaging, genomics, wearable sensors, clinical notes), Multimodal fusion of imaging, tabular, textual, and time‑series signals into unified patient embeddings, Fine‑tuning strategies for disease risk stratification, treatment recommendation, and drug response prediction, Benchmarks, evaluation metrics, and deployment considerations for edge‑enabled health devices, privacy‑preserving federated learning across hospitals",
+    "title": "Foundation Models for Healthcare: Multimodal Modeling for Precision Me",
+    "description": "A blog post about Foundation Models for Healthcare: Multimodal Modeling for Precision Me",
+    "date": "2026-11-24",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ml/foundation-models-for-healthcare-multimodal-modeling-for-precision-me.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-sustainable-agriculture-multimodal-modeling-for.md",
     "category": "ml",
     "topic": "Foundation Models for Sustainable Agriculture: Multimodal Modeling for Food Security",
