@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/dl/diffusion-models-for-3d-content-creation-and-simulation.md",
+    "category": "dl",
+    "topic": "Diffusion Models for 3D Content Creation and Simulation",
+    "subtopics": "Fundamentals of diffusion processes for 3D data, Architectures for voxel, point cloud, and mesh generation, Cross‑modal conditioning and text‑to‑3D synthesis, Applications in gaming, AR/VR, and scientific visualization",
+    "title": "Diffusion Models for 3D Content Creation and Simulation",
+    "description": "A blog post about Diffusion Models for 3D Content Creation and Simulation",
+    "date": "2026-11-26",
+    "tags": [
+      "dl"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/dl/diffusion-models-for-3d-content-creation-and-simulation.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/dl/neurosymbolic-deep-learning-merging-neural-networks-with-symbolic-rea.md",
     "category": "dl",
     "topic": "Neurosymbolic Deep Learning: Merging Neural Networks with Symbolic Reasoning",
