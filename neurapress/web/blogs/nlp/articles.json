@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/nlp/energy-efficiency-green-ai-and-sustainable-deployment-of-large-langu.md",
+    "category": "nlp",
+    "topic": "Energy Efficiency, Green AI, and Sustainable Deployment of Large Language Models",
+    "subtopics": "Model pruning and quantization for inference efficiency, Hardware-aware neural architecture search for LLMs, Carbon footprint measurement and reporting standards, Federated and on‑device inference for privacy and sustainability",
+    "title": "Energy Efficiency, Green AI, and Sustainable Deployment of Large Langu",
+    "description": "A blog post about Energy Efficiency, Green AI, and Sustainable Deployment of Large Langu",
+    "date": "2026-11-27",
+    "tags": [
+      "nlp"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/nlp/energy-efficiency-green-ai-and-sustainable-deployment-of-large-langu.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/nlp/continual-learning--lifelong-adaptation-in-large-language-models.md",
     "category": "nlp",
     "topic": "Continual Learning & Lifelong Adaptation in Large Language Models",
