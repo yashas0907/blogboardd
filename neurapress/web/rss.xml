@@ -14,6 +14,14 @@
   <category>nlp</category>
 </item>
 <item>
+  <title>Generative AI Powers Sustainable Transportation &amp; Smart Mobility</title>
+  <link>https://yashas0907.github.io/blogboardd/articles/genai-generative-ai-sustainable-transportation-smart-mobility.html</link>
+  <guid>https://yashas0907.github.io/blogboardd/articles/genai-generative-ai-sustainable-transportation-smart-mobility.html</guid>
+  <pubDate>2026-11-27</pubDate>
+  <description>Explore how generative AI transforms vehicle design, routing, traffic simulation, and real‑time control for zero‑emission, smart mobility.</description>
+  <category>genai</category>
+</item>
+<item>
   <title>Diffusion Models for 3D Content Creation and Simulation</title>
   <link>https://yashas0907.github.io/blogboardd/articles/dl-diffusion-models-for-3d-content-creation-and-simulation.html</link>
   <guid>https://yashas0907.github.io/blogboardd/articles/dl-diffusion-models-for-3d-content-creation-and-simulation.html</guid>
@@ -396,14 +404,6 @@
   <pubDate>2026-10-31</pubDate>
   <description>A blog post about Foundation Models for Healthcare: Scaling Clinical Decision Support an</description>
   <category>ml</category>
-</item>
-<item>
-  <title>Diffusion Models for Generative Materials Design</title>
-  <link>https://yashas0907.github.io/blogboardd/articles/dl-diffusion-models-for-generative-materials-design.html</link>
-  <guid>https://yashas0907.github.io/blogboardd/articles/dl-diffusion-models-for-generative-materials-design.html</guid>
-  <pubDate>2026-10-31</pubDate>
-  <description>A blog post about Diffusion Models for Generative Materials Design</description>
-  <category>dl</category>
 </item>
 </channel>
 </rss>

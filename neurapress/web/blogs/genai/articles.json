@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/genai/generative-ai-sustainable-transportation-smart-mobility.md",
+    "category": "genai",
+    "topic": "Generative AI for Sustainable Transportation & Smart Mobility",
+    "subtopics": "AI‑generated lightweight vehicle and battery designs for zero‑emission fleets, Generative multimodal route and logistics optimization to reduce congestion and emissions, Synthetic traffic‑flow and emissions scenario simulations for climate‑impact assessments, Real‑time adaptive control via integration with IoT traffic sensors and city‑scale digital‑twin transportation models",
+    "title": "Generative AI Powers Sustainable Transportation & Smart Mobility",
+    "description": "Explore how generative AI transforms vehicle design, routing, traffic simulation, and real‑time control for zero‑emission, smart mobility.",
+    "date": "2026-11-27",
+    "tags": [
+      "genai"
+    ],
+    "readTime": "8 min",
+    "file": "blogs/genai/generative-ai-sustainable-transportation-smart-mobility.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/genai/generative-ai-for-circular-economy--sustainable-materials.md",
     "category": "genai",
     "topic": "Generative AI for Circular Economy & Sustainable Materials",
