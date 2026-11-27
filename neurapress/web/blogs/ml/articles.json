@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/ml/foundation-models-for-urban-mobility-multimodal-modeling-for-smart-tr.md",
+    "category": "ml",
+    "topic": "Foundation Models for Urban Mobility: Multimodal Modeling for Smart Transportation",
+    "subtopics": "Self‑supervised pretraining on heterogeneous mobility data (traffic sensors, GPS traces, public‑transit schedules, ride‑hailing logs, city maps), Multimodal fusion of spatio‑temporal graphs, video feeds, and textual incident reports into unified mobility embeddings, Fine‑tuning strategies for traffic flow prediction, congestion mitigation, multimodal route optimization, and autonomous fleet management, Benchmarks, evaluation metrics, and deployment considerations for edge‑enabled traffic controllers, cloud‑native mobility AI platforms, and privacy‑preserving federated learning across municipalities",
+    "title": "Foundation Models for Urban Mobility: Multimodal Modeling for Smart Tr",
+    "description": "A blog post about Foundation Models for Urban Mobility: Multimodal Modeling for Smart Tr",
+    "date": "2026-11-28",
+    "tags": [
+      "ml"
+    ],
+    "readTime": "7 min",
+    "file": "blogs/ml/foundation-models-for-urban-mobility-multimodal-modeling-for-smart-tr.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/ml/foundation-models-for-healthcare-multimodal-modeling-for-precision-me.md",
     "category": "ml",
     "topic": "Foundation Models for Healthcare: Multimodal Modeling for Precision Medicine",
