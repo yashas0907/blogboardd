@@ -1,5 +1,20 @@
 [
   {
+    "id": "blogs/statistics/statistical-foundations-of-robustness-and-adversarial-defense-for-foun.md",
+    "category": "statistics",
+    "topic": "Statistical Foundations of Robustness and Adversarial Defense for Foundation Models",
+    "subtopics": "Hypothesis‑testing frameworks for detecting adversarial vulnerabilities, Distributional‑robust optimization with Wasserstein ambiguity sets and finite‑sample guarantees, Bootstrap and Bayesian posterior methods for confidence intervals on robustness metrics, Formal risk‑benefit analysis of robustness versus utility and computational cost",
+    "title": "Statistical Foundations of Robustness and Adversarial Defense for Foun",
+    "description": "A blog post about Statistical Foundations of Robustness and Adversarial Defense for Foun",
+    "date": "2026-11-28",
+    "tags": [
+      "statistics"
+    ],
+    "readTime": "6 min",
+    "file": "blogs/statistics/statistical-foundations-of-robustness-and-adversarial-defense-for-foun.md",
+    "coverImage": ""
+  },
+  {
     "id": "blogs/statistics/statistical-foundations-of-explainability-interpretability-and-attri.md",
     "category": "statistics",
     "topic": "Statistical Foundations of Explainability, Interpretability, and Attribution for Foundation Models",
@@ -117,21 +132,6 @@
     ],
     "readTime": "6 min",
     "file": "blogs/statistics/statistical-foundations-of-fairness-bias-detection-and-mitigation-in.md",
-    "coverImage": ""
-  },
-  {
-    "id": "blogs/statistics/statistical-foundations-of-robustness-and-adversarial-defense-for-foun.md",
-    "category": "statistics",
-    "topic": "Statistical Foundations of Robustness and Adversarial Defense for Foundation Models",
-    "subtopics": "Distributionally robust optimization and worst‑case risk bounds, Certified adversarial robustness via probabilistic guarantees, Trade‑offs between robustness, accuracy, and model capacity, Statistical methods for detecting and mitigating data‑poisoning attacks",
-    "title": "Statistical Foundations of Robustness and Adversarial Defense for Foun",
-    "description": "A blog post about Statistical Foundations of Robustness and Adversarial Defense for Foun",
-    "date": "2026-10-28",
-    "tags": [
-      "statistics"
-    ],
-    "readTime": "7 min",
-    "file": "blogs/statistics/statistical-foundations-of-robustness-and-adversarial-defense-for-foun.md",
     "coverImage": ""
   },
   {
